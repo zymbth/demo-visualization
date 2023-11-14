@@ -11,5 +11,5 @@ export default defineConfig({
       '@': resolve(__dirname, './src'),
     },
   },
-  base: '/demo-visualization/' // deploy to github page
+  base: process.env.NODE_ENV === 'production' ? '/demo-visualization/' : '/', // deploy to github page
 })

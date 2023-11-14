@@ -12,6 +12,7 @@ export const routes = [
     path: '/echarts',
     component: Layout,
     redirect: '/echarts/index',
+    meta: { isMenu: true, title: 'Echarts demos' },
     children: [
       { path: 'index', component: () => import('@/views/echarts/index.vue') },
       {
@@ -40,6 +41,7 @@ export const routes = [
     path: '/d3',
     component: Layout,
     redirect: '/d3/index',
+    meta: { isMenu: true, title: 'D3 demos' },
     children: [
       { path: 'index', component: () => import('@/views/d3/index.vue') },
       {
