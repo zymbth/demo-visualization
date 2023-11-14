@@ -11,5 +11,5 @@ export default defineConfig({
       '@': resolve(__dirname, './src'),
     },
   },
-  publicPath: '/demo-visualization/' // deploy to github page
+  base: '/demo-visualization/' // deploy to github page
 })
