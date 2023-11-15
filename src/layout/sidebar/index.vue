@@ -30,7 +30,7 @@ import { resolveRoutePath } from '@/utils/common-methods'
   text-align: left;
   overflow-x: hidden;
   overflow-y: auto;
-  opacity: 0.4;
+  opacity: 0.3;
   white-space: nowrap;
   transition: all 0.2s;
   &:hover {

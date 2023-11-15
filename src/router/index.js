@@ -26,9 +26,9 @@ export const routes = [
         component: () => import('@/views/echarts/pie-diagram/index.vue'),
       },
       {
-        path: 'heatmap-diagram',
-        meta: { title: 'Heatmap Diagram' },
-        component: () => import('@/views/d3/heatmap-diagram/echarts-version.vue'),
+        path: 'heatmap-diagram-rect',
+        meta: { title: 'Heatmap Diagram(rect)' },
+        component: () => import('@/views/d3/heatmap-diagram-rect/echarts-version.vue'),
       },
       {
         path: 'multi-grid-scatter-diagram',
@@ -55,14 +55,19 @@ export const routes = [
         component: () => import('@/views/d3/scatter-diagram/index.vue'),
       },
       {
-        path: 'scatter-diagram-plus',
-        meta: { title: 'Scatter Diagram Plus' },
-        component: () => import('@/views/d3/scatter-diagram/plus.vue'),
+        path: 'heatmap-diagram-circle',
+        meta: { title: 'Heatmap Diagram(circle)' },
+        component: () => import('@/views/d3/heatmap-diagram-circle/index.vue'),
       },
       {
-        path: 'heatmap-diagram',
-        meta: { title: 'Heatmap Diagram' },
-        component: () => import('@/views/d3/heatmap-diagram/d3-version.vue'),
+        path: 'heatmap-diagram-circle-plus',
+        meta: { title: 'Heatmap Diagram(circle) Plus' },
+        component: () => import('@/views/d3/heatmap-diagram-circle/plus.vue'),
+      },
+      {
+        path: 'heatmap-diagram-rect',
+        meta: { title: 'Heatmap Diagram(rect)' },
+        component: () => import('@/views/d3/heatmap-diagram-rect/d3-version.vue'),
       },
     ],
   },

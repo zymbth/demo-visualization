@@ -1,3856 +1,1432 @@
 [
+  { "x": 1.132239559843459, "y": 4.587186824072479, "id": 0, "smiles": "[He]" },
+  { "x": -3.073577370956393, "y": -9.687967438266343, "id": 40, "smiles": "[I-].[K+]" },
+  { "x": -3.363182049434559, "y": 4.485804352606273, "id": 80, "smiles": "[Xe]" },
   {
-    "gene": "FGFR3",
-    "compounds": [
-      { "compound": "RC00000050_3µM_24hr-RSQP0004", "value": null },
-      { "compound": "RC00000106_3µM_24hr-RSQP0009", "value": null },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0003",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.384 }
-      },
-      { "compound": "RC00000028_3µM_24hr-RSQP0235", "value": null },
-      { "compound": "RC00000449_3µM_24hr-RSQP0234", "value": null },
-      {
-        "compound": "RC00000446_3µM_24hr-RSQP0021",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.59 }
-      },
-      { "compound": "RC00000028_3µM_24hr-RSQP0104", "value": null },
-      { "compound": "RC00000050_0.3µM_24hr-RSQP0232", "value": null },
-      { "compound": "RC00000050_3µM_24hr-RSQP0154", "value": null },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0226",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.687 }
-      },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0046",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.467 }
-      },
-      {
-        "compound": "RC00000028_3µM_24hr-RSQP0002",
-        "value": { "log10_qvalue": 1.323, "log2_fc": -0.438 }
-      },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0063",
-        "value": { "log10_qvalue": 6.954, "log2_fc": -0.409 }
-      },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0112",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.533 }
-      },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0184",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.336 }
-      },
-      { "compound": "RC00030040_3µM_24hr-RSQP0236", "value": null },
-      { "compound": "RC00000384_3µM_24hr-RSQP0056", "value": null },
-      {
-        "compound": "RC00000538_3µM_24hr-RSQP0059",
-        "value": { "log10_qvalue": 2.983, "log2_fc": -0.288 }
-      },
-      {
-        "compound": "RC00030033_0.3µM_24hr-RSQP0233",
-        "value": { "log10_qvalue": 3.675, "log2_fc": -0.573 }
-      },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0216",
-        "value": { "log10_qvalue": 7.982, "log2_fc": -0.358 }
-      },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0103",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.367 }
-      },
-      {
-        "compound": "RC00000106_3µM_24hr-RSQP0008",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.392 }
-      },
-      {
-        "compound": "RC00000468_3µM_24hr-RSQP0047",
-        "value": { "log10_qvalue": 6.622, "log2_fc": -0.425 }
-      },
-      {
-        "compound": "RC00000519_3µM_24hr-RSQP0058",
-        "value": { "log10_qvalue": 5.119, "log2_fc": -0.357 }
-      },
-      {
-        "compound": "RC00000539_3µM_24hr-RSQP0060",
-        "value": { "log10_qvalue": 1.988, "log2_fc": -0.225 }
-      },
-      {
-        "compound": "RC00000028_3µM_12hr-RSQP0069",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.745 }
-      },
-      {
-        "compound": "RC00000450_3µM_24hr-RSQP0048",
-        "value": { "log10_qvalue": 8.73, "log2_fc": -0.472 }
-      },
-      {
-        "compound": "RC00029899_3µM_24hr-RSQP0114",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.789 }
-      },
-      {
-        "compound": "RC00000438_3µM_24hr-RSQP0043",
-        "value": { "log10_qvalue": 7.089, "log2_fc": -0.266 }
-      },
-      {
-        "compound": "RC00032805_3µM_24hr-RSQP0123",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.617 }
-      },
-      { "compound": "RC00000028_3µM_24hr-RSQP0069", "value": null },
-      { "compound": "RC00000050_0.1µM_24hr-RSQP0232", "value": null },
-      {
-        "compound": "RC00000390_3µM_24hr-RSQP0042",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.444 }
-      },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0199",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.629 }
-      },
-      {
-        "compound": "RC00000028_3µM_24hr-RSQP0001",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.032 }
-      },
-      {
-        "compound": "RC00030347_3µM_24hr-RSQP0122",
-        "value": { "log10_qvalue": 1.554, "log2_fc": -0.199 }
-      },
-      { "compound": "RC00000549_3µM_24hr-RSQP0062", "value": null },
-      { "compound": "RC00000058_3µM_24hr-RSQP0005", "value": null },
-      {
-        "compound": "RC00029916_3µM_24hr-RSQP0115",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.71 }
-      },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0244",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.466 }
-      },
-      {
-        "compound": "RC00000392_3µM_24hr-RSQP0020",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.515 }
-      },
-      {
-        "compound": "RC00030072_3µM_24hr-RSQP0119",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.937 }
-      },
-      { "compound": "RC00000466_3µM_24hr-RSQP0237", "value": null },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0085",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.529 }
-      },
-      {
-        "compound": "RC00000050_0.3µM_24hr-RSQP0229",
-        "value": { "log10_qvalue": 5.453, "log2_fc": -0.235 }
-      },
-      { "compound": "RC00030033_0.1µM_24hr-RSQP0233", "value": null },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0229",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.468 }
-      },
-      { "compound": "RC00029799_0.1µM_24hr-RSQP0230", "value": null },
-      {
-        "compound": "RC00000125_3µM_24hr-RSQP0039",
-        "value": { "log10_qvalue": 6.263, "log2_fc": -0.259 }
-      },
-      {
-        "compound": "RC00029870_3µM_24hr-RSQP0098",
-        "value": { "log10_qvalue": 3.999, "log2_fc": -0.216 }
-      },
-      {
-        "compound": "RC00014580_3µM_24hr-RSQP0074",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.387 }
-      },
-      {
-        "compound": "RC00030064_3µM_24hr-RSQP0203",
-        "value": { "log10_qvalue": 6.186, "log2_fc": -0.304 }
-      },
-      {
-        "compound": "RC00000050_1µM_24hr-RSQP0229",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.52 }
-      },
-      {
-        "compound": "RC00030332_3µM_24hr-RSQP0120",
-        "value": { "log10_qvalue": 3.431, "log2_fc": -0.295 }
-      },
-      {
-        "compound": "RC00000050_0.1µM_24hr-RSQP0190",
-        "value": { "log10_qvalue": 4.218, "log2_fc": -0.304 }
-      },
-      {
-        "compound": "RC00029928_3µM_24hr-RSQP0214",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.527 }
-      },
-      {
-        "compound": "RC00000028_3µM_24hr-RSQP0249",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.476 }
-      },
-      { "compound": "RC00029929_3µM_24hr-RSQP0212", "value": null },
-      {
-        "compound": "RC00000365_3µM_24hr-RSQP0105",
-        "value": { "log10_qvalue": 2.225, "log2_fc": -0.822 }
-      },
-      { "compound": "RC00000050_0.1µM_24hr-RSQP0229", "value": null },
-      {
-        "compound": "RC00030060_3µM_24hr-RSQP0118",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.752 }
-      },
-      {
-        "compound": "RC00029922_3µM_24hr-RSQP0116",
-        "value": { "log10_qvalue": 1.802, "log2_fc": -0.245 }
-      },
-      { "compound": "RC00000231_3µM_24hr-RSQP0055", "value": null },
-      {
-        "compound": "RC00000449_0.1µM_24hr-RSQP0231",
-        "value": { "log10_qvalue": 1.49, "log2_fc": -0.15 }
-      },
-      {
-        "compound": "RC00032962_3µM_24hr-RSQP0196",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.584 }
-      },
-      {
-        "compound": "RC00029799_0.3µM_24hr-RSQP0230",
-        "value": { "log10_qvalue": 5.062, "log2_fc": -0.232 }
-      },
-      { "compound": "RC00030348_3µM_24hr-RSQP0202", "value": null },
-      {
-        "compound": "RC00000440_3µM_24hr-RSQP0044",
-        "value": { "log10_qvalue": 5.259, "log2_fc": -0.231 }
-      },
-      {
-        "compound": "RC00030033_0.1µM_24hr-RSQP0189",
-        "value": { "log10_qvalue": 3.506, "log2_fc": -0.251 }
-      },
-      {
-        "compound": "RC00029893_3µM_24hr-RSQP0100",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.786 }
-      },
-      {
-        "compound": "RC00033093_3µM_24hr-RSQP0193",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.522 }
-      },
-      {
-        "compound": "RC00030030_3µM_24hr-RSQP0095",
-        "value": { "log10_qvalue": 2.017, "log2_fc": -0.154 }
-      },
-      {
-        "compound": "RC00029896_3µM_24hr-RSQP0099",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.623 }
-      },
-      {
-        "compound": "RC00000466_3µM_24hr-RSQP0241",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.539 }
-      },
-      {
-        "compound": "RC00029880_3µM_24hr-RSQP0101",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.763 }
-      },
-      {
-        "compound": "RC00000449_0.3µM_24hr-RSQP0231",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.34 }
-      },
-      {
-        "compound": "RC00030333_3µM_24hr-RSQP0121",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.926 }
-      },
-      {
-        "compound": "RC00030040_3µM_24hr-RSQP0246",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.306 }
-      },
-      {
-        "compound": "RC00030072_3µM_24hr-RSQP0228",
-        "value": { "log10_qvalue": 10, "log2_fc": 1.807 }
-      },
-      {
-        "compound": "RC00000540_3µM_24hr-RSQP0061",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.024 }
-      },
-      { "compound": "RC00033139_3µM_24hr-RSQP0220", "value": null },
-      {
-        "compound": "RC00030055_3µM_24hr-RSQP0081",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.954 }
-      },
-      {
-        "compound": "RC00030337_3µM_24hr-RSQP0082",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.837 }
-      },
-      {
-        "compound": "RC00000224_3µM_24hr-RSQP0011",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.605 }
-      },
-      {
-        "compound": "RC00000449_1µM_24hr-RSQP0231",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.735 }
-      },
-      {
-        "compound": "RC00000466_3µM_24hr-RSQP0045",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.648 }
-      },
-      { "compound": "RC00030033_0.05µM_24hr-RSQP0189", "value": null },
-      {
-        "compound": "RC00000050_0.05µM_24hr-RSQP0190",
-        "value": { "log10_qvalue": 2.471, "log2_fc": -0.223 }
-      },
-      {
-        "compound": "RC00000449_3µM_24hr-RSQP0022",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.181 }
-      },
-      {
-        "compound": "RC00032932_3µM_24hr-RSQP0211",
-        "value": { "log10_qvalue": 9.591, "log2_fc": -0.404 }
-      },
-      {
-        "compound": "RC00033154_3µM_24hr-RSQP0225",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.109 }
-      },
-      {
-        "compound": "RC00033164_3µM_24hr-RSQP0243",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.913 }
-      },
-      {
-        "compound": "RC00000365_3µM_24hr-RSQP0072",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.719 }
-      },
-      {
-        "compound": "RC00030062_3µM_24hr-RSQP0097",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.876 }
-      },
-      {
-        "compound": "RC00029890_3µM_24hr-RSQP0079",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.004 }
-      },
-      { "compound": "RC00030044_3µM_24hr-RSQP0093", "value": null },
-      {
-        "compound": "RC00000028_3µM_24hr-RSQP0239",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.798 }
-      },
-      {
-        "compound": "RC00030290_3µM_24hr-RSQP0143",
-        "value": { "log10_qvalue": 7.327, "log2_fc": -1.621 }
-      },
-      {
-        "compound": "RC00029805_3µM_24hr-RSQP0077",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.573 }
-      },
-      {
-        "compound": "RC00030292_3µM_24hr-RSQP0144",
-        "value": { "log10_qvalue": 9.109, "log2_fc": -1.57 }
-      },
-      { "compound": "RC00029799_0.03µM_24hr-RSQP0230", "value": null },
-      {
-        "compound": "RC00033159_3µM_24hr-RSQP0242",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.501 }
-      },
-      {
-        "compound": "RC00032963_3µM_24hr-RSQP0197",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.868 }
-      },
-      {
-        "compound": "RC00029799_1µM_24hr-RSQP0230",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.702 }
-      },
-      { "compound": "RC00000050_3µM_24hr-RSQP0223", "value": null },
-      {
-        "compound": "RC00030047_3µM_24hr-RSQP0084",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.838 }
-      },
-      {
-        "compound": "RC00030040_3µM_24hr-RSQP0078",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.692 }
-      },
-      { "compound": "RC00033141_3µM_24hr-RSQP0222", "value": null },
-      {
-        "compound": "RC00030066_3µM_24hr-RSQP0213",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.555 }
-      },
-      {
-        "compound": "RC00029881_3µM_24hr-RSQP0075",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.871 }
-      },
-      { "compound": "RC00000385_3µM_24hr-RSQP0023", "value": null },
-      {
-        "compound": "RC00000166_3µM_24hr-RSQP0040",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.364 }
-      },
-      {
-        "compound": "RC00014584_3µM_24hr-RSQP0096",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.127 }
-      },
-      { "compound": "RC00030033_0.025µM_24hr-RSQP0189", "value": null },
-      {
-        "compound": "RC00029799_3µM_24hr-RSQP0076",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.858 }
-      },
-      {
-        "compound": "RC00032966_3µM_24hr-RSQP0198",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.033 }
-      },
-      {
-        "compound": "RC00029808_3µM_24hr-RSQP0204",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.659 }
-      },
-      { "compound": "RC00000050_0.03µM_24hr-RSQP0229", "value": null },
-      {
-        "compound": "RC00030033_3µM_24hr-RSQP0094",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.514 }
-      },
-      { "compound": "RC00000050_0.03µM_24hr-RSQP0232", "value": null },
-      {
-        "compound": "RC00029799_3µM_24hr-RSQP0230",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.193 }
-      },
-      {
-        "compound": "RC00000449_3µM_24hr-RSQP0231",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.101 }
-      },
-      {
-        "compound": "RC00029873_3µM_24hr-RSQP0113",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.739 }
-      },
-      {
-        "compound": "RC00033089_3µM_24hr-RSQP0192",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.919 }
-      },
-      {
-        "compound": "RC00032810_3µM_24hr-RSQP0125",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.349 }
-      },
-      {
-        "compound": "RC00000449_3µM_24hr-RSQP0238",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.722 }
-      },
-      { "compound": "RC00000449_0.03µM_24hr-RSQP0231", "value": null },
-      {
-        "compound": "RC00000050_0.025µM_24hr-RSQP0190",
-        "value": { "log10_qvalue": 1.536, "log2_fc": -0.182 }
-      },
-      {
-        "compound": "RC00033150_3µM_24hr-RSQP0224",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.162 }
-      },
-      {
-        "compound": "RC00014586_3µM_24hr-RSQP0083",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.3 }
-      },
-      {
-        "compound": "RC00029980_3µM_24hr-RSQP0149",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.462 }
-      },
-      {
-        "compound": "RC00029972_3µM_24hr-RSQP0147",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.932 }
-      },
-      {
-        "compound": "RC00030335_3µM_24hr-RSQP0215",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.077 }
-      },
-      {
-        "compound": "RC00029889_3µM_24hr-RSQP0080",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.77 }
-      },
-      {
-        "compound": "RC00032809_3µM_24hr-RSQP0124",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.696 }
-      },
-      {
-        "compound": "RC00032943_3µM_24hr-RSQP0195",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.109 }
-      },
-      { "compound": "RC00000028_0.03µM_24hr-RSQP0217", "value": null },
-      {
-        "compound": "RC00030337_3µM_24hr-RSQP0227",
-        "value": { "log10_qvalue": 6.004, "log2_fc": 1.292 }
-      },
-      { "compound": "RC00030033_0.03µM_24hr-RSQP0233", "value": null },
-      {
-        "compound": "RC00032972_3µM_24hr-RSQP0191",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.445 }
-      },
-      {
-        "compound": "RC00033149_3µM_24hr-RSQP0219",
-        "value": { "log10_qvalue": 2.528, "log2_fc": -0.737 }
-      },
-      {
-        "compound": "RC00033146_3µM_24hr-RSQP0221",
-        "value": { "log10_qvalue": 3.104, "log2_fc": -0.587 }
-      },
-      {
-        "compound": "RC00000028_3µM_6hr-RSQP0069",
-        "value": { "log10_qvalue": 1.324, "log2_fc": -0.235 }
-      },
-      { "compound": "RC00030057_3µM_24hr-RSQP0088", "value": null },
-      {
-        "compound": "RC00030040_3µM_24hr-RSQP0240",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.958 }
-      },
-      {
-        "compound": "RC00029923_3µM_24hr-RSQP0210",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.075 }
-      },
-      {
-        "compound": "RC00030049_3µM_24hr-RSQP0117",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.082 }
-      },
-      {
-        "compound": "RC00030264_3µM_24hr-RSQP0153",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.456 }
-      },
-      {
-        "compound": "RC00030293_3µM_24hr-RSQP0145",
-        "value": { "log10_qvalue": 7.174, "log2_fc": -1.064 }
-      },
-      {
-        "compound": "RC00030261_3µM_24hr-RSQP0152",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.249 }
-      },
-      {
-        "compound": "RC00000046_3µM_24hr-RSQP0025",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.287 }
-      },
-      {
-        "compound": "RC00029962_3µM_24hr-RSQP0142",
-        "value": { "log10_qvalue": 3.821, "log2_fc": -0.879 }
-      },
-      { "compound": "RC00000512_3µM_24hr-RSQP0057", "value": null },
-      { "compound": "RC00000479_3µM_24hr-RSQP0050", "value": null },
-      { "compound": "RC00000397_3µM_24hr-RSQP0052", "value": null },
-      { "compound": "RC00029964_3µM_24hr-RSQP0146", "value": null },
-      { "compound": "RC00029978_3µM_24hr-RSQP0148", "value": null },
-      { "compound": "RC00032801_3µM_24hr-RSQP0206", "value": null },
-      {
-        "compound": "RC00000399_3µM_24hr-RSQP0024",
-        "value": { "log10_qvalue": 1.562, "log2_fc": -0.126 }
-      },
-      { "compound": "RC00000050_0.0089µM_24hr-RSQP0106", "value": null },
-      { "compound": "RC00000059_3µM_24hr-RSQP0032", "value": null },
-      { "compound": "RC00000050_0.01814µM_24hr-RSQP0187", "value": null },
-      { "compound": "RC00000448_3µM_24hr-RSQP0053", "value": null },
-      { "compound": "RC00000219_3µM_24hr-RSQP0010", "value": null },
-      { "compound": "RC00000441_3µM_24hr-RSQP0049", "value": null },
-      { "compound": "RC00000050_0.01µM_24hr-RSQP0232", "value": null },
-      { "compound": "RC00000050_0.01µM_24hr-RSQP0229", "value": null },
-      { "compound": "RC00000449_0.01µM_24hr-RSQP0231", "value": null },
-      {
-        "compound": "RC00030038_3µM_24hr-RSQP0087",
-        "value": { "log10_qvalue": 5.167, "log2_fc": -0.249 }
-      },
-      { "compound": "RC00030033_0.01µM_24hr-RSQP0233", "value": null },
-      { "compound": "RC00000388_3µM_24hr-RSQP0041", "value": null },
-      { "compound": "RC00000464_3µM_24hr-RSQP0054", "value": null },
-      { "compound": "RC00029799_0.0026µM_24hr-RSQP0111", "value": null },
-      {
-        "compound": "RC00032824_20µM_16hr-RSQP0200",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.624 }
-      },
-      {
-        "compound": "RC00029984_3µM_24hr-RSQP0150",
-        "value": { "log10_qvalue": 2.995, "log2_fc": -0.896 }
-      },
-      { "compound": "RC00029799_0.01µM_24hr-RSQP0230", "value": null },
-      { "compound": "RC00030033_0.000518µM_24hr-RSQP0188", "value": null },
-      {
-        "compound": "RC00030260_3µM_24hr-RSQP0151",
-        "value": { "log10_qvalue": 7.762, "log2_fc": -0.895 }
-      },
-      { "compound": "RC00000432_10µM_24hr-RSQP0017", "value": null },
-      { "compound": "RC00000449_0.003µM_24hr-RSQP0110", "value": null },
-      { "compound": "RC00030238_3µM_24hr-RSQP0139", "value": null },
-      { "compound": "RC00030248_3µM_24hr-RSQP0140", "value": null },
-      { "compound": "RC00029814_3µM_24hr-RSQP0127", "value": null },
-      { "compound": "RC00000394_3µM_24hr-RSQP0051", "value": null },
-      { "compound": "RC00029813_3µM_24hr-RSQP0126", "value": null },
-      {
-        "compound": "RC00029955_3µM_24hr-RSQP0138",
-        "value": { "log10_qvalue": 1.527, "log2_fc": 0.55 }
-      },
-      { "compound": "RC00000028_0.0023µM_24hr-RSQP0107", "value": null },
-      { "compound": "RC00000070_3µM_24hr-RSQP0034", "value": null },
-      { "compound": "RC00000053_3µM_24hr-RSQP0030", "value": null },
-      { "compound": "RC00000062_3µM_24hr-RSQP0007", "value": null },
-      {
-        "compound": "RC00029943_3µM_24hr-RSQP0134",
-        "value": { "log10_qvalue": 1.895, "log2_fc": 0.599 }
-      },
-      { "compound": "RC00000069_3µM_24hr-RSQP0033", "value": null },
-      { "compound": "RC00000224_0.0059µM_24hr-RSQP0109", "value": null },
-      { "compound": "RC00029953_3µM_24hr-RSQP0137", "value": null },
-      {
-        "compound": "RC00000366_3µM_24hr-RSQP0037",
-        "value": { "log10_qvalue": 2.591, "log2_fc": -0.18 }
-      },
-      {
-        "compound": "RC00000047_3µM_24hr-RSQP0026",
-        "value": { "log10_qvalue": 4.003, "log2_fc": -0.175 }
-      },
-      {
-        "compound": "RC00000203_3µM_24hr-RSQP0038",
-        "value": { "log10_qvalue": 10, "log2_fc": 0.369 }
-      },
-      {
-        "compound": "RC00029946_3µM_24hr-RSQP0135",
-        "value": { "log10_qvalue": 1.439, "log2_fc": 0.549 }
-      },
-      { "compound": "RC00000115_3µM_24hr-RSQP0036", "value": null },
-      { "compound": "RC00029816_3µM_24hr-RSQP0128", "value": null },
-      { "compound": "RC00000365_0.1243µM_24hr-RSQP0108", "value": null },
-      { "compound": "RC00000421_10µM_24hr-RSQP0015", "value": null },
-      {
-        "compound": "RC00029949_3µM_24hr-RSQP0136",
-        "value": { "log10_qvalue": 1.308, "log2_fc": 0.516 }
-      },
-      { "compound": "RC00029818_3µM_24hr-RSQP0129", "value": null },
-      { "compound": "RC00000060_3µM_24hr-RSQP0006", "value": null },
-      { "compound": "RC00000428_1µM_24hr-RSQP0016", "value": null },
-      { "compound": "RC00029898_3µM_24hr-RSQP0091", "value": null },
-      {
-        "compound": "RC00029932_3µM_24hr-RSQP0132",
-        "value": { "log10_qvalue": 1.704, "log2_fc": 0.58 }
-      },
-      { "compound": "RC00029833_3µM_24hr-RSQP0141", "value": null },
-      { "compound": "RC00000050_0.003µM_24hr-RSQP0229", "value": null },
-      { "compound": "RC00030075_3µM_24hr-RSQP0073", "value": null },
-      { "compound": "RC00000103_3µM_24hr-RSQP0035", "value": null },
-      { "compound": "RC00032825_4µM_16hr-RSQP0201", "value": null },
-      { "compound": "RC00032933_4µM_16hr-RSQP0209", "value": null },
-      {
-        "compound": "RC00029910_3µM_24hr-RSQP0092",
-        "value": { "log10_qvalue": 3.224, "log2_fc": -0.206 }
-      },
-      {
-        "compound": "RC00030027_3µM_24hr-RSQP0247",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.289 }
-      },
-      { "compound": "RC00029807_3µM_24hr-RSQP0194", "value": null },
-      { "compound": "RC00029799_0.003µM_24hr-RSQP0230", "value": null },
-      { "compound": "RC00000148_1µM_24hr-RSQP0064", "value": null },
-      { "compound": "RC00000435_10µM_24hr-RSQP0018", "value": null },
-      { "compound": "RC00000449_0.003µM_24hr-RSQP0231", "value": null },
-      { "compound": "RC00000054_3µM_24hr-RSQP0031", "value": null },
-      { "compound": "RC00000142_10µM_24hr-RSQP0012", "value": null },
-      { "compound": "RC00000435_1µM_24hr-RSQP0018", "value": null },
-      { "compound": "RC00000034_3µM_24hr-RSQP0029", "value": null },
-      { "compound": "RC00000420_3µM_24hr-RSQP0014", "value": null },
-      { "compound": "RC00000421_1µM_24hr-RSQP0015", "value": null },
-      { "compound": "RC00000034_10µM_24hr-RSQP0019", "value": null },
-      { "compound": "RC00000052_3µM_24hr-RSQP0027", "value": null },
-      {
-        "compound": "RC00030315_3µM_24hr-RSQP0245",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.415 }
-      },
-      { "compound": "RC00000432_1µM_24hr-RSQP0017", "value": null },
-      { "compound": "RC00000156_1µM_24hr-RSQP0067", "value": null },
-      {
-        "compound": "RC00029940_3µM_24hr-RSQP0133",
-        "value": { "log10_qvalue": 2.004, "log2_fc": 0.636 }
-      },
-      {
-        "compound": "RC00029794_3µM_24hr-RSQP0102",
-        "value": { "log10_qvalue": 3.292, "log2_fc": -0.239 }
-      },
-      { "compound": "RC00029820_3µM_24hr-RSQP0130", "value": null },
-      { "compound": "RC00000146_1µM_24hr-RSQP0013", "value": null },
-      { "compound": "RC00030023_3µM_24hr-RSQP0180", "value": null },
-      {
-        "compound": "RC00000157_3µM_24hr-RSQP0248",
-        "value": { "log10_qvalue": 4.886, "log2_fc": -0.246 }
-      },
-      { "compound": "RC00029822_3µM_24hr-RSQP0131", "value": null },
-      { "compound": "RC00000049_3µM_24hr-RSQP0028", "value": null },
-      { "compound": "RC00000034_1µM_24hr-RSQP0019", "value": null },
-      {
-        "compound": "RC00030027_3µM_24hr-RSQP0181",
-        "value": { "log10_qvalue": 1.476, "log2_fc": -0.123 }
-      },
-      { "compound": "RC00000157_1µM_24hr-RSQP0068", "value": null },
-      { "compound": "RC00000142_1µM_24hr-RSQP0012", "value": null },
-      { "compound": "RC00030071_3µM_24hr-RSQP0089", "value": null },
-      { "compound": "RC00000151_1µM_24hr-RSQP0066", "value": null },
-      { "compound": "RC00000151_10µM_24hr-RSQP0066", "value": null },
-      { "compound": "RC00030318_3µM_24hr-RSQP0183", "value": null },
-      { "compound": "RC00030313_3µM_24hr-RSQP0173", "value": null },
-      { "compound": "RC00030316_3µM_24hr-RSQP0182", "value": null },
-      { "compound": "RC00030270_3µM_24hr-RSQP0156", "value": null },
-      { "compound": "RC00000148_10µM_24hr-RSQP0064", "value": null },
-      { "compound": "RC00029904_3µM_24hr-RSQP0090", "value": null },
-      { "compound": "RC00000420_1µM_24hr-RSQP0014", "value": null },
-      {
-        "compound": "RC00030309_3µM_24hr-RSQP0171",
-        "value": { "log10_qvalue": 1.902, "log2_fc": -0.191 }
-      },
-      {
-        "compound": "RC00030315_3µM_24hr-RSQP0174",
-        "value": { "log10_qvalue": 2.554, "log2_fc": -0.207 }
-      },
-      { "compound": "RC00000428_10µM_24hr-RSQP0016", "value": null },
-      {
-        "compound": "RC00030019_3µM_24hr-RSQP0177",
-        "value": { "log10_qvalue": 2.759, "log2_fc": -0.181 }
-      },
-      { "compound": "RC00000156_10µM_24hr-RSQP0067", "value": null },
-      { "compound": "RC00030043_3µM_24hr-RSQP0086", "value": null },
-      { "compound": "RC00032811_3µM_24hr-RSQP0205", "value": null },
-      { "compound": "RC00000150_0.1µM_24hr-RSQP0065", "value": null },
-      { "compound": "RC00030310_3µM_24hr-RSQP0172", "value": null },
-      { "compound": "RC00000157_3µM_24hr-RSQP0068", "value": null },
-      { "compound": "RC00030273_3µM_24hr-RSQP0157", "value": null },
-      { "compound": "RC00030017_3µM_24hr-RSQP0176", "value": null },
-      { "compound": "RC00030299_3µM_24hr-RSQP0169", "value": null },
-      { "compound": "RC00000150_1µM_24hr-RSQP0065", "value": null },
-      { "compound": "RC00030295_3µM_24hr-RSQP0168", "value": null },
-      {
-        "compound": "RC00029863_3µM_24hr-RSQP0175",
-        "value": { "log10_qvalue": 2.027, "log2_fc": -0.157 }
-      },
-      {
-        "compound": "RC00030020_3µM_24hr-RSQP0178",
-        "value": { "log10_qvalue": 2.271, "log2_fc": -0.156 }
-      },
-      {
-        "compound": "RC00030021_3µM_24hr-RSQP0179",
-        "value": { "log10_qvalue": 5.983, "log2_fc": -0.265 }
-      },
-      { "compound": "RC00030300_3µM_24hr-RSQP0170", "value": null },
-      { "compound": "RC00029991_3µM_24hr-RSQP0164", "value": null },
-      { "compound": "RC00030005_3µM_24hr-RSQP0166", "value": null },
-      { "compound": "RC00030006_3µM_24hr-RSQP0167", "value": null },
-      { "compound": "RC00029996_3µM_24hr-RSQP0165", "value": null },
-      { "compound": "RC00030282_3µM_24hr-RSQP0158", "value": null },
-      { "compound": "RC00030268_3µM_24hr-RSQP0155", "value": null },
-      { "compound": "RC00029857_3µM_24hr-RSQP0163", "value": null },
-      { "compound": "RC00029846_3µM_24hr-RSQP0161", "value": null },
-      { "compound": "RC00029839_3µM_24hr-RSQP0160", "value": null },
-      {
-        "compound": "RC00029854_3µM_24hr-RSQP0162",
-        "value": { "log10_qvalue": 1.449, "log2_fc": 0.113 }
-      },
-      { "compound": "RC00000506_50µM_96hr-RSQP0185", "value": null },
-      { "compound": "RC00000535_50µM_96hr-RSQP0186", "value": null },
-      { "compound": "RC00029837_3µM_24hr-RSQP0159", "value": null },
-      {
-        "compound": "RC00000028_3µM_24hr-RSQP0217",
-        "value": { "log10_qvalue": 10, "log2_fc": 1.511 }
-      },
-      {
-        "compound": "RC00032920_0.2µM_16hr-RSQP0207",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.397 }
-      },
-      {
-        "compound": "RC00032934_0.4µM_16hr-RSQP0208",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.118 }
-      },
-      { "compound": "RC00033906_3µM_24hr-RSQP0407", "value": null },
-      { "compound": "RC00033149_0.1µM_24hr-RSQP0410", "value": null },
-      { "compound": "RC00033149_0.3µM_24hr-RSQP0410", "value": null },
-      { "compound": "RC00033942_3µM_24hr-RSQP0409", "value": null },
-      { "compound": "RC00033141_0.1µM_24hr-RSQP0411", "value": null },
-      { "compound": "RC00000050_3µM_24hr-RSQP0412", "value": null },
-      { "compound": "RC00033904_3µM_24hr-RSQP0408", "value": null },
-      { "compound": "RC00000146_3µM_24hr-RSQP0013", "value": null },
-      { "compound": "RC00033141_0.03µM_24hr-RSQP0411", "value": null },
-      { "compound": "RC00033149_0.03µM_24hr-RSQP0410", "value": null },
-      { "compound": "RC00033896_3µM_24hr-RSQP0405", "value": null },
-      { "compound": "RC00030077_3µM_24hr-RSQP0250", "value": null },
-      { "compound": "RC00033141_0.3µM_24hr-RSQP0411", "value": null },
-      { "compound": "RC00033149_0.01µM_24hr-RSQP0410", "value": null },
-      { "compound": "RC00033141_0.01µM_24hr-RSQP0411", "value": null },
-      { "compound": "RC00033900_3µM_24hr-RSQP0404", "value": null }
-    ]
+    "x": -3.744996175295694,
+    "y": 5.180489401414473,
+    "id": 120,
+    "smiles": "Cl.c1ccc(-c2ccccn2)cc1"
   },
   {
-    "gene": "FOXM1",
-    "compounds": [
-      { "compound": "RC00000050_3µM_24hr-RSQP0004", "value": null },
-      { "compound": "RC00000106_3µM_24hr-RSQP0009", "value": null },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0003",
-        "value": { "log10_qvalue": 10, "log2_fc": 0.265 }
-      },
-      {
-        "compound": "RC00000028_3µM_24hr-RSQP0235",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.6 }
-      },
-      {
-        "compound": "RC00000449_3µM_24hr-RSQP0234",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.638 }
-      },
-      {
-        "compound": "RC00000446_3µM_24hr-RSQP0021",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.597 }
-      },
-      {
-        "compound": "RC00000028_3µM_24hr-RSQP0104",
-        "value": { "log10_qvalue": 1.967, "log2_fc": -1.305 }
-      },
-      {
-        "compound": "RC00000050_0.3µM_24hr-RSQP0232",
-        "value": { "log10_qvalue": 1.552, "log2_fc": -0.102 }
-      },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0154",
-        "value": { "log10_qvalue": 8.582, "log2_fc": 0.328 }
-      },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0226",
-        "value": { "log10_qvalue": 10, "log2_fc": 0.411 }
-      },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0046",
-        "value": { "log10_qvalue": 10, "log2_fc": 0.322 }
-      },
-      { "compound": "RC00000028_3µM_24hr-RSQP0002", "value": null },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0063",
-        "value": { "log10_qvalue": 10, "log2_fc": 0.375 }
-      },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0112",
-        "value": { "log10_qvalue": 10, "log2_fc": 0.605 }
-      },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0184",
-        "value": { "log10_qvalue": 10, "log2_fc": 0.305 }
-      },
-      {
-        "compound": "RC00030040_3µM_24hr-RSQP0236",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.488 }
-      },
-      {
-        "compound": "RC00000384_3µM_24hr-RSQP0056",
-        "value": { "log10_qvalue": 7.37, "log2_fc": 0.253 }
-      },
-      {
-        "compound": "RC00000538_3µM_24hr-RSQP0059",
-        "value": { "log10_qvalue": 2.016, "log2_fc": 0.145 }
-      },
-      { "compound": "RC00030033_0.3µM_24hr-RSQP0233", "value": null },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0216",
-        "value": { "log10_qvalue": 10, "log2_fc": 0.386 }
-      },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0103",
-        "value": { "log10_qvalue": 10, "log2_fc": 0.47 }
-      },
-      {
-        "compound": "RC00000106_3µM_24hr-RSQP0008",
-        "value": { "log10_qvalue": 2.859, "log2_fc": 0.115 }
-      },
-      {
-        "compound": "RC00000468_3µM_24hr-RSQP0047",
-        "value": { "log10_qvalue": 3.403, "log2_fc": 0.19 }
-      },
-      {
-        "compound": "RC00000519_3µM_24hr-RSQP0058",
-        "value": { "log10_qvalue": 1.748, "log2_fc": 0.118 }
-      },
-      {
-        "compound": "RC00000539_3µM_24hr-RSQP0060",
-        "value": { "log10_qvalue": 7.728, "log2_fc": 0.282 }
-      },
-      {
-        "compound": "RC00000028_3µM_12hr-RSQP0069",
-        "value": { "log10_qvalue": 6.702, "log2_fc": -0.324 }
-      },
-      {
-        "compound": "RC00000450_3µM_24hr-RSQP0048",
-        "value": { "log10_qvalue": 8.883, "log2_fc": 0.289 }
-      },
-      { "compound": "RC00029899_3µM_24hr-RSQP0114", "value": null },
-      {
-        "compound": "RC00000438_3µM_24hr-RSQP0043",
-        "value": { "log10_qvalue": 9.242, "log2_fc": 0.217 }
-      },
-      { "compound": "RC00032805_3µM_24hr-RSQP0123", "value": null },
-      { "compound": "RC00000028_3µM_24hr-RSQP0069", "value": null },
-      {
-        "compound": "RC00000050_0.1µM_24hr-RSQP0232",
-        "value": { "log10_qvalue": 1.393, "log2_fc": -0.098 }
-      },
-      {
-        "compound": "RC00000390_3µM_24hr-RSQP0042",
-        "value": { "log10_qvalue": 2.805, "log2_fc": 0.157 }
-      },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0199",
-        "value": { "log10_qvalue": 10, "log2_fc": 0.35 }
-      },
-      {
-        "compound": "RC00000028_3µM_24hr-RSQP0001",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.92 }
-      },
-      {
-        "compound": "RC00030347_3µM_24hr-RSQP0122",
-        "value": { "log10_qvalue": 4.917, "log2_fc": 0.29 }
-      },
-      {
-        "compound": "RC00000549_3µM_24hr-RSQP0062",
-        "value": { "log10_qvalue": 2.38, "log2_fc": 0.133 }
-      },
-      { "compound": "RC00000058_3µM_24hr-RSQP0005", "value": null },
-      { "compound": "RC00029916_3µM_24hr-RSQP0115", "value": null },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0244",
-        "value": { "log10_qvalue": 10, "log2_fc": 0.419 }
-      },
-      { "compound": "RC00000392_3µM_24hr-RSQP0020", "value": null },
-      {
-        "compound": "RC00030072_3µM_24hr-RSQP0119",
-        "value": { "log10_qvalue": 1.618, "log2_fc": -0.157 }
-      },
-      {
-        "compound": "RC00000466_3µM_24hr-RSQP0237",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.079 }
-      },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0085",
-        "value": { "log10_qvalue": 10, "log2_fc": 0.29 }
-      },
-      { "compound": "RC00000050_0.3µM_24hr-RSQP0229", "value": null },
-      { "compound": "RC00030033_0.1µM_24hr-RSQP0233", "value": null },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0229",
-        "value": { "log10_qvalue": 10, "log2_fc": 0.42 }
-      },
-      {
-        "compound": "RC00029799_0.1µM_24hr-RSQP0230",
-        "value": { "log10_qvalue": 1.607, "log2_fc": 0.145 }
-      },
-      {
-        "compound": "RC00000125_3µM_24hr-RSQP0039",
-        "value": { "log10_qvalue": 2.284, "log2_fc": 0.117 }
-      },
-      {
-        "compound": "RC00029870_3µM_24hr-RSQP0098",
-        "value": { "log10_qvalue": 2.238, "log2_fc": 0.127 }
-      },
-      {
-        "compound": "RC00014580_3µM_24hr-RSQP0074",
-        "value": { "log10_qvalue": 10, "log2_fc": 0.287 }
-      },
-      { "compound": "RC00030064_3µM_24hr-RSQP0203", "value": null },
-      {
-        "compound": "RC00000050_1µM_24hr-RSQP0229",
-        "value": { "log10_qvalue": 10, "log2_fc": 0.317 }
-      },
-      {
-        "compound": "RC00030332_3µM_24hr-RSQP0120",
-        "value": { "log10_qvalue": 8.971, "log2_fc": 0.41 }
-      },
-      { "compound": "RC00000050_0.1µM_24hr-RSQP0190", "value": null },
-      { "compound": "RC00029928_3µM_24hr-RSQP0214", "value": null },
-      {
-        "compound": "RC00000028_3µM_24hr-RSQP0249",
-        "value": { "log10_qvalue": 1.947, "log2_fc": -1.02 }
-      },
-      { "compound": "RC00029929_3µM_24hr-RSQP0212", "value": null },
-      { "compound": "RC00000365_3µM_24hr-RSQP0105", "value": null },
-      { "compound": "RC00000050_0.1µM_24hr-RSQP0229", "value": null },
-      { "compound": "RC00030060_3µM_24hr-RSQP0118", "value": null },
-      { "compound": "RC00029922_3µM_24hr-RSQP0116", "value": null },
-      {
-        "compound": "RC00000231_3µM_24hr-RSQP0055",
-        "value": { "log10_qvalue": 2.235, "log2_fc": 0.162 }
-      },
-      { "compound": "RC00000449_0.1µM_24hr-RSQP0231", "value": null },
-      {
-        "compound": "RC00032962_3µM_24hr-RSQP0196",
-        "value": { "log10_qvalue": 4.01, "log2_fc": 0.216 }
-      },
-      {
-        "compound": "RC00029799_0.3µM_24hr-RSQP0230",
-        "value": { "log10_qvalue": 1.929, "log2_fc": -0.121 }
-      },
-      { "compound": "RC00030348_3µM_24hr-RSQP0202", "value": null },
-      {
-        "compound": "RC00000440_3µM_24hr-RSQP0044",
-        "value": { "log10_qvalue": 1.912, "log2_fc": 0.104 }
-      },
-      {
-        "compound": "RC00030033_0.1µM_24hr-RSQP0189",
-        "value": { "log10_qvalue": 5.847, "log2_fc": 0.21 }
-      },
-      {
-        "compound": "RC00029893_3µM_24hr-RSQP0100",
-        "value": { "log10_qvalue": 4.202, "log2_fc": -0.177 }
-      },
-      { "compound": "RC00033093_3µM_24hr-RSQP0193", "value": null },
-      {
-        "compound": "RC00030030_3µM_24hr-RSQP0095",
-        "value": { "log10_qvalue": 5.192, "log2_fc": 0.212 }
-      },
-      {
-        "compound": "RC00029896_3µM_24hr-RSQP0099",
-        "value": { "log10_qvalue": 6.829, "log2_fc": -0.252 }
-      },
-      {
-        "compound": "RC00000466_3µM_24hr-RSQP0241",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.36 }
-      },
-      {
-        "compound": "RC00029880_3µM_24hr-RSQP0101",
-        "value": { "log10_qvalue": 1.326, "log2_fc": 0.092 }
-      },
-      { "compound": "RC00000449_0.3µM_24hr-RSQP0231", "value": null },
-      { "compound": "RC00030333_3µM_24hr-RSQP0121", "value": null },
-      {
-        "compound": "RC00030040_3µM_24hr-RSQP0246",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.998 }
-      },
-      {
-        "compound": "RC00030072_3µM_24hr-RSQP0228",
-        "value": { "log10_qvalue": 10, "log2_fc": 0.306 }
-      },
-      {
-        "compound": "RC00000540_3µM_24hr-RSQP0061",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.443 }
-      },
-      { "compound": "RC00033139_3µM_24hr-RSQP0220", "value": null },
-      {
-        "compound": "RC00030055_3µM_24hr-RSQP0081",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.298 }
-      },
-      {
-        "compound": "RC00030337_3µM_24hr-RSQP0082",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.17 }
-      },
-      {
-        "compound": "RC00000224_3µM_24hr-RSQP0011",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.056 }
-      },
-      {
-        "compound": "RC00000449_1µM_24hr-RSQP0231",
-        "value": { "log10_qvalue": 9.008, "log2_fc": -0.326 }
-      },
-      {
-        "compound": "RC00000466_3µM_24hr-RSQP0045",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.474 }
-      },
-      {
-        "compound": "RC00030033_0.05µM_24hr-RSQP0189",
-        "value": { "log10_qvalue": 2.945, "log2_fc": 0.187 }
-      },
-      { "compound": "RC00000050_0.05µM_24hr-RSQP0190", "value": null },
-      {
-        "compound": "RC00000449_3µM_24hr-RSQP0022",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.69 }
-      },
-      {
-        "compound": "RC00032932_3µM_24hr-RSQP0211",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.44 }
-      },
-      {
-        "compound": "RC00033154_3µM_24hr-RSQP0225",
-        "value": { "log10_qvalue": 6.389, "log2_fc": -0.28 }
-      },
-      {
-        "compound": "RC00033164_3µM_24hr-RSQP0243",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.948 }
-      },
-      {
-        "compound": "RC00000365_3µM_24hr-RSQP0072",
-        "value": { "log10_qvalue": 4.726, "log2_fc": -0.15 }
-      },
-      { "compound": "RC00030062_3µM_24hr-RSQP0097", "value": null },
-      {
-        "compound": "RC00029890_3µM_24hr-RSQP0079",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.776 }
-      },
-      { "compound": "RC00030044_3µM_24hr-RSQP0093", "value": null },
-      {
-        "compound": "RC00000028_3µM_24hr-RSQP0239",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.134 }
-      },
-      {
-        "compound": "RC00030290_3µM_24hr-RSQP0143",
-        "value": { "log10_qvalue": 5.151, "log2_fc": -2.5 }
-      },
-      {
-        "compound": "RC00029805_3µM_24hr-RSQP0077",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.58 }
-      },
-      {
-        "compound": "RC00030292_3µM_24hr-RSQP0144",
-        "value": { "log10_qvalue": 6.257, "log2_fc": -2.146 }
-      },
-      {
-        "compound": "RC00029799_0.03µM_24hr-RSQP0230",
-        "value": { "log10_qvalue": 2.514, "log2_fc": 0.144 }
-      },
-      {
-        "compound": "RC00033159_3µM_24hr-RSQP0242",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.41 }
-      },
-      {
-        "compound": "RC00032963_3µM_24hr-RSQP0197",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.758 }
-      },
-      {
-        "compound": "RC00029799_1µM_24hr-RSQP0230",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.509 }
-      },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0223",
-        "value": { "log10_qvalue": 5.377, "log2_fc": 1.559 }
-      },
-      {
-        "compound": "RC00030047_3µM_24hr-RSQP0084",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.986 }
-      },
-      {
-        "compound": "RC00030040_3µM_24hr-RSQP0078",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.789 }
-      },
-      {
-        "compound": "RC00033141_3µM_24hr-RSQP0222",
-        "value": { "log10_qvalue": 4.695, "log2_fc": 1.348 }
-      },
-      {
-        "compound": "RC00030066_3µM_24hr-RSQP0213",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.435 }
-      },
-      {
-        "compound": "RC00029881_3µM_24hr-RSQP0075",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.359 }
-      },
-      {
-        "compound": "RC00000385_3µM_24hr-RSQP0023",
-        "value": { "log10_qvalue": 8.767, "log2_fc": 0.16 }
-      },
-      { "compound": "RC00000166_3µM_24hr-RSQP0040", "value": null },
-      { "compound": "RC00014584_3µM_24hr-RSQP0096", "value": null },
-      {
-        "compound": "RC00030033_0.025µM_24hr-RSQP0189",
-        "value": { "log10_qvalue": 1.89, "log2_fc": 0.137 }
-      },
-      {
-        "compound": "RC00029799_3µM_24hr-RSQP0076",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.069 }
-      },
-      {
-        "compound": "RC00032966_3µM_24hr-RSQP0198",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.934 }
-      },
-      {
-        "compound": "RC00029808_3µM_24hr-RSQP0204",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.369 }
-      },
-      { "compound": "RC00000050_0.03µM_24hr-RSQP0229", "value": null },
-      {
-        "compound": "RC00030033_3µM_24hr-RSQP0094",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.396 }
-      },
-      { "compound": "RC00000050_0.03µM_24hr-RSQP0232", "value": null },
-      {
-        "compound": "RC00029799_3µM_24hr-RSQP0230",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.2 }
-      },
-      {
-        "compound": "RC00000449_3µM_24hr-RSQP0231",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.916 }
-      },
-      {
-        "compound": "RC00029873_3µM_24hr-RSQP0113",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.888 }
-      },
-      {
-        "compound": "RC00033089_3µM_24hr-RSQP0192",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.519 }
-      },
-      {
-        "compound": "RC00032810_3µM_24hr-RSQP0125",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.541 }
-      },
-      {
-        "compound": "RC00000449_3µM_24hr-RSQP0238",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.997 }
-      },
-      { "compound": "RC00000449_0.03µM_24hr-RSQP0231", "value": null },
-      { "compound": "RC00000050_0.025µM_24hr-RSQP0190", "value": null },
-      {
-        "compound": "RC00033150_3µM_24hr-RSQP0224",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.846 }
-      },
-      {
-        "compound": "RC00014586_3µM_24hr-RSQP0083",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.542 }
-      },
-      {
-        "compound": "RC00029980_3µM_24hr-RSQP0149",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.733 }
-      },
-      {
-        "compound": "RC00029972_3µM_24hr-RSQP0147",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.957 }
-      },
-      {
-        "compound": "RC00030335_3µM_24hr-RSQP0215",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.617 }
-      },
-      {
-        "compound": "RC00029889_3µM_24hr-RSQP0080",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.466 }
-      },
-      {
-        "compound": "RC00032809_3µM_24hr-RSQP0124",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.174 }
-      },
-      {
-        "compound": "RC00032943_3µM_24hr-RSQP0195",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.456 }
-      },
-      {
-        "compound": "RC00000028_0.03µM_24hr-RSQP0217",
-        "value": { "log10_qvalue": 1.473, "log2_fc": 0.178 }
-      },
-      {
-        "compound": "RC00030337_3µM_24hr-RSQP0227",
-        "value": { "log10_qvalue": 6.746, "log2_fc": -0.284 }
-      },
-      { "compound": "RC00030033_0.03µM_24hr-RSQP0233", "value": null },
-      {
-        "compound": "RC00032972_3µM_24hr-RSQP0191",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.833 }
-      },
-      { "compound": "RC00033149_3µM_24hr-RSQP0219", "value": null },
-      { "compound": "RC00033146_3µM_24hr-RSQP0221", "value": null },
-      {
-        "compound": "RC00000028_3µM_6hr-RSQP0069",
-        "value": { "log10_qvalue": 6.817, "log2_fc": -0.479 }
-      },
-      {
-        "compound": "RC00030057_3µM_24hr-RSQP0088",
-        "value": { "log10_qvalue": 3.333, "log2_fc": 0.173 }
-      },
-      {
-        "compound": "RC00030040_3µM_24hr-RSQP0240",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.463 }
-      },
-      {
-        "compound": "RC00029923_3µM_24hr-RSQP0210",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.129 }
-      },
-      {
-        "compound": "RC00030049_3µM_24hr-RSQP0117",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.138 }
-      },
-      {
-        "compound": "RC00030264_3µM_24hr-RSQP0153",
-        "value": { "log10_qvalue": 5.93, "log2_fc": -1.296 }
-      },
-      {
-        "compound": "RC00030293_3µM_24hr-RSQP0145",
-        "value": { "log10_qvalue": 5.176, "log2_fc": -0.758 }
-      },
-      {
-        "compound": "RC00030261_3µM_24hr-RSQP0152",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.938 }
-      },
-      {
-        "compound": "RC00000046_3µM_24hr-RSQP0025",
-        "value": { "log10_qvalue": 1.378, "log2_fc": 0.053 }
-      },
-      { "compound": "RC00029962_3µM_24hr-RSQP0142", "value": null },
-      { "compound": "RC00000512_3µM_24hr-RSQP0057", "value": null },
-      { "compound": "RC00000479_3µM_24hr-RSQP0050", "value": null },
-      { "compound": "RC00000397_3µM_24hr-RSQP0052", "value": null },
-      { "compound": "RC00029964_3µM_24hr-RSQP0146", "value": null },
-      { "compound": "RC00029978_3µM_24hr-RSQP0148", "value": null },
-      { "compound": "RC00032801_3µM_24hr-RSQP0206", "value": null },
-      {
-        "compound": "RC00000399_3µM_24hr-RSQP0024",
-        "value": { "log10_qvalue": 2.539, "log2_fc": 0.105 }
-      },
-      { "compound": "RC00000050_0.0089µM_24hr-RSQP0106", "value": null },
-      { "compound": "RC00000059_3µM_24hr-RSQP0032", "value": null },
-      { "compound": "RC00000050_0.01814µM_24hr-RSQP0187", "value": null },
-      { "compound": "RC00000448_3µM_24hr-RSQP0053", "value": null },
-      { "compound": "RC00000219_3µM_24hr-RSQP0010", "value": null },
-      { "compound": "RC00000441_3µM_24hr-RSQP0049", "value": null },
-      { "compound": "RC00000050_0.01µM_24hr-RSQP0232", "value": null },
-      { "compound": "RC00000050_0.01µM_24hr-RSQP0229", "value": null },
-      { "compound": "RC00000449_0.01µM_24hr-RSQP0231", "value": null },
-      { "compound": "RC00030038_3µM_24hr-RSQP0087", "value": null },
-      { "compound": "RC00030033_0.01µM_24hr-RSQP0233", "value": null },
-      { "compound": "RC00000388_3µM_24hr-RSQP0041", "value": null },
-      { "compound": "RC00000464_3µM_24hr-RSQP0054", "value": null },
-      { "compound": "RC00029799_0.0026µM_24hr-RSQP0111", "value": null },
-      {
-        "compound": "RC00032824_20µM_16hr-RSQP0200",
-        "value": { "log10_qvalue": 7.911, "log2_fc": -0.282 }
-      },
-      { "compound": "RC00029984_3µM_24hr-RSQP0150", "value": null },
-      { "compound": "RC00029799_0.01µM_24hr-RSQP0230", "value": null },
-      { "compound": "RC00030033_0.000518µM_24hr-RSQP0188", "value": null },
-      {
-        "compound": "RC00030260_3µM_24hr-RSQP0151",
-        "value": { "log10_qvalue": 1.393, "log2_fc": -0.171 }
-      },
-      { "compound": "RC00000432_10µM_24hr-RSQP0017", "value": null },
-      { "compound": "RC00000449_0.003µM_24hr-RSQP0110", "value": null },
-      { "compound": "RC00030238_3µM_24hr-RSQP0139", "value": null },
-      { "compound": "RC00030248_3µM_24hr-RSQP0140", "value": null },
-      {
-        "compound": "RC00029814_3µM_24hr-RSQP0127",
-        "value": { "log10_qvalue": 2.946, "log2_fc": -0.2 }
-      },
-      { "compound": "RC00000394_3µM_24hr-RSQP0051", "value": null },
-      { "compound": "RC00029813_3µM_24hr-RSQP0126", "value": null },
-      { "compound": "RC00029955_3µM_24hr-RSQP0138", "value": null },
-      { "compound": "RC00000028_0.0023µM_24hr-RSQP0107", "value": null },
-      { "compound": "RC00000070_3µM_24hr-RSQP0034", "value": null },
-      { "compound": "RC00000053_3µM_24hr-RSQP0030", "value": null },
-      { "compound": "RC00000062_3µM_24hr-RSQP0007", "value": null },
-      {
-        "compound": "RC00029943_3µM_24hr-RSQP0134",
-        "value": { "log10_qvalue": 2.788, "log2_fc": -0.192 }
-      },
-      { "compound": "RC00000069_3µM_24hr-RSQP0033", "value": null },
-      { "compound": "RC00000224_0.0059µM_24hr-RSQP0109", "value": null },
-      { "compound": "RC00029953_3µM_24hr-RSQP0137", "value": null },
-      { "compound": "RC00000366_3µM_24hr-RSQP0037", "value": null },
-      { "compound": "RC00000047_3µM_24hr-RSQP0026", "value": null },
-      {
-        "compound": "RC00000203_3µM_24hr-RSQP0038",
-        "value": { "log10_qvalue": 7.488, "log2_fc": 0.189 }
-      },
-      { "compound": "RC00029946_3µM_24hr-RSQP0135", "value": null },
-      { "compound": "RC00000115_3µM_24hr-RSQP0036", "value": null },
-      {
-        "compound": "RC00029816_3µM_24hr-RSQP0128",
-        "value": { "log10_qvalue": 1.523, "log2_fc": -0.141 }
-      },
-      { "compound": "RC00000365_0.1243µM_24hr-RSQP0108", "value": null },
-      { "compound": "RC00000421_10µM_24hr-RSQP0015", "value": null },
-      { "compound": "RC00029949_3µM_24hr-RSQP0136", "value": null },
-      {
-        "compound": "RC00029818_3µM_24hr-RSQP0129",
-        "value": { "log10_qvalue": 2.239, "log2_fc": -0.178 }
-      },
-      { "compound": "RC00000060_3µM_24hr-RSQP0006", "value": null },
-      { "compound": "RC00000428_1µM_24hr-RSQP0016", "value": null },
-      {
-        "compound": "RC00029898_3µM_24hr-RSQP0091",
-        "value": { "log10_qvalue": 2.138, "log2_fc": 0.135 }
-      },
-      { "compound": "RC00029932_3µM_24hr-RSQP0132", "value": null },
-      { "compound": "RC00029833_3µM_24hr-RSQP0141", "value": null },
-      { "compound": "RC00000050_0.003µM_24hr-RSQP0229", "value": null },
-      { "compound": "RC00030075_3µM_24hr-RSQP0073", "value": null },
-      { "compound": "RC00000103_3µM_24hr-RSQP0035", "value": null },
-      {
-        "compound": "RC00032825_4µM_16hr-RSQP0201",
-        "value": { "log10_qvalue": 1.497, "log2_fc": -0.115 }
-      },
-      { "compound": "RC00032933_4µM_16hr-RSQP0209", "value": null },
-      { "compound": "RC00029910_3µM_24hr-RSQP0092", "value": null },
-      { "compound": "RC00030027_3µM_24hr-RSQP0247", "value": null },
-      { "compound": "RC00029807_3µM_24hr-RSQP0194", "value": null },
-      { "compound": "RC00029799_0.003µM_24hr-RSQP0230", "value": null },
-      { "compound": "RC00000148_1µM_24hr-RSQP0064", "value": null },
-      { "compound": "RC00000435_10µM_24hr-RSQP0018", "value": null },
-      { "compound": "RC00000449_0.003µM_24hr-RSQP0231", "value": null },
-      { "compound": "RC00000054_3µM_24hr-RSQP0031", "value": null },
-      { "compound": "RC00000142_10µM_24hr-RSQP0012", "value": null },
-      { "compound": "RC00000435_1µM_24hr-RSQP0018", "value": null },
-      { "compound": "RC00000034_3µM_24hr-RSQP0029", "value": null },
-      { "compound": "RC00000420_3µM_24hr-RSQP0014", "value": null },
-      { "compound": "RC00000421_1µM_24hr-RSQP0015", "value": null },
-      { "compound": "RC00000034_10µM_24hr-RSQP0019", "value": null },
-      { "compound": "RC00000052_3µM_24hr-RSQP0027", "value": null },
-      { "compound": "RC00030315_3µM_24hr-RSQP0245", "value": null },
-      { "compound": "RC00000432_1µM_24hr-RSQP0017", "value": null },
-      { "compound": "RC00000156_1µM_24hr-RSQP0067", "value": null },
-      {
-        "compound": "RC00029940_3µM_24hr-RSQP0133",
-        "value": { "log10_qvalue": 1.593, "log2_fc": -0.151 }
-      },
-      { "compound": "RC00029794_3µM_24hr-RSQP0102", "value": null },
-      {
-        "compound": "RC00029820_3µM_24hr-RSQP0130",
-        "value": { "log10_qvalue": 1.46, "log2_fc": -0.142 }
-      },
-      { "compound": "RC00000146_1µM_24hr-RSQP0013", "value": null },
-      { "compound": "RC00030023_3µM_24hr-RSQP0180", "value": null },
-      { "compound": "RC00000157_3µM_24hr-RSQP0248", "value": null },
-      { "compound": "RC00029822_3µM_24hr-RSQP0131", "value": null },
-      { "compound": "RC00000049_3µM_24hr-RSQP0028", "value": null },
-      { "compound": "RC00000034_1µM_24hr-RSQP0019", "value": null },
-      { "compound": "RC00030027_3µM_24hr-RSQP0181", "value": null },
-      { "compound": "RC00000157_1µM_24hr-RSQP0068", "value": null },
-      { "compound": "RC00000142_1µM_24hr-RSQP0012", "value": null },
-      { "compound": "RC00030071_3µM_24hr-RSQP0089", "value": null },
-      { "compound": "RC00000151_1µM_24hr-RSQP0066", "value": null },
-      { "compound": "RC00000151_10µM_24hr-RSQP0066", "value": null },
-      { "compound": "RC00030318_3µM_24hr-RSQP0183", "value": null },
-      { "compound": "RC00030313_3µM_24hr-RSQP0173", "value": null },
-      { "compound": "RC00030316_3µM_24hr-RSQP0182", "value": null },
-      { "compound": "RC00030270_3µM_24hr-RSQP0156", "value": null },
-      { "compound": "RC00000148_10µM_24hr-RSQP0064", "value": null },
-      { "compound": "RC00029904_3µM_24hr-RSQP0090", "value": null },
-      { "compound": "RC00000420_1µM_24hr-RSQP0014", "value": null },
-      { "compound": "RC00030309_3µM_24hr-RSQP0171", "value": null },
-      { "compound": "RC00030315_3µM_24hr-RSQP0174", "value": null },
-      { "compound": "RC00000428_10µM_24hr-RSQP0016", "value": null },
-      { "compound": "RC00030019_3µM_24hr-RSQP0177", "value": null },
-      { "compound": "RC00000156_10µM_24hr-RSQP0067", "value": null },
-      {
-        "compound": "RC00030043_3µM_24hr-RSQP0086",
-        "value": { "log10_qvalue": 2.023, "log2_fc": 0.134 }
-      },
-      { "compound": "RC00032811_3µM_24hr-RSQP0205", "value": null },
-      { "compound": "RC00000150_0.1µM_24hr-RSQP0065", "value": null },
-      { "compound": "RC00030310_3µM_24hr-RSQP0172", "value": null },
-      { "compound": "RC00000157_3µM_24hr-RSQP0068", "value": null },
-      { "compound": "RC00030273_3µM_24hr-RSQP0157", "value": null },
-      { "compound": "RC00030017_3µM_24hr-RSQP0176", "value": null },
-      { "compound": "RC00030299_3µM_24hr-RSQP0169", "value": null },
-      { "compound": "RC00000150_1µM_24hr-RSQP0065", "value": null },
-      { "compound": "RC00030295_3µM_24hr-RSQP0168", "value": null },
-      { "compound": "RC00029863_3µM_24hr-RSQP0175", "value": null },
-      { "compound": "RC00030020_3µM_24hr-RSQP0178", "value": null },
-      { "compound": "RC00030021_3µM_24hr-RSQP0179", "value": null },
-      { "compound": "RC00030300_3µM_24hr-RSQP0170", "value": null },
-      { "compound": "RC00029991_3µM_24hr-RSQP0164", "value": null },
-      { "compound": "RC00030005_3µM_24hr-RSQP0166", "value": null },
-      { "compound": "RC00030006_3µM_24hr-RSQP0167", "value": null },
-      { "compound": "RC00029996_3µM_24hr-RSQP0165", "value": null },
-      { "compound": "RC00030282_3µM_24hr-RSQP0158", "value": null },
-      { "compound": "RC00030268_3µM_24hr-RSQP0155", "value": null },
-      { "compound": "RC00029857_3µM_24hr-RSQP0163", "value": null },
-      { "compound": "RC00029846_3µM_24hr-RSQP0161", "value": null },
-      { "compound": "RC00029839_3µM_24hr-RSQP0160", "value": null },
-      { "compound": "RC00029854_3µM_24hr-RSQP0162", "value": null },
-      {
-        "compound": "RC00000506_50µM_96hr-RSQP0185",
-        "value": { "log10_qvalue": 7.4, "log2_fc": 0.416 }
-      },
-      {
-        "compound": "RC00000535_50µM_96hr-RSQP0186",
-        "value": { "log10_qvalue": 10, "log2_fc": 0.43 }
-      },
-      { "compound": "RC00029837_3µM_24hr-RSQP0159", "value": null },
-      {
-        "compound": "RC00000028_3µM_24hr-RSQP0217",
-        "value": { "log10_qvalue": 10, "log2_fc": 1.723 }
-      },
-      {
-        "compound": "RC00032920_0.2µM_16hr-RSQP0207",
-        "value": { "log10_qvalue": 10, "log2_fc": 0.907 }
-      },
-      {
-        "compound": "RC00032934_0.4µM_16hr-RSQP0208",
-        "value": { "log10_qvalue": 10, "log2_fc": 1.009 }
-      },
-      { "compound": "RC00033906_3µM_24hr-RSQP0407", "value": null },
-      { "compound": "RC00033149_0.1µM_24hr-RSQP0410", "value": null },
-      { "compound": "RC00033149_0.3µM_24hr-RSQP0410", "value": null },
-      { "compound": "RC00033942_3µM_24hr-RSQP0409", "value": null },
-      { "compound": "RC00033141_0.1µM_24hr-RSQP0411", "value": null },
-      { "compound": "RC00000050_3µM_24hr-RSQP0412", "value": null },
-      { "compound": "RC00033904_3µM_24hr-RSQP0408", "value": null },
-      { "compound": "RC00000146_3µM_24hr-RSQP0013", "value": null },
-      { "compound": "RC00033141_0.03µM_24hr-RSQP0411", "value": null },
-      { "compound": "RC00033149_0.03µM_24hr-RSQP0410", "value": null },
-      { "compound": "RC00033896_3µM_24hr-RSQP0405", "value": null },
-      { "compound": "RC00030077_3µM_24hr-RSQP0250", "value": null },
-      { "compound": "RC00033141_0.3µM_24hr-RSQP0411", "value": null },
-      { "compound": "RC00033149_0.01µM_24hr-RSQP0410", "value": null },
-      { "compound": "RC00033141_0.01µM_24hr-RSQP0411", "value": null },
-      { "compound": "RC00033900_3µM_24hr-RSQP0404", "value": null }
-    ]
+    "x": -1.1609140145678474,
+    "y": 7.306770497177013,
+    "id": 160,
+    "smiles": "Cl.c1ccc2c(c1)[nH]c1c2ncc2[nH]c3ccccc3c21"
   },
   {
-    "gene": "HTT",
-    "compounds": [
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0004",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.867 }
-      },
-      {
-        "compound": "RC00000106_3µM_24hr-RSQP0009",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.641 }
-      },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0003",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.561 }
-      },
-      {
-        "compound": "RC00000028_3µM_24hr-RSQP0235",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.517 }
-      },
-      {
-        "compound": "RC00000449_3µM_24hr-RSQP0234",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.424 }
-      },
-      {
-        "compound": "RC00000446_3µM_24hr-RSQP0021",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.404 }
-      },
-      {
-        "compound": "RC00000028_3µM_24hr-RSQP0104",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.382 }
-      },
-      {
-        "compound": "RC00000050_0.3µM_24hr-RSQP0232",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.353 }
-      },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0154",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.351 }
-      },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0226",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.308 }
-      },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0046",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.287 }
-      },
-      {
-        "compound": "RC00000028_3µM_24hr-RSQP0002",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.253 }
-      },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0063",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.241 }
-      },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0112",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.227 }
-      },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0184",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.217 }
-      },
-      {
-        "compound": "RC00030040_3µM_24hr-RSQP0236",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.201 }
-      },
-      {
-        "compound": "RC00000384_3µM_24hr-RSQP0056",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.184 }
-      },
-      {
-        "compound": "RC00000538_3µM_24hr-RSQP0059",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.182 }
-      },
-      {
-        "compound": "RC00030033_0.3µM_24hr-RSQP0233",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.16 }
-      },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0216",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.148 }
-      },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0103",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.145 }
-      },
-      {
-        "compound": "RC00000106_3µM_24hr-RSQP0008",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.144 }
-      },
-      {
-        "compound": "RC00000468_3µM_24hr-RSQP0047",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.143 }
-      },
-      {
-        "compound": "RC00000519_3µM_24hr-RSQP0058",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.12 }
-      },
-      {
-        "compound": "RC00000539_3µM_24hr-RSQP0060",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.112 }
-      },
-      {
-        "compound": "RC00000028_3µM_12hr-RSQP0069",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.105 }
-      },
-      {
-        "compound": "RC00000450_3µM_24hr-RSQP0048",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.086 }
-      },
-      {
-        "compound": "RC00029899_3µM_24hr-RSQP0114",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.058 }
-      },
-      {
-        "compound": "RC00000438_3µM_24hr-RSQP0043",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.013 }
-      },
-      {
-        "compound": "RC00032805_3µM_24hr-RSQP0123",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.008 }
-      },
-      {
-        "compound": "RC00000028_3µM_24hr-RSQP0069",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.995 }
-      },
-      {
-        "compound": "RC00000050_0.1µM_24hr-RSQP0232",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.993 }
-      },
-      {
-        "compound": "RC00000390_3µM_24hr-RSQP0042",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.992 }
-      },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0199",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.986 }
-      },
-      {
-        "compound": "RC00000028_3µM_24hr-RSQP0001",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.981 }
-      },
-      {
-        "compound": "RC00030347_3µM_24hr-RSQP0122",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.976 }
-      },
-      {
-        "compound": "RC00000549_3µM_24hr-RSQP0062",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.976 }
-      },
-      {
-        "compound": "RC00000058_3µM_24hr-RSQP0005",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.968 }
-      },
-      {
-        "compound": "RC00029916_3µM_24hr-RSQP0115",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.956 }
-      },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0244",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.953 }
-      },
-      {
-        "compound": "RC00000392_3µM_24hr-RSQP0020",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.941 }
-      },
-      {
-        "compound": "RC00030072_3µM_24hr-RSQP0119",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.91 }
-      },
-      {
-        "compound": "RC00000466_3µM_24hr-RSQP0237",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.851 }
-      },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0085",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.849 }
-      },
-      {
-        "compound": "RC00000050_0.3µM_24hr-RSQP0229",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.833 }
-      },
-      {
-        "compound": "RC00030033_0.1µM_24hr-RSQP0233",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.826 }
-      },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0229",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.823 }
-      },
-      {
-        "compound": "RC00029799_0.1µM_24hr-RSQP0230",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.803 }
-      },
-      {
-        "compound": "RC00000125_3µM_24hr-RSQP0039",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.786 }
-      },
-      {
-        "compound": "RC00029870_3µM_24hr-RSQP0098",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.785 }
-      },
-      {
-        "compound": "RC00014580_3µM_24hr-RSQP0074",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.779 }
-      },
-      {
-        "compound": "RC00030064_3µM_24hr-RSQP0203",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.766 }
-      },
-      {
-        "compound": "RC00000050_1µM_24hr-RSQP0229",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.759 }
-      },
-      {
-        "compound": "RC00030332_3µM_24hr-RSQP0120",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.742 }
-      },
-      {
-        "compound": "RC00000050_0.1µM_24hr-RSQP0190",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.736 }
-      },
-      {
-        "compound": "RC00029928_3µM_24hr-RSQP0214",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.729 }
-      },
-      {
-        "compound": "RC00000028_3µM_24hr-RSQP0249",
-        "value": { "log10_qvalue": 7.806, "log2_fc": -1.721 }
-      },
-      {
-        "compound": "RC00029929_3µM_24hr-RSQP0212",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.704 }
-      },
-      {
-        "compound": "RC00000365_3µM_24hr-RSQP0105",
-        "value": { "log10_qvalue": 9.419, "log2_fc": -1.702 }
-      },
-      {
-        "compound": "RC00000050_0.1µM_24hr-RSQP0229",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.7 }
-      },
-      {
-        "compound": "RC00030060_3µM_24hr-RSQP0118",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.677 }
-      },
-      {
-        "compound": "RC00029922_3µM_24hr-RSQP0116",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.675 }
-      },
-      {
-        "compound": "RC00000231_3µM_24hr-RSQP0055",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.652 }
-      },
-      {
-        "compound": "RC00000449_0.1µM_24hr-RSQP0231",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.641 }
-      },
-      {
-        "compound": "RC00032962_3µM_24hr-RSQP0196",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.637 }
-      },
-      {
-        "compound": "RC00029799_0.3µM_24hr-RSQP0230",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.635 }
-      },
-      {
-        "compound": "RC00030348_3µM_24hr-RSQP0202",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.634 }
-      },
-      {
-        "compound": "RC00000440_3µM_24hr-RSQP0044",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.625 }
-      },
-      {
-        "compound": "RC00030033_0.1µM_24hr-RSQP0189",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.619 }
-      },
-      {
-        "compound": "RC00029893_3µM_24hr-RSQP0100",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.584 }
-      },
-      {
-        "compound": "RC00033093_3µM_24hr-RSQP0193",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.578 }
-      },
-      {
-        "compound": "RC00030030_3µM_24hr-RSQP0095",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.575 }
-      },
-      {
-        "compound": "RC00029896_3µM_24hr-RSQP0099",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.57 }
-      },
-      {
-        "compound": "RC00000466_3µM_24hr-RSQP0241",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.566 }
-      },
-      {
-        "compound": "RC00029880_3µM_24hr-RSQP0101",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.548 }
-      },
-      {
-        "compound": "RC00000449_0.3µM_24hr-RSQP0231",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.539 }
-      },
-      {
-        "compound": "RC00030333_3µM_24hr-RSQP0121",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.522 }
-      },
-      {
-        "compound": "RC00030040_3µM_24hr-RSQP0246",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.52 }
-      },
-      {
-        "compound": "RC00030072_3µM_24hr-RSQP0228",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.514 }
-      },
-      {
-        "compound": "RC00000540_3µM_24hr-RSQP0061",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.498 }
-      },
-      {
-        "compound": "RC00033139_3µM_24hr-RSQP0220",
-        "value": { "log10_qvalue": 6.173, "log2_fc": -1.478 }
-      },
-      {
-        "compound": "RC00030055_3µM_24hr-RSQP0081",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.478 }
-      },
-      {
-        "compound": "RC00030337_3µM_24hr-RSQP0082",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.469 }
-      },
-      {
-        "compound": "RC00000224_3µM_24hr-RSQP0011",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.462 }
-      },
-      {
-        "compound": "RC00000449_1µM_24hr-RSQP0231",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.451 }
-      },
-      {
-        "compound": "RC00000466_3µM_24hr-RSQP0045",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.441 }
-      },
-      {
-        "compound": "RC00030033_0.05µM_24hr-RSQP0189",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.44 }
-      },
-      {
-        "compound": "RC00000050_0.05µM_24hr-RSQP0190",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.438 }
-      },
-      {
-        "compound": "RC00000449_3µM_24hr-RSQP0022",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.432 }
-      },
-      {
-        "compound": "RC00032932_3µM_24hr-RSQP0211",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.407 }
-      },
-      {
-        "compound": "RC00033154_3µM_24hr-RSQP0225",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.38 }
-      },
-      {
-        "compound": "RC00033164_3µM_24hr-RSQP0243",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.355 }
-      },
-      {
-        "compound": "RC00000365_3µM_24hr-RSQP0072",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.351 }
-      },
-      {
-        "compound": "RC00030062_3µM_24hr-RSQP0097",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.343 }
-      },
-      {
-        "compound": "RC00029890_3µM_24hr-RSQP0079",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.342 }
-      },
-      {
-        "compound": "RC00030044_3µM_24hr-RSQP0093",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.318 }
-      },
-      {
-        "compound": "RC00000028_3µM_24hr-RSQP0239",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.259 }
-      },
-      {
-        "compound": "RC00030290_3µM_24hr-RSQP0143",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.257 }
-      },
-      {
-        "compound": "RC00029805_3µM_24hr-RSQP0077",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.244 }
-      },
-      {
-        "compound": "RC00030292_3µM_24hr-RSQP0144",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.232 }
-      },
-      {
-        "compound": "RC00029799_0.03µM_24hr-RSQP0230",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.218 }
-      },
-      {
-        "compound": "RC00033159_3µM_24hr-RSQP0242",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.212 }
-      },
-      {
-        "compound": "RC00032963_3µM_24hr-RSQP0197",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.21 }
-      },
-      {
-        "compound": "RC00029799_1µM_24hr-RSQP0230",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.196 }
-      },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0223",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.17 }
-      },
-      {
-        "compound": "RC00030047_3µM_24hr-RSQP0084",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.166 }
-      },
-      {
-        "compound": "RC00030040_3µM_24hr-RSQP0078",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.147 }
-      },
-      {
-        "compound": "RC00033141_3µM_24hr-RSQP0222",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.145 }
-      },
-      {
-        "compound": "RC00030066_3µM_24hr-RSQP0213",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.142 }
-      },
-      {
-        "compound": "RC00029881_3µM_24hr-RSQP0075",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.139 }
-      },
-      {
-        "compound": "RC00000385_3µM_24hr-RSQP0023",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.131 }
-      },
-      {
-        "compound": "RC00000166_3µM_24hr-RSQP0040",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.13 }
-      },
-      {
-        "compound": "RC00014584_3µM_24hr-RSQP0096",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.125 }
-      },
-      {
-        "compound": "RC00030033_0.025µM_24hr-RSQP0189",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.121 }
-      },
-      {
-        "compound": "RC00029799_3µM_24hr-RSQP0076",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.109 }
-      },
-      {
-        "compound": "RC00032966_3µM_24hr-RSQP0198",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.105 }
-      },
-      {
-        "compound": "RC00029808_3µM_24hr-RSQP0204",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.087 }
-      },
-      {
-        "compound": "RC00000050_0.03µM_24hr-RSQP0229",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.072 }
-      },
-      {
-        "compound": "RC00030033_3µM_24hr-RSQP0094",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.069 }
-      },
-      {
-        "compound": "RC00000050_0.03µM_24hr-RSQP0232",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.068 }
-      },
-      {
-        "compound": "RC00029799_3µM_24hr-RSQP0230",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.064 }
-      },
-      {
-        "compound": "RC00000449_3µM_24hr-RSQP0231",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.052 }
-      },
-      {
-        "compound": "RC00029873_3µM_24hr-RSQP0113",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.046 }
-      },
-      {
-        "compound": "RC00033089_3µM_24hr-RSQP0192",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.041 }
-      },
-      {
-        "compound": "RC00032810_3µM_24hr-RSQP0125",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.025 }
-      },
-      {
-        "compound": "RC00000449_3µM_24hr-RSQP0238",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.011 }
-      },
-      {
-        "compound": "RC00000449_0.03µM_24hr-RSQP0231",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.001 }
-      },
-      {
-        "compound": "RC00000050_0.025µM_24hr-RSQP0190",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.996 }
-      },
-      {
-        "compound": "RC00033150_3µM_24hr-RSQP0224",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.984 }
-      },
-      {
-        "compound": "RC00014586_3µM_24hr-RSQP0083",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.983 }
-      },
-      {
-        "compound": "RC00029980_3µM_24hr-RSQP0149",
-        "value": { "log10_qvalue": 8.614, "log2_fc": -0.982 }
-      },
-      {
-        "compound": "RC00029972_3µM_24hr-RSQP0147",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.981 }
-      },
-      {
-        "compound": "RC00030335_3µM_24hr-RSQP0215",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.969 }
-      },
-      {
-        "compound": "RC00029889_3µM_24hr-RSQP0080",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.967 }
-      },
-      {
-        "compound": "RC00032809_3µM_24hr-RSQP0124",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.965 }
-      },
-      {
-        "compound": "RC00032943_3µM_24hr-RSQP0195",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.962 }
-      },
-      {
-        "compound": "RC00000028_0.03µM_24hr-RSQP0217",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.96 }
-      },
-      {
-        "compound": "RC00030337_3µM_24hr-RSQP0227",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.944 }
-      },
-      {
-        "compound": "RC00030033_0.03µM_24hr-RSQP0233",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.94 }
-      },
-      {
-        "compound": "RC00032972_3µM_24hr-RSQP0191",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.922 }
-      },
-      {
-        "compound": "RC00033149_3µM_24hr-RSQP0219",
-        "value": { "log10_qvalue": 3.727, "log2_fc": -0.885 }
-      },
-      {
-        "compound": "RC00033146_3µM_24hr-RSQP0221",
-        "value": { "log10_qvalue": 7.558, "log2_fc": -0.862 }
-      },
-      {
-        "compound": "RC00000028_3µM_6hr-RSQP0069",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.819 }
-      },
-      {
-        "compound": "RC00030057_3µM_24hr-RSQP0088",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.812 }
-      },
-      {
-        "compound": "RC00030040_3µM_24hr-RSQP0240",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.774 }
-      },
-      {
-        "compound": "RC00029923_3µM_24hr-RSQP0210",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.761 }
-      },
-      {
-        "compound": "RC00030049_3µM_24hr-RSQP0117",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.759 }
-      },
-      {
-        "compound": "RC00030264_3µM_24hr-RSQP0153",
-        "value": { "log10_qvalue": 7.301, "log2_fc": -0.737 }
-      },
-      {
-        "compound": "RC00030293_3µM_24hr-RSQP0145",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.73 }
-      },
-      {
-        "compound": "RC00030261_3µM_24hr-RSQP0152",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.722 }
-      },
-      {
-        "compound": "RC00000046_3µM_24hr-RSQP0025",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.721 }
-      },
-      {
-        "compound": "RC00029962_3µM_24hr-RSQP0142",
-        "value": { "log10_qvalue": 7.01, "log2_fc": -0.714 }
-      },
-      {
-        "compound": "RC00000512_3µM_24hr-RSQP0057",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.67 }
-      },
-      {
-        "compound": "RC00000479_3µM_24hr-RSQP0050",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.624 }
-      },
-      {
-        "compound": "RC00000397_3µM_24hr-RSQP0052",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.61 }
-      },
-      {
-        "compound": "RC00029964_3µM_24hr-RSQP0146",
-        "value": { "log10_qvalue": 3.073, "log2_fc": -0.586 }
-      },
-      { "compound": "RC00029978_3µM_24hr-RSQP0148", "value": null },
-      {
-        "compound": "RC00032801_3µM_24hr-RSQP0206",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.565 }
-      },
-      {
-        "compound": "RC00000399_3µM_24hr-RSQP0024",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.549 }
-      },
-      {
-        "compound": "RC00000050_0.0089µM_24hr-RSQP0106",
-        "value": { "log10_qvalue": 3.52, "log2_fc": -0.513 }
-      },
-      {
-        "compound": "RC00000059_3µM_24hr-RSQP0032",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.499 }
-      },
-      {
-        "compound": "RC00000050_0.01814µM_24hr-RSQP0187",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.484 }
-      },
-      {
-        "compound": "RC00000448_3µM_24hr-RSQP0053",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.47 }
-      },
-      {
-        "compound": "RC00000219_3µM_24hr-RSQP0010",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.467 }
-      },
-      {
-        "compound": "RC00000441_3µM_24hr-RSQP0049",
-        "value": { "log10_qvalue": 8.145, "log2_fc": -0.448 }
-      },
-      {
-        "compound": "RC00000050_0.01µM_24hr-RSQP0232",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.445 }
-      },
-      {
-        "compound": "RC00000050_0.01µM_24hr-RSQP0229",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.444 }
-      },
-      {
-        "compound": "RC00000449_0.01µM_24hr-RSQP0231",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.438 }
-      },
-      {
-        "compound": "RC00030038_3µM_24hr-RSQP0087",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.416 }
-      },
-      {
-        "compound": "RC00030033_0.01µM_24hr-RSQP0233",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.386 }
-      },
-      {
-        "compound": "RC00000388_3µM_24hr-RSQP0041",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.384 }
-      },
-      {
-        "compound": "RC00000464_3µM_24hr-RSQP0054",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.381 }
-      },
-      {
-        "compound": "RC00029799_0.0026µM_24hr-RSQP0111",
-        "value": { "log10_qvalue": 1.425, "log2_fc": -0.377 }
-      },
-      {
-        "compound": "RC00032824_20µM_16hr-RSQP0200",
-        "value": { "log10_qvalue": 8.259, "log2_fc": -0.377 }
-      },
-      { "compound": "RC00029984_3µM_24hr-RSQP0150", "value": null },
-      {
-        "compound": "RC00029799_0.01µM_24hr-RSQP0230",
-        "value": { "log10_qvalue": 8.427, "log2_fc": -0.36 }
-      },
-      {
-        "compound": "RC00030033_0.000518µM_24hr-RSQP0188",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.35 }
-      },
-      {
-        "compound": "RC00030260_3µM_24hr-RSQP0151",
-        "value": { "log10_qvalue": 4.76, "log2_fc": -0.349 }
-      },
-      { "compound": "RC00000432_10µM_24hr-RSQP0017", "value": null },
-      { "compound": "RC00000449_0.003µM_24hr-RSQP0110", "value": null },
-      {
-        "compound": "RC00030238_3µM_24hr-RSQP0139",
-        "value": { "log10_qvalue": 5.827, "log2_fc": -0.311 }
-      },
-      {
-        "compound": "RC00030248_3µM_24hr-RSQP0140",
-        "value": { "log10_qvalue": 4.127, "log2_fc": -0.303 }
-      },
-      {
-        "compound": "RC00029814_3µM_24hr-RSQP0127",
-        "value": { "log10_qvalue": 5.619, "log2_fc": -0.294 }
-      },
-      {
-        "compound": "RC00000394_3µM_24hr-RSQP0051",
-        "value": { "log10_qvalue": 5.232, "log2_fc": -0.289 }
-      },
-      {
-        "compound": "RC00029813_3µM_24hr-RSQP0126",
-        "value": { "log10_qvalue": 8.562, "log2_fc": -0.276 }
-      },
-      {
-        "compound": "RC00029955_3µM_24hr-RSQP0138",
-        "value": { "log10_qvalue": 4.081, "log2_fc": -0.265 }
-      },
-      { "compound": "RC00000028_0.0023µM_24hr-RSQP0107", "value": null },
-      {
-        "compound": "RC00000070_3µM_24hr-RSQP0034",
-        "value": { "log10_qvalue": 4.529, "log2_fc": -0.244 }
-      },
-      {
-        "compound": "RC00000053_3µM_24hr-RSQP0030",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.24 }
-      },
-      { "compound": "RC00000062_3µM_24hr-RSQP0007", "value": null },
-      {
-        "compound": "RC00029943_3µM_24hr-RSQP0134",
-        "value": { "log10_qvalue": 2.663, "log2_fc": -0.204 }
-      },
-      {
-        "compound": "RC00000069_3µM_24hr-RSQP0033",
-        "value": { "log10_qvalue": 4.472, "log2_fc": -0.199 }
-      },
-      { "compound": "RC00000224_0.0059µM_24hr-RSQP0109", "value": null },
-      {
-        "compound": "RC00029953_3µM_24hr-RSQP0137",
-        "value": { "log10_qvalue": 2.312, "log2_fc": -0.189 }
-      },
-      {
-        "compound": "RC00000366_3µM_24hr-RSQP0037",
-        "value": { "log10_qvalue": 5.548, "log2_fc": -0.187 }
-      },
-      {
-        "compound": "RC00000047_3µM_24hr-RSQP0026",
-        "value": { "log10_qvalue": 6.42, "log2_fc": -0.182 }
-      },
-      {
-        "compound": "RC00000203_3µM_24hr-RSQP0038",
-        "value": { "log10_qvalue": 6.266, "log2_fc": -0.18 }
-      },
-      {
-        "compound": "RC00029946_3µM_24hr-RSQP0135",
-        "value": { "log10_qvalue": 1.68, "log2_fc": -0.172 }
-      },
-      {
-        "compound": "RC00000115_3µM_24hr-RSQP0036",
-        "value": { "log10_qvalue": 1.51, "log2_fc": -0.15 }
-      },
-      {
-        "compound": "RC00029816_3µM_24hr-RSQP0128",
-        "value": { "log10_qvalue": 1.357, "log2_fc": -0.143 }
-      },
-      { "compound": "RC00000365_0.1243µM_24hr-RSQP0108", "value": null },
-      { "compound": "RC00000421_10µM_24hr-RSQP0015", "value": null },
-      { "compound": "RC00029949_3µM_24hr-RSQP0136", "value": null },
-      { "compound": "RC00029818_3µM_24hr-RSQP0129", "value": null },
-      {
-        "compound": "RC00000060_3µM_24hr-RSQP0006",
-        "value": { "log10_qvalue": 3.299, "log2_fc": -0.117 }
-      },
-      { "compound": "RC00000428_1µM_24hr-RSQP0016", "value": null },
-      { "compound": "RC00029898_3µM_24hr-RSQP0091", "value": null },
-      { "compound": "RC00029932_3µM_24hr-RSQP0132", "value": null },
-      { "compound": "RC00029833_3µM_24hr-RSQP0141", "value": null },
-      { "compound": "RC00000050_0.003µM_24hr-RSQP0229", "value": null },
-      { "compound": "RC00030075_3µM_24hr-RSQP0073", "value": null },
-      { "compound": "RC00000103_3µM_24hr-RSQP0035", "value": null },
-      { "compound": "RC00032825_4µM_16hr-RSQP0201", "value": null },
-      { "compound": "RC00032933_4µM_16hr-RSQP0209", "value": null },
-      { "compound": "RC00029910_3µM_24hr-RSQP0092", "value": null },
-      {
-        "compound": "RC00030027_3µM_24hr-RSQP0247",
-        "value": { "log10_qvalue": 1.423, "log2_fc": -0.083 }
-      },
-      { "compound": "RC00029807_3µM_24hr-RSQP0194", "value": null },
-      { "compound": "RC00029799_0.003µM_24hr-RSQP0230", "value": null },
-      { "compound": "RC00000148_1µM_24hr-RSQP0064", "value": null },
-      { "compound": "RC00000435_10µM_24hr-RSQP0018", "value": null },
-      { "compound": "RC00000449_0.003µM_24hr-RSQP0231", "value": null },
-      { "compound": "RC00000054_3µM_24hr-RSQP0031", "value": null },
-      { "compound": "RC00000142_10µM_24hr-RSQP0012", "value": null },
-      { "compound": "RC00000435_1µM_24hr-RSQP0018", "value": null },
-      { "compound": "RC00000034_3µM_24hr-RSQP0029", "value": null },
-      { "compound": "RC00000420_3µM_24hr-RSQP0014", "value": null },
-      { "compound": "RC00000421_1µM_24hr-RSQP0015", "value": null },
-      { "compound": "RC00000034_10µM_24hr-RSQP0019", "value": null },
-      { "compound": "RC00000052_3µM_24hr-RSQP0027", "value": null },
-      { "compound": "RC00030315_3µM_24hr-RSQP0245", "value": null },
-      { "compound": "RC00000432_1µM_24hr-RSQP0017", "value": null },
-      { "compound": "RC00000156_1µM_24hr-RSQP0067", "value": null },
-      { "compound": "RC00029940_3µM_24hr-RSQP0133", "value": null },
-      { "compound": "RC00029794_3µM_24hr-RSQP0102", "value": null },
-      { "compound": "RC00029820_3µM_24hr-RSQP0130", "value": null },
-      { "compound": "RC00000146_1µM_24hr-RSQP0013", "value": null },
-      { "compound": "RC00030023_3µM_24hr-RSQP0180", "value": null },
-      { "compound": "RC00000157_3µM_24hr-RSQP0248", "value": null },
-      { "compound": "RC00029822_3µM_24hr-RSQP0131", "value": null },
-      { "compound": "RC00000049_3µM_24hr-RSQP0028", "value": null },
-      { "compound": "RC00000034_1µM_24hr-RSQP0019", "value": null },
-      { "compound": "RC00030027_3µM_24hr-RSQP0181", "value": null },
-      { "compound": "RC00000157_1µM_24hr-RSQP0068", "value": null },
-      { "compound": "RC00000142_1µM_24hr-RSQP0012", "value": null },
-      { "compound": "RC00030071_3µM_24hr-RSQP0089", "value": null },
-      { "compound": "RC00000151_1µM_24hr-RSQP0066", "value": null },
-      { "compound": "RC00000151_10µM_24hr-RSQP0066", "value": null },
-      {
-        "compound": "RC00030318_3µM_24hr-RSQP0183",
-        "value": { "log10_qvalue": 2.429, "log2_fc": 0.108 }
-      },
-      {
-        "compound": "RC00030313_3µM_24hr-RSQP0173",
-        "value": { "log10_qvalue": 2.202, "log2_fc": 0.108 }
-      },
-      { "compound": "RC00030316_3µM_24hr-RSQP0182", "value": null },
-      {
-        "compound": "RC00030270_3µM_24hr-RSQP0156",
-        "value": { "log10_qvalue": 2.73, "log2_fc": 0.117 }
-      },
-      { "compound": "RC00000148_10µM_24hr-RSQP0064", "value": null },
-      {
-        "compound": "RC00029904_3µM_24hr-RSQP0090",
-        "value": { "log10_qvalue": 1.637, "log2_fc": 0.13 }
-      },
-      { "compound": "RC00000420_1µM_24hr-RSQP0014", "value": null },
-      {
-        "compound": "RC00030309_3µM_24hr-RSQP0171",
-        "value": { "log10_qvalue": 2.378, "log2_fc": 0.138 }
-      },
-      {
-        "compound": "RC00030315_3µM_24hr-RSQP0174",
-        "value": { "log10_qvalue": 4.672, "log2_fc": 0.153 }
-      },
-      { "compound": "RC00000428_10µM_24hr-RSQP0016", "value": null },
-      {
-        "compound": "RC00030019_3µM_24hr-RSQP0177",
-        "value": { "log10_qvalue": 5.319, "log2_fc": 0.162 }
-      },
-      { "compound": "RC00000156_10µM_24hr-RSQP0067", "value": null },
-      {
-        "compound": "RC00030043_3µM_24hr-RSQP0086",
-        "value": { "log10_qvalue": 2.347, "log2_fc": 0.169 }
-      },
-      {
-        "compound": "RC00032811_3µM_24hr-RSQP0205",
-        "value": { "log10_qvalue": 1.434, "log2_fc": 0.17 }
-      },
-      { "compound": "RC00000150_0.1µM_24hr-RSQP0065", "value": null },
-      {
-        "compound": "RC00030310_3µM_24hr-RSQP0172",
-        "value": { "log10_qvalue": 6.384, "log2_fc": 0.176 }
-      },
-      { "compound": "RC00000157_3µM_24hr-RSQP0068", "value": null },
-      {
-        "compound": "RC00030273_3µM_24hr-RSQP0157",
-        "value": { "log10_qvalue": 6.126, "log2_fc": 0.194 }
-      },
-      {
-        "compound": "RC00030017_3µM_24hr-RSQP0176",
-        "value": { "log10_qvalue": 1.619, "log2_fc": 0.205 }
-      },
-      {
-        "compound": "RC00030299_3µM_24hr-RSQP0169",
-        "value": { "log10_qvalue": 8.3, "log2_fc": 0.205 }
-      },
-      {
-        "compound": "RC00000150_1µM_24hr-RSQP0065",
-        "value": { "log10_qvalue": 1.586, "log2_fc": 0.207 }
-      },
-      {
-        "compound": "RC00030295_3µM_24hr-RSQP0168",
-        "value": { "log10_qvalue": 10, "log2_fc": 0.215 }
-      },
-      {
-        "compound": "RC00029863_3µM_24hr-RSQP0175",
-        "value": { "log10_qvalue": 6.021, "log2_fc": 0.216 }
-      },
-      {
-        "compound": "RC00030020_3µM_24hr-RSQP0178",
-        "value": { "log10_qvalue": 10, "log2_fc": 0.221 }
-      },
-      {
-        "compound": "RC00030021_3µM_24hr-RSQP0179",
-        "value": { "log10_qvalue": 10, "log2_fc": 0.222 }
-      },
-      {
-        "compound": "RC00030300_3µM_24hr-RSQP0170",
-        "value": { "log10_qvalue": 10, "log2_fc": 0.224 }
-      },
-      {
-        "compound": "RC00029991_3µM_24hr-RSQP0164",
-        "value": { "log10_qvalue": 10, "log2_fc": 0.233 }
-      },
-      {
-        "compound": "RC00030005_3µM_24hr-RSQP0166",
-        "value": { "log10_qvalue": 10, "log2_fc": 0.238 }
-      },
-      {
-        "compound": "RC00030006_3µM_24hr-RSQP0167",
-        "value": { "log10_qvalue": 10, "log2_fc": 0.246 }
-      },
-      {
-        "compound": "RC00029996_3µM_24hr-RSQP0165",
-        "value": { "log10_qvalue": 10, "log2_fc": 0.258 }
-      },
-      {
-        "compound": "RC00030282_3µM_24hr-RSQP0158",
-        "value": { "log10_qvalue": 10, "log2_fc": 0.279 }
-      },
-      {
-        "compound": "RC00030268_3µM_24hr-RSQP0155",
-        "value": { "log10_qvalue": 10, "log2_fc": 0.284 }
-      },
-      {
-        "compound": "RC00029857_3µM_24hr-RSQP0163",
-        "value": { "log10_qvalue": 10, "log2_fc": 0.286 }
-      },
-      {
-        "compound": "RC00029846_3µM_24hr-RSQP0161",
-        "value": { "log10_qvalue": 10, "log2_fc": 0.314 }
-      },
-      {
-        "compound": "RC00029839_3µM_24hr-RSQP0160",
-        "value": { "log10_qvalue": 10, "log2_fc": 0.347 }
-      },
-      {
-        "compound": "RC00029854_3µM_24hr-RSQP0162",
-        "value": { "log10_qvalue": 10, "log2_fc": 0.395 }
-      },
-      {
-        "compound": "RC00000506_50µM_96hr-RSQP0185",
-        "value": { "log10_qvalue": 6.451, "log2_fc": 0.401 }
-      },
-      {
-        "compound": "RC00000535_50µM_96hr-RSQP0186",
-        "value": { "log10_qvalue": 10, "log2_fc": 0.447 }
-      },
-      {
-        "compound": "RC00029837_3µM_24hr-RSQP0159",
-        "value": { "log10_qvalue": 10, "log2_fc": 0.475 }
-      },
-      {
-        "compound": "RC00000028_3µM_24hr-RSQP0217",
-        "value": { "log10_qvalue": 10, "log2_fc": 0.687 }
-      },
-      {
-        "compound": "RC00032920_0.2µM_16hr-RSQP0207",
-        "value": { "log10_qvalue": 10, "log2_fc": 1.193 }
-      },
-      {
-        "compound": "RC00032934_0.4µM_16hr-RSQP0208",
-        "value": { "log10_qvalue": 10, "log2_fc": 1.338 }
-      },
-      { "compound": "RC00033906_3µM_24hr-RSQP0407", "value": null },
-      { "compound": "RC00033149_0.1µM_24hr-RSQP0410", "value": null },
-      { "compound": "RC00033149_0.3µM_24hr-RSQP0410", "value": null },
-      { "compound": "RC00033942_3µM_24hr-RSQP0409", "value": null },
-      { "compound": "RC00033141_0.1µM_24hr-RSQP0411", "value": null },
-      { "compound": "RC00000050_3µM_24hr-RSQP0412", "value": null },
-      { "compound": "RC00033904_3µM_24hr-RSQP0408", "value": null },
-      { "compound": "RC00000146_3µM_24hr-RSQP0013", "value": null },
-      { "compound": "RC00033141_0.03µM_24hr-RSQP0411", "value": null },
-      { "compound": "RC00033149_0.03µM_24hr-RSQP0410", "value": null },
-      { "compound": "RC00033896_3µM_24hr-RSQP0405", "value": null },
-      { "compound": "RC00030077_3µM_24hr-RSQP0250", "value": null },
-      { "compound": "RC00033141_0.3µM_24hr-RSQP0411", "value": null },
-      { "compound": "RC00033149_0.01µM_24hr-RSQP0410", "value": null },
-      { "compound": "RC00033141_0.01µM_24hr-RSQP0411", "value": null },
-      { "compound": "RC00033900_3µM_24hr-RSQP0404", "value": null }
-    ]
+    "x": -2.476155008396921,
+    "y": -0.8535890039152036,
+    "id": 200,
+    "smiles": "c1ccc2c(-c3c[nH]c4ccccc34)c3ccccc3nc2c1"
   },
   {
-    "gene": "MSH3",
-    "compounds": [
-      { "compound": "RC00000050_3µM_24hr-RSQP0004", "value": null },
-      { "compound": "RC00000106_3µM_24hr-RSQP0009", "value": null },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0003",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.347 }
-      },
-      {
-        "compound": "RC00000028_3µM_24hr-RSQP0235",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.794 }
-      },
-      {
-        "compound": "RC00000449_3µM_24hr-RSQP0234",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.309 }
-      },
-      {
-        "compound": "RC00000446_3µM_24hr-RSQP0021",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.907 }
-      },
-      {
-        "compound": "RC00000028_3µM_24hr-RSQP0104",
-        "value": { "log10_qvalue": 1.43, "log2_fc": -0.848 }
-      },
-      { "compound": "RC00000050_0.3µM_24hr-RSQP0232", "value": null },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0154",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.605 }
-      },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0226",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.507 }
-      },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0046",
-        "value": { "log10_qvalue": 2.542, "log2_fc": -0.158 }
-      },
-      {
-        "compound": "RC00000028_3µM_24hr-RSQP0002",
-        "value": { "log10_qvalue": 3.478, "log2_fc": -0.983 }
-      },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0063",
-        "value": { "log10_qvalue": 5.335, "log2_fc": -0.304 }
-      },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0112",
-        "value": { "log10_qvalue": 2.014, "log2_fc": -0.176 }
-      },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0184",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.558 }
-      },
-      {
-        "compound": "RC00030040_3µM_24hr-RSQP0236",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.385 }
-      },
-      { "compound": "RC00000384_3µM_24hr-RSQP0056", "value": null },
-      {
-        "compound": "RC00000538_3µM_24hr-RSQP0059",
-        "value": { "log10_qvalue": 1.605, "log2_fc": -0.19 }
-      },
-      { "compound": "RC00030033_0.3µM_24hr-RSQP0233", "value": null },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0216",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.524 }
-      },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0103",
-        "value": { "log10_qvalue": 2.072, "log2_fc": -0.138 }
-      },
-      {
-        "compound": "RC00000106_3µM_24hr-RSQP0008",
-        "value": { "log10_qvalue": 5.256, "log2_fc": -0.245 }
-      },
-      { "compound": "RC00000468_3µM_24hr-RSQP0047", "value": null },
-      {
-        "compound": "RC00000519_3µM_24hr-RSQP0058",
-        "value": { "log10_qvalue": 3.688, "log2_fc": -0.263 }
-      },
-      {
-        "compound": "RC00000539_3µM_24hr-RSQP0060",
-        "value": { "log10_qvalue": 5.268, "log2_fc": -0.345 }
-      },
-      {
-        "compound": "RC00000028_3µM_12hr-RSQP0069",
-        "value": { "log10_qvalue": 1.872, "log2_fc": -0.272 }
-      },
-      {
-        "compound": "RC00000450_3µM_24hr-RSQP0048",
-        "value": { "log10_qvalue": 4.183, "log2_fc": -0.291 }
-      },
-      {
-        "compound": "RC00029899_3µM_24hr-RSQP0114",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.721 }
-      },
-      { "compound": "RC00000438_3µM_24hr-RSQP0043", "value": null },
-      {
-        "compound": "RC00032805_3µM_24hr-RSQP0123",
-        "value": { "log10_qvalue": 2.453, "log2_fc": -0.198 }
-      },
-      {
-        "compound": "RC00000028_3µM_24hr-RSQP0069",
-        "value": { "log10_qvalue": 7.231, "log2_fc": -1.134 }
-      },
-      { "compound": "RC00000050_0.1µM_24hr-RSQP0232", "value": null },
-      { "compound": "RC00000390_3µM_24hr-RSQP0042", "value": null },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0199",
-        "value": { "log10_qvalue": 7.967, "log2_fc": -0.401 }
-      },
-      {
-        "compound": "RC00000028_3µM_24hr-RSQP0001",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.557 }
-      },
-      { "compound": "RC00030347_3µM_24hr-RSQP0122", "value": null },
-      {
-        "compound": "RC00000549_3µM_24hr-RSQP0062",
-        "value": { "log10_qvalue": 2.001, "log2_fc": -0.208 }
-      },
-      { "compound": "RC00000058_3µM_24hr-RSQP0005", "value": null },
-      { "compound": "RC00029916_3µM_24hr-RSQP0115", "value": null },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0244",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.466 }
-      },
-      {
-        "compound": "RC00000392_3µM_24hr-RSQP0020",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.573 }
-      },
-      {
-        "compound": "RC00030072_3µM_24hr-RSQP0119",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.549 }
-      },
-      {
-        "compound": "RC00000466_3µM_24hr-RSQP0237",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.593 }
-      },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0085",
-        "value": { "log10_qvalue": 6.892, "log2_fc": -0.229 }
-      },
-      { "compound": "RC00000050_0.3µM_24hr-RSQP0229", "value": null },
-      { "compound": "RC00030033_0.1µM_24hr-RSQP0233", "value": null },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0229",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.454 }
-      },
-      { "compound": "RC00029799_0.1µM_24hr-RSQP0230", "value": null },
-      { "compound": "RC00000125_3µM_24hr-RSQP0039", "value": null },
-      { "compound": "RC00029870_3µM_24hr-RSQP0098", "value": null },
-      {
-        "compound": "RC00014580_3µM_24hr-RSQP0074",
-        "value": { "log10_qvalue": 2.336, "log2_fc": -0.132 }
-      },
-      { "compound": "RC00030064_3µM_24hr-RSQP0203", "value": null },
-      {
-        "compound": "RC00000050_1µM_24hr-RSQP0229",
-        "value": { "log10_qvalue": 9.458, "log2_fc": -0.309 }
-      },
-      {
-        "compound": "RC00030332_3µM_24hr-RSQP0120",
-        "value": { "log10_qvalue": 3.595, "log2_fc": -0.252 }
-      },
-      { "compound": "RC00000050_0.1µM_24hr-RSQP0190", "value": null },
-      {
-        "compound": "RC00029928_3µM_24hr-RSQP0214",
-        "value": { "log10_qvalue": 7.602, "log2_fc": -0.333 }
-      },
-      {
-        "compound": "RC00000028_3µM_24hr-RSQP0249",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.595 }
-      },
-      { "compound": "RC00029929_3µM_24hr-RSQP0212", "value": null },
-      { "compound": "RC00000365_3µM_24hr-RSQP0105", "value": null },
-      { "compound": "RC00000050_0.1µM_24hr-RSQP0229", "value": null },
-      {
-        "compound": "RC00030060_3µM_24hr-RSQP0118",
-        "value": { "log10_qvalue": 1.753, "log2_fc": -0.161 }
-      },
-      { "compound": "RC00029922_3µM_24hr-RSQP0116", "value": null },
-      { "compound": "RC00000231_3µM_24hr-RSQP0055", "value": null },
-      { "compound": "RC00000449_0.1µM_24hr-RSQP0231", "value": null },
-      {
-        "compound": "RC00032962_3µM_24hr-RSQP0196",
-        "value": { "log10_qvalue": 4.664, "log2_fc": -0.305 }
-      },
-      {
-        "compound": "RC00029799_0.3µM_24hr-RSQP0230",
-        "value": { "log10_qvalue": 3.18, "log2_fc": -0.186 }
-      },
-      { "compound": "RC00030348_3µM_24hr-RSQP0202", "value": null },
-      { "compound": "RC00000440_3µM_24hr-RSQP0044", "value": null },
-      { "compound": "RC00030033_0.1µM_24hr-RSQP0189", "value": null },
-      {
-        "compound": "RC00029893_3µM_24hr-RSQP0100",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.061 }
-      },
-      {
-        "compound": "RC00033093_3µM_24hr-RSQP0193",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.653 }
-      },
-      { "compound": "RC00030030_3µM_24hr-RSQP0095", "value": null },
-      {
-        "compound": "RC00029896_3µM_24hr-RSQP0099",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.172 }
-      },
-      { "compound": "RC00000466_3µM_24hr-RSQP0241", "value": null },
-      {
-        "compound": "RC00029880_3µM_24hr-RSQP0101",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.57 }
-      },
-      {
-        "compound": "RC00000449_0.3µM_24hr-RSQP0231",
-        "value": { "log10_qvalue": 4.446, "log2_fc": -0.219 }
-      },
-      {
-        "compound": "RC00030333_3µM_24hr-RSQP0121",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.843 }
-      },
-      {
-        "compound": "RC00030040_3µM_24hr-RSQP0246",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.485 }
-      },
-      {
-        "compound": "RC00030072_3µM_24hr-RSQP0228",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.488 }
-      },
-      {
-        "compound": "RC00000540_3µM_24hr-RSQP0061",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.429 }
-      },
-      { "compound": "RC00033139_3µM_24hr-RSQP0220", "value": null },
-      {
-        "compound": "RC00030055_3µM_24hr-RSQP0081",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.933 }
-      },
-      {
-        "compound": "RC00030337_3µM_24hr-RSQP0082",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.615 }
-      },
-      {
-        "compound": "RC00000224_3µM_24hr-RSQP0011",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.535 }
-      },
-      {
-        "compound": "RC00000449_1µM_24hr-RSQP0231",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.989 }
-      },
-      {
-        "compound": "RC00000466_3µM_24hr-RSQP0045",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.072 }
-      },
-      { "compound": "RC00030033_0.05µM_24hr-RSQP0189", "value": null },
-      { "compound": "RC00000050_0.05µM_24hr-RSQP0190", "value": null },
-      {
-        "compound": "RC00000449_3µM_24hr-RSQP0022",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.38 }
-      },
-      {
-        "compound": "RC00032932_3µM_24hr-RSQP0211",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.914 }
-      },
-      {
-        "compound": "RC00033154_3µM_24hr-RSQP0225",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.186 }
-      },
-      {
-        "compound": "RC00033164_3µM_24hr-RSQP0243",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.65 }
-      },
-      {
-        "compound": "RC00000365_3µM_24hr-RSQP0072",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.667 }
-      },
-      {
-        "compound": "RC00030062_3µM_24hr-RSQP0097",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.26 }
-      },
-      {
-        "compound": "RC00029890_3µM_24hr-RSQP0079",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.285 }
-      },
-      { "compound": "RC00030044_3µM_24hr-RSQP0093", "value": null },
-      {
-        "compound": "RC00000028_3µM_24hr-RSQP0239",
-        "value": { "log10_qvalue": 7.051, "log2_fc": -0.314 }
-      },
-      {
-        "compound": "RC00030290_3µM_24hr-RSQP0143",
-        "value": { "log10_qvalue": 4.6, "log2_fc": 0.712 }
-      },
-      {
-        "compound": "RC00029805_3µM_24hr-RSQP0077",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.031 }
-      },
-      {
-        "compound": "RC00030292_3µM_24hr-RSQP0144",
-        "value": { "log10_qvalue": 4.535, "log2_fc": 0.627 }
-      },
-      { "compound": "RC00029799_0.03µM_24hr-RSQP0230", "value": null },
-      {
-        "compound": "RC00033159_3µM_24hr-RSQP0242",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.415 }
-      },
-      {
-        "compound": "RC00032963_3µM_24hr-RSQP0197",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.699 }
-      },
-      {
-        "compound": "RC00029799_1µM_24hr-RSQP0230",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.068 }
-      },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0223",
-        "value": { "log10_qvalue": 6.904, "log2_fc": -0.875 }
-      },
-      {
-        "compound": "RC00030047_3µM_24hr-RSQP0084",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.733 }
-      },
-      {
-        "compound": "RC00030040_3µM_24hr-RSQP0078",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.391 }
-      },
-      {
-        "compound": "RC00033141_3µM_24hr-RSQP0222",
-        "value": { "log10_qvalue": 4.275, "log2_fc": -0.665 }
-      },
-      {
-        "compound": "RC00030066_3µM_24hr-RSQP0213",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.038 }
-      },
-      {
-        "compound": "RC00029881_3µM_24hr-RSQP0075",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.143 }
-      },
-      { "compound": "RC00000385_3µM_24hr-RSQP0023", "value": null },
-      { "compound": "RC00000166_3µM_24hr-RSQP0040", "value": null },
-      {
-        "compound": "RC00014584_3µM_24hr-RSQP0096",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.25 }
-      },
-      { "compound": "RC00030033_0.025µM_24hr-RSQP0189", "value": null },
-      {
-        "compound": "RC00029799_3µM_24hr-RSQP0076",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.724 }
-      },
-      {
-        "compound": "RC00032966_3µM_24hr-RSQP0198",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.713 }
-      },
-      {
-        "compound": "RC00029808_3µM_24hr-RSQP0204",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.461 }
-      },
-      { "compound": "RC00000050_0.03µM_24hr-RSQP0229", "value": null },
-      {
-        "compound": "RC00030033_3µM_24hr-RSQP0094",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.512 }
-      },
-      { "compound": "RC00000050_0.03µM_24hr-RSQP0232", "value": null },
-      {
-        "compound": "RC00029799_3µM_24hr-RSQP0230",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.853 }
-      },
-      {
-        "compound": "RC00000449_3µM_24hr-RSQP0231",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.726 }
-      },
-      {
-        "compound": "RC00029873_3µM_24hr-RSQP0113",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.484 }
-      },
-      {
-        "compound": "RC00033089_3µM_24hr-RSQP0192",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.212 }
-      },
-      {
-        "compound": "RC00032810_3µM_24hr-RSQP0125",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.23 }
-      },
-      {
-        "compound": "RC00000449_3µM_24hr-RSQP0238",
-        "value": { "log10_qvalue": 3.683, "log2_fc": -0.204 }
-      },
-      { "compound": "RC00000449_0.03µM_24hr-RSQP0231", "value": null },
-      { "compound": "RC00000050_0.025µM_24hr-RSQP0190", "value": null },
-      {
-        "compound": "RC00033150_3µM_24hr-RSQP0224",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.736 }
-      },
-      {
-        "compound": "RC00014586_3µM_24hr-RSQP0083",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.697 }
-      },
-      {
-        "compound": "RC00029980_3µM_24hr-RSQP0149",
-        "value": { "log10_qvalue": 5.368, "log2_fc": 0.523 }
-      },
-      {
-        "compound": "RC00029972_3µM_24hr-RSQP0147",
-        "value": { "log10_qvalue": 2.761, "log2_fc": 0.233 }
-      },
-      {
-        "compound": "RC00030335_3µM_24hr-RSQP0215",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.89 }
-      },
-      {
-        "compound": "RC00029889_3µM_24hr-RSQP0080",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.064 }
-      },
-      {
-        "compound": "RC00032809_3µM_24hr-RSQP0124",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.408 }
-      },
-      {
-        "compound": "RC00032943_3µM_24hr-RSQP0195",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.432 }
-      },
-      { "compound": "RC00000028_0.03µM_24hr-RSQP0217", "value": null },
-      {
-        "compound": "RC00030337_3µM_24hr-RSQP0227",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.09 }
-      },
-      { "compound": "RC00030033_0.03µM_24hr-RSQP0233", "value": null },
-      {
-        "compound": "RC00032972_3µM_24hr-RSQP0191",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.829 }
-      },
-      {
-        "compound": "RC00033149_3µM_24hr-RSQP0219",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.697 }
-      },
-      {
-        "compound": "RC00033146_3µM_24hr-RSQP0221",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.887 }
-      },
-      { "compound": "RC00000028_3µM_6hr-RSQP0069", "value": null },
-      { "compound": "RC00030057_3µM_24hr-RSQP0088", "value": null },
-      {
-        "compound": "RC00030040_3µM_24hr-RSQP0240",
-        "value": { "log10_qvalue": 3.071, "log2_fc": -0.426 }
-      },
-      {
-        "compound": "RC00029923_3µM_24hr-RSQP0210",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.608 }
-      },
-      {
-        "compound": "RC00030049_3µM_24hr-RSQP0117",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.394 }
-      },
-      {
-        "compound": "RC00030264_3µM_24hr-RSQP0153",
-        "value": { "log10_qvalue": 2.744, "log2_fc": 0.431 }
-      },
-      {
-        "compound": "RC00030293_3µM_24hr-RSQP0145",
-        "value": { "log10_qvalue": 2.613, "log2_fc": 0.342 }
-      },
-      {
-        "compound": "RC00030261_3µM_24hr-RSQP0152",
-        "value": { "log10_qvalue": 3.614, "log2_fc": 0.313 }
-      },
-      {
-        "compound": "RC00000046_3µM_24hr-RSQP0025",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.309 }
-      },
-      { "compound": "RC00029962_3µM_24hr-RSQP0142", "value": null },
-      { "compound": "RC00000512_3µM_24hr-RSQP0057", "value": null },
-      {
-        "compound": "RC00000479_3µM_24hr-RSQP0050",
-        "value": { "log10_qvalue": 1.387, "log2_fc": -0.174 }
-      },
-      { "compound": "RC00000397_3µM_24hr-RSQP0052", "value": null },
-      { "compound": "RC00029964_3µM_24hr-RSQP0146", "value": null },
-      { "compound": "RC00029978_3µM_24hr-RSQP0148", "value": null },
-      { "compound": "RC00032801_3µM_24hr-RSQP0206", "value": null },
-      { "compound": "RC00000399_3µM_24hr-RSQP0024", "value": null },
-      { "compound": "RC00000050_0.0089µM_24hr-RSQP0106", "value": null },
-      { "compound": "RC00000059_3µM_24hr-RSQP0032", "value": null },
-      { "compound": "RC00000050_0.01814µM_24hr-RSQP0187", "value": null },
-      { "compound": "RC00000448_3µM_24hr-RSQP0053", "value": null },
-      { "compound": "RC00000219_3µM_24hr-RSQP0010", "value": null },
-      { "compound": "RC00000441_3µM_24hr-RSQP0049", "value": null },
-      { "compound": "RC00000050_0.01µM_24hr-RSQP0232", "value": null },
-      { "compound": "RC00000050_0.01µM_24hr-RSQP0229", "value": null },
-      { "compound": "RC00000449_0.01µM_24hr-RSQP0231", "value": null },
-      { "compound": "RC00030038_3µM_24hr-RSQP0087", "value": null },
-      { "compound": "RC00030033_0.01µM_24hr-RSQP0233", "value": null },
-      { "compound": "RC00000388_3µM_24hr-RSQP0041", "value": null },
-      { "compound": "RC00000464_3µM_24hr-RSQP0054", "value": null },
-      { "compound": "RC00029799_0.0026µM_24hr-RSQP0111", "value": null },
-      { "compound": "RC00032824_20µM_16hr-RSQP0200", "value": null },
-      { "compound": "RC00029984_3µM_24hr-RSQP0150", "value": null },
-      { "compound": "RC00029799_0.01µM_24hr-RSQP0230", "value": null },
-      { "compound": "RC00030033_0.000518µM_24hr-RSQP0188", "value": null },
-      { "compound": "RC00030260_3µM_24hr-RSQP0151", "value": null },
-      { "compound": "RC00000432_10µM_24hr-RSQP0017", "value": null },
-      { "compound": "RC00000449_0.003µM_24hr-RSQP0110", "value": null },
-      { "compound": "RC00030238_3µM_24hr-RSQP0139", "value": null },
-      { "compound": "RC00030248_3µM_24hr-RSQP0140", "value": null },
-      {
-        "compound": "RC00029814_3µM_24hr-RSQP0127",
-        "value": { "log10_qvalue": 1.314, "log2_fc": -0.166 }
-      },
-      { "compound": "RC00000394_3µM_24hr-RSQP0051", "value": null },
-      {
-        "compound": "RC00029813_3µM_24hr-RSQP0126",
-        "value": { "log10_qvalue": 2.411, "log2_fc": -0.179 }
-      },
-      { "compound": "RC00029955_3µM_24hr-RSQP0138", "value": null },
-      { "compound": "RC00000028_0.0023µM_24hr-RSQP0107", "value": null },
-      { "compound": "RC00000070_3µM_24hr-RSQP0034", "value": null },
-      { "compound": "RC00000053_3µM_24hr-RSQP0030", "value": null },
-      { "compound": "RC00000062_3µM_24hr-RSQP0007", "value": null },
-      {
-        "compound": "RC00029943_3µM_24hr-RSQP0134",
-        "value": { "log10_qvalue": 2.401, "log2_fc": -0.223 }
-      },
-      { "compound": "RC00000069_3µM_24hr-RSQP0033", "value": null },
-      { "compound": "RC00000224_0.0059µM_24hr-RSQP0109", "value": null },
-      {
-        "compound": "RC00029953_3µM_24hr-RSQP0137",
-        "value": { "log10_qvalue": 1.643, "log2_fc": -0.187 }
-      },
-      { "compound": "RC00000366_3µM_24hr-RSQP0037", "value": null },
-      { "compound": "RC00000047_3µM_24hr-RSQP0026", "value": null },
-      { "compound": "RC00000203_3µM_24hr-RSQP0038", "value": null },
-      {
-        "compound": "RC00029946_3µM_24hr-RSQP0135",
-        "value": { "log10_qvalue": 1.422, "log2_fc": -0.174 }
-      },
-      { "compound": "RC00000115_3µM_24hr-RSQP0036", "value": null },
-      {
-        "compound": "RC00029816_3µM_24hr-RSQP0128",
-        "value": { "log10_qvalue": 1.598, "log2_fc": -0.186 }
-      },
-      { "compound": "RC00000365_0.1243µM_24hr-RSQP0108", "value": null },
-      { "compound": "RC00000421_10µM_24hr-RSQP0015", "value": null },
-      { "compound": "RC00029949_3µM_24hr-RSQP0136", "value": null },
-      {
-        "compound": "RC00029818_3µM_24hr-RSQP0129",
-        "value": { "log10_qvalue": 4.418, "log2_fc": -0.319 }
-      },
-      { "compound": "RC00000060_3µM_24hr-RSQP0006", "value": null },
-      { "compound": "RC00000428_1µM_24hr-RSQP0016", "value": null },
-      { "compound": "RC00029898_3µM_24hr-RSQP0091", "value": null },
-      {
-        "compound": "RC00029932_3µM_24hr-RSQP0132",
-        "value": { "log10_qvalue": 1.886, "log2_fc": -0.193 }
-      },
-      { "compound": "RC00029833_3µM_24hr-RSQP0141", "value": null },
-      { "compound": "RC00000050_0.003µM_24hr-RSQP0229", "value": null },
-      {
-        "compound": "RC00030075_3µM_24hr-RSQP0073",
-        "value": { "log10_qvalue": 4.858, "log2_fc": 0.192 }
-      },
-      { "compound": "RC00000103_3µM_24hr-RSQP0035", "value": null },
-      {
-        "compound": "RC00032825_4µM_16hr-RSQP0201",
-        "value": { "log10_qvalue": 2.419, "log2_fc": -0.194 }
-      },
-      {
-        "compound": "RC00032933_4µM_16hr-RSQP0209",
-        "value": { "log10_qvalue": 2.32, "log2_fc": -0.174 }
-      },
-      { "compound": "RC00029910_3µM_24hr-RSQP0092", "value": null },
-      { "compound": "RC00030027_3µM_24hr-RSQP0247", "value": null },
-      { "compound": "RC00029807_3µM_24hr-RSQP0194", "value": null },
-      { "compound": "RC00029799_0.003µM_24hr-RSQP0230", "value": null },
-      { "compound": "RC00000148_1µM_24hr-RSQP0064", "value": null },
-      { "compound": "RC00000435_10µM_24hr-RSQP0018", "value": null },
-      { "compound": "RC00000449_0.003µM_24hr-RSQP0231", "value": null },
-      { "compound": "RC00000054_3µM_24hr-RSQP0031", "value": null },
-      { "compound": "RC00000142_10µM_24hr-RSQP0012", "value": null },
-      { "compound": "RC00000435_1µM_24hr-RSQP0018", "value": null },
-      { "compound": "RC00000034_3µM_24hr-RSQP0029", "value": null },
-      { "compound": "RC00000420_3µM_24hr-RSQP0014", "value": null },
-      { "compound": "RC00000421_1µM_24hr-RSQP0015", "value": null },
-      { "compound": "RC00000034_10µM_24hr-RSQP0019", "value": null },
-      { "compound": "RC00000052_3µM_24hr-RSQP0027", "value": null },
-      {
-        "compound": "RC00030315_3µM_24hr-RSQP0245",
-        "value": { "log10_qvalue": 4.095, "log2_fc": 0.204 }
-      },
-      { "compound": "RC00000432_1µM_24hr-RSQP0017", "value": null },
-      { "compound": "RC00000156_1µM_24hr-RSQP0067", "value": null },
-      {
-        "compound": "RC00029940_3µM_24hr-RSQP0133",
-        "value": { "log10_qvalue": 2.516, "log2_fc": -0.245 }
-      },
-      { "compound": "RC00029794_3µM_24hr-RSQP0102", "value": null },
-      { "compound": "RC00029820_3µM_24hr-RSQP0130", "value": null },
-      { "compound": "RC00000146_1µM_24hr-RSQP0013", "value": null },
-      { "compound": "RC00030023_3µM_24hr-RSQP0180", "value": null },
-      { "compound": "RC00000157_3µM_24hr-RSQP0248", "value": null },
-      { "compound": "RC00029822_3µM_24hr-RSQP0131", "value": null },
-      { "compound": "RC00000049_3µM_24hr-RSQP0028", "value": null },
-      { "compound": "RC00000034_1µM_24hr-RSQP0019", "value": null },
-      { "compound": "RC00030027_3µM_24hr-RSQP0181", "value": null },
-      { "compound": "RC00000157_1µM_24hr-RSQP0068", "value": null },
-      { "compound": "RC00000142_1µM_24hr-RSQP0012", "value": null },
-      { "compound": "RC00030071_3µM_24hr-RSQP0089", "value": null },
-      { "compound": "RC00000151_1µM_24hr-RSQP0066", "value": null },
-      { "compound": "RC00000151_10µM_24hr-RSQP0066", "value": null },
-      { "compound": "RC00030318_3µM_24hr-RSQP0183", "value": null },
-      { "compound": "RC00030313_3µM_24hr-RSQP0173", "value": null },
-      { "compound": "RC00030316_3µM_24hr-RSQP0182", "value": null },
-      { "compound": "RC00030270_3µM_24hr-RSQP0156", "value": null },
-      { "compound": "RC00000148_10µM_24hr-RSQP0064", "value": null },
-      { "compound": "RC00029904_3µM_24hr-RSQP0090", "value": null },
-      { "compound": "RC00000420_1µM_24hr-RSQP0014", "value": null },
-      {
-        "compound": "RC00030309_3µM_24hr-RSQP0171",
-        "value": { "log10_qvalue": 1.674, "log2_fc": 0.144 }
-      },
-      { "compound": "RC00030315_3µM_24hr-RSQP0174", "value": null },
-      { "compound": "RC00000428_10µM_24hr-RSQP0016", "value": null },
-      { "compound": "RC00030019_3µM_24hr-RSQP0177", "value": null },
-      { "compound": "RC00000156_10µM_24hr-RSQP0067", "value": null },
-      { "compound": "RC00030043_3µM_24hr-RSQP0086", "value": null },
-      { "compound": "RC00032811_3µM_24hr-RSQP0205", "value": null },
-      { "compound": "RC00000150_0.1µM_24hr-RSQP0065", "value": null },
-      { "compound": "RC00030310_3µM_24hr-RSQP0172", "value": null },
-      { "compound": "RC00000157_3µM_24hr-RSQP0068", "value": null },
-      { "compound": "RC00030273_3µM_24hr-RSQP0157", "value": null },
-      { "compound": "RC00030017_3µM_24hr-RSQP0176", "value": null },
-      { "compound": "RC00030299_3µM_24hr-RSQP0169", "value": null },
-      { "compound": "RC00000150_1µM_24hr-RSQP0065", "value": null },
-      { "compound": "RC00030295_3µM_24hr-RSQP0168", "value": null },
-      { "compound": "RC00029863_3µM_24hr-RSQP0175", "value": null },
-      { "compound": "RC00030020_3µM_24hr-RSQP0178", "value": null },
-      { "compound": "RC00030021_3µM_24hr-RSQP0179", "value": null },
-      { "compound": "RC00030300_3µM_24hr-RSQP0170", "value": null },
-      { "compound": "RC00029991_3µM_24hr-RSQP0164", "value": null },
-      { "compound": "RC00030005_3µM_24hr-RSQP0166", "value": null },
-      { "compound": "RC00030006_3µM_24hr-RSQP0167", "value": null },
-      { "compound": "RC00029996_3µM_24hr-RSQP0165", "value": null },
-      { "compound": "RC00030282_3µM_24hr-RSQP0158", "value": null },
-      { "compound": "RC00030268_3µM_24hr-RSQP0155", "value": null },
-      { "compound": "RC00029857_3µM_24hr-RSQP0163", "value": null },
-      { "compound": "RC00029846_3µM_24hr-RSQP0161", "value": null },
-      { "compound": "RC00029839_3µM_24hr-RSQP0160", "value": null },
-      { "compound": "RC00029854_3µM_24hr-RSQP0162", "value": null },
-      {
-        "compound": "RC00000506_50µM_96hr-RSQP0185",
-        "value": { "log10_qvalue": 2.386, "log2_fc": 0.246 }
-      },
-      {
-        "compound": "RC00000535_50µM_96hr-RSQP0186",
-        "value": { "log10_qvalue": 2.489, "log2_fc": 0.217 }
-      },
-      { "compound": "RC00029837_3µM_24hr-RSQP0159", "value": null },
-      {
-        "compound": "RC00000028_3µM_24hr-RSQP0217",
-        "value": { "log10_qvalue": 1.344, "log2_fc": -0.162 }
-      },
-      {
-        "compound": "RC00032920_0.2µM_16hr-RSQP0207",
-        "value": { "log10_qvalue": 10, "log2_fc": -0.495 }
-      },
-      {
-        "compound": "RC00032934_0.4µM_16hr-RSQP0208",
-        "value": { "log10_qvalue": 1.878, "log2_fc": -0.17 }
-      },
-      { "compound": "RC00033906_3µM_24hr-RSQP0407", "value": null },
-      { "compound": "RC00033149_0.1µM_24hr-RSQP0410", "value": null },
-      { "compound": "RC00033149_0.3µM_24hr-RSQP0410", "value": null },
-      { "compound": "RC00033942_3µM_24hr-RSQP0409", "value": null },
-      { "compound": "RC00033141_0.1µM_24hr-RSQP0411", "value": null },
-      { "compound": "RC00000050_3µM_24hr-RSQP0412", "value": null },
-      { "compound": "RC00033904_3µM_24hr-RSQP0408", "value": null },
-      { "compound": "RC00000146_3µM_24hr-RSQP0013", "value": null },
-      { "compound": "RC00033141_0.03µM_24hr-RSQP0411", "value": null },
-      { "compound": "RC00033149_0.03µM_24hr-RSQP0410", "value": null },
-      { "compound": "RC00033896_3µM_24hr-RSQP0405", "value": null },
-      { "compound": "RC00030077_3µM_24hr-RSQP0250", "value": null },
-      { "compound": "RC00033141_0.3µM_24hr-RSQP0411", "value": null },
-      { "compound": "RC00033149_0.01µM_24hr-RSQP0410", "value": null },
-      { "compound": "RC00033141_0.01µM_24hr-RSQP0411", "value": null },
-      { "compound": "RC00033900_3µM_24hr-RSQP0404", "value": null }
-    ]
+    "x": 0.39300522049342845,
+    "y": -2.2438054053986844,
+    "id": 240,
+    "smiles": "c1ccc(-c2ccccc2-c2ccccc2)cc1"
   },
   {
-    "gene": "MYB",
-    "compounds": [
-      { "compound": "RC00000050_3µM_24hr-RSQP0004", "value": null },
-      { "compound": "RC00000106_3µM_24hr-RSQP0009", "value": null },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0003",
-        "value": { "log10_qvalue": 8.314, "log2_fc": -1.495 }
-      },
-      {
-        "compound": "RC00000028_3µM_24hr-RSQP0235",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.646 }
-      },
-      {
-        "compound": "RC00000449_3µM_24hr-RSQP0234",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.588 }
-      },
-      {
-        "compound": "RC00000446_3µM_24hr-RSQP0021",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.612 }
-      },
-      {
-        "compound": "RC00000028_3µM_24hr-RSQP0104",
-        "value": { "log10_qvalue": 10, "log2_fc": -5.022 }
-      },
-      { "compound": "RC00000050_0.3µM_24hr-RSQP0232", "value": null },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0154",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.415 }
-      },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0226",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.049 }
-      },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0046",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.015 }
-      },
-      {
-        "compound": "RC00000028_3µM_24hr-RSQP0002",
-        "value": { "log10_qvalue": 5.344, "log2_fc": -2.202 }
-      },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0063",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.12 }
-      },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0112",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.692 }
-      },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0184",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.014 }
-      },
-      {
-        "compound": "RC00030040_3µM_24hr-RSQP0236",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.321 }
-      },
-      {
-        "compound": "RC00000384_3µM_24hr-RSQP0056",
-        "value": { "log10_qvalue": 5.604, "log2_fc": -1.17 }
-      },
-      {
-        "compound": "RC00000538_3µM_24hr-RSQP0059",
-        "value": { "log10_qvalue": 5.466, "log2_fc": -1.166 }
-      },
-      {
-        "compound": "RC00030033_0.3µM_24hr-RSQP0233",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.208 }
-      },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0216",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.164 }
-      },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0103",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.074 }
-      },
-      {
-        "compound": "RC00000106_3µM_24hr-RSQP0008",
-        "value": { "log10_qvalue": 4.29, "log2_fc": -2.989 }
-      },
-      {
-        "compound": "RC00000468_3µM_24hr-RSQP0047",
-        "value": { "log10_qvalue": 3.326, "log2_fc": -0.979 }
-      },
-      {
-        "compound": "RC00000519_3µM_24hr-RSQP0058",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.333 }
-      },
-      {
-        "compound": "RC00000539_3µM_24hr-RSQP0060",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.69 }
-      },
-      {
-        "compound": "RC00000028_3µM_12hr-RSQP0069",
-        "value": { "log10_qvalue": 3.745, "log2_fc": -1.983 }
-      },
-      {
-        "compound": "RC00000450_3µM_24hr-RSQP0048",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.39 }
-      },
-      {
-        "compound": "RC00029899_3µM_24hr-RSQP0114",
-        "value": { "log10_qvalue": 10, "log2_fc": -3.194 }
-      },
-      {
-        "compound": "RC00000438_3µM_24hr-RSQP0043",
-        "value": { "log10_qvalue": 7.599, "log2_fc": -1.545 }
-      },
-      {
-        "compound": "RC00032805_3µM_24hr-RSQP0123",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.9 }
-      },
-      {
-        "compound": "RC00000028_3µM_24hr-RSQP0069",
-        "value": { "log10_qvalue": 1.832, "log2_fc": -1.541 }
-      },
-      { "compound": "RC00000050_0.1µM_24hr-RSQP0232", "value": null },
-      {
-        "compound": "RC00000390_3µM_24hr-RSQP0042",
-        "value": { "log10_qvalue": 6.096, "log2_fc": -1.349 }
-      },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0199",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.843 }
-      },
-      {
-        "compound": "RC00000028_3µM_24hr-RSQP0001",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.789 }
-      },
-      {
-        "compound": "RC00030347_3µM_24hr-RSQP0122",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.245 }
-      },
-      {
-        "compound": "RC00000549_3µM_24hr-RSQP0062",
-        "value": { "log10_qvalue": 5.852, "log2_fc": -1.302 }
-      },
-      { "compound": "RC00000058_3µM_24hr-RSQP0005", "value": null },
-      {
-        "compound": "RC00029916_3µM_24hr-RSQP0115",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.898 }
-      },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0244",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.762 }
-      },
-      {
-        "compound": "RC00000392_3µM_24hr-RSQP0020",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.984 }
-      },
-      {
-        "compound": "RC00030072_3µM_24hr-RSQP0119",
-        "value": { "log10_qvalue": 10, "log2_fc": -3.677 }
-      },
-      {
-        "compound": "RC00000466_3µM_24hr-RSQP0237",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.944 }
-      },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0085",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.715 }
-      },
-      { "compound": "RC00000050_0.3µM_24hr-RSQP0229", "value": null },
-      {
-        "compound": "RC00030033_0.1µM_24hr-RSQP0233",
-        "value": { "log10_qvalue": 2.168, "log2_fc": -0.468 }
-      },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0229",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.953 }
-      },
-      {
-        "compound": "RC00029799_0.1µM_24hr-RSQP0230",
-        "value": { "log10_qvalue": 6.155, "log2_fc": -1.007 }
-      },
-      {
-        "compound": "RC00000125_3µM_24hr-RSQP0039",
-        "value": { "log10_qvalue": 2.045, "log2_fc": -0.766 }
-      },
-      {
-        "compound": "RC00029870_3µM_24hr-RSQP0098",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.788 }
-      },
-      {
-        "compound": "RC00014580_3µM_24hr-RSQP0074",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.195 }
-      },
-      {
-        "compound": "RC00030064_3µM_24hr-RSQP0203",
-        "value": { "log10_qvalue": 5.831, "log2_fc": -0.958 }
-      },
-      {
-        "compound": "RC00000050_1µM_24hr-RSQP0229",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.632 }
-      },
-      {
-        "compound": "RC00030332_3µM_24hr-RSQP0120",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.994 }
-      },
-      { "compound": "RC00000050_0.1µM_24hr-RSQP0190", "value": null },
-      {
-        "compound": "RC00029928_3µM_24hr-RSQP0214",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.678 }
-      },
-      {
-        "compound": "RC00000028_3µM_24hr-RSQP0249",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.707 }
-      },
-      {
-        "compound": "RC00029929_3µM_24hr-RSQP0212",
-        "value": { "log10_qvalue": 8.271, "log2_fc": -1.225 }
-      },
-      {
-        "compound": "RC00000365_3µM_24hr-RSQP0105",
-        "value": { "log10_qvalue": 4.397, "log2_fc": -4.371 }
-      },
-      { "compound": "RC00000050_0.1µM_24hr-RSQP0229", "value": null },
-      {
-        "compound": "RC00030060_3µM_24hr-RSQP0118",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.94 }
-      },
-      {
-        "compound": "RC00029922_3µM_24hr-RSQP0116",
-        "value": { "log10_qvalue": 4.397, "log2_fc": -1.065 }
-      },
-      { "compound": "RC00000231_3µM_24hr-RSQP0055", "value": null },
-      {
-        "compound": "RC00000449_0.1µM_24hr-RSQP0231",
-        "value": { "log10_qvalue": 1.746, "log2_fc": -0.548 }
-      },
-      {
-        "compound": "RC00032962_3µM_24hr-RSQP0196",
-        "value": { "log10_qvalue": 10, "log2_fc": -4.064 }
-      },
-      {
-        "compound": "RC00029799_0.3µM_24hr-RSQP0230",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.628 }
-      },
-      { "compound": "RC00030348_3µM_24hr-RSQP0202", "value": null },
-      {
-        "compound": "RC00000440_3µM_24hr-RSQP0044",
-        "value": { "log10_qvalue": 7.958, "log2_fc": -1.594 }
-      },
-      {
-        "compound": "RC00030033_0.1µM_24hr-RSQP0189",
-        "value": { "log10_qvalue": 9.447, "log2_fc": -1.049 }
-      },
-      {
-        "compound": "RC00029893_3µM_24hr-RSQP0100",
-        "value": { "log10_qvalue": 10, "log2_fc": -3.084 }
-      },
-      {
-        "compound": "RC00033093_3µM_24hr-RSQP0193",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.911 }
-      },
-      {
-        "compound": "RC00030030_3µM_24hr-RSQP0095",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.284 }
-      },
-      {
-        "compound": "RC00029896_3µM_24hr-RSQP0099",
-        "value": { "log10_qvalue": 10, "log2_fc": -3.838 }
-      },
-      {
-        "compound": "RC00000466_3µM_24hr-RSQP0241",
-        "value": { "log10_qvalue": 10, "log2_fc": -3.654 }
-      },
-      {
-        "compound": "RC00029880_3µM_24hr-RSQP0101",
-        "value": { "log10_qvalue": 10, "log2_fc": -3.219 }
-      },
-      {
-        "compound": "RC00000449_0.3µM_24hr-RSQP0231",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.608 }
-      },
-      {
-        "compound": "RC00030333_3µM_24hr-RSQP0121",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.793 }
-      },
-      {
-        "compound": "RC00030040_3µM_24hr-RSQP0246",
-        "value": { "log10_qvalue": 10, "log2_fc": -3.044 }
-      },
-      {
-        "compound": "RC00030072_3µM_24hr-RSQP0228",
-        "value": { "log10_qvalue": 10, "log2_fc": -4.441 }
-      },
-      {
-        "compound": "RC00000540_3µM_24hr-RSQP0061",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.612 }
-      },
-      {
-        "compound": "RC00033139_3µM_24hr-RSQP0220",
-        "value": { "log10_qvalue": 8.513, "log2_fc": -3.114 }
-      },
-      {
-        "compound": "RC00030055_3µM_24hr-RSQP0081",
-        "value": { "log10_qvalue": 10, "log2_fc": -3.683 }
-      },
-      {
-        "compound": "RC00030337_3µM_24hr-RSQP0082",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.909 }
-      },
-      {
-        "compound": "RC00000224_3µM_24hr-RSQP0011",
-        "value": { "log10_qvalue": 10, "log2_fc": -3.018 }
-      },
-      {
-        "compound": "RC00000449_1µM_24hr-RSQP0231",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.667 }
-      },
-      {
-        "compound": "RC00000466_3µM_24hr-RSQP0045",
-        "value": { "log10_qvalue": 10, "log2_fc": -3.004 }
-      },
-      {
-        "compound": "RC00030033_0.05µM_24hr-RSQP0189",
-        "value": { "log10_qvalue": 3.3, "log2_fc": -0.63 }
-      },
-      { "compound": "RC00000050_0.05µM_24hr-RSQP0190", "value": null },
-      {
-        "compound": "RC00000449_3µM_24hr-RSQP0022",
-        "value": { "log10_qvalue": 10, "log2_fc": -3.261 }
-      },
-      {
-        "compound": "RC00032932_3µM_24hr-RSQP0211",
-        "value": { "log10_qvalue": 10, "log2_fc": -3.295 }
-      },
-      {
-        "compound": "RC00033154_3µM_24hr-RSQP0225",
-        "value": { "log10_qvalue": 10, "log2_fc": -3.118 }
-      },
-      {
-        "compound": "RC00033164_3µM_24hr-RSQP0243",
-        "value": { "log10_qvalue": 10, "log2_fc": -3.353 }
-      },
-      {
-        "compound": "RC00000365_3µM_24hr-RSQP0072",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.744 }
-      },
-      {
-        "compound": "RC00030062_3µM_24hr-RSQP0097",
-        "value": { "log10_qvalue": 10, "log2_fc": -3.099 }
-      },
-      {
-        "compound": "RC00029890_3µM_24hr-RSQP0079",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.82 }
-      },
-      {
-        "compound": "RC00030044_3µM_24hr-RSQP0093",
-        "value": { "log10_qvalue": 1.448, "log2_fc": -0.382 }
-      },
-      {
-        "compound": "RC00000028_3µM_24hr-RSQP0239",
-        "value": { "log10_qvalue": 10, "log2_fc": -4.303 }
-      },
-      { "compound": "RC00030290_3µM_24hr-RSQP0143", "value": null },
-      {
-        "compound": "RC00029805_3µM_24hr-RSQP0077",
-        "value": { "log10_qvalue": 10, "log2_fc": -3.131 }
-      },
-      { "compound": "RC00030292_3µM_24hr-RSQP0144", "value": null },
-      { "compound": "RC00029799_0.03µM_24hr-RSQP0230", "value": null },
-      {
-        "compound": "RC00033159_3µM_24hr-RSQP0242",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.765 }
-      },
-      {
-        "compound": "RC00032963_3µM_24hr-RSQP0197",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.708 }
-      },
-      {
-        "compound": "RC00029799_1µM_24hr-RSQP0230",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.95 }
-      },
-      {
-        "compound": "RC00000050_3µM_24hr-RSQP0223",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.569 }
-      },
-      {
-        "compound": "RC00030047_3µM_24hr-RSQP0084",
-        "value": { "log10_qvalue": 10, "log2_fc": -3.324 }
-      },
-      {
-        "compound": "RC00030040_3µM_24hr-RSQP0078",
-        "value": { "log10_qvalue": 10, "log2_fc": -3.353 }
-      },
-      {
-        "compound": "RC00033141_3µM_24hr-RSQP0222",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.242 }
-      },
-      {
-        "compound": "RC00030066_3µM_24hr-RSQP0213",
-        "value": { "log10_qvalue": 10, "log2_fc": -3.293 }
-      },
-      {
-        "compound": "RC00029881_3µM_24hr-RSQP0075",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.88 }
-      },
-      { "compound": "RC00000385_3µM_24hr-RSQP0023", "value": null },
-      { "compound": "RC00000166_3µM_24hr-RSQP0040", "value": null },
-      {
-        "compound": "RC00014584_3µM_24hr-RSQP0096",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.707 }
-      },
-      {
-        "compound": "RC00030033_0.025µM_24hr-RSQP0189",
-        "value": { "log10_qvalue": 1.401, "log2_fc": -0.416 }
-      },
-      {
-        "compound": "RC00029799_3µM_24hr-RSQP0076",
-        "value": { "log10_qvalue": 10, "log2_fc": -3.636 }
-      },
-      {
-        "compound": "RC00032966_3µM_24hr-RSQP0198",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.84 }
-      },
-      {
-        "compound": "RC00029808_3µM_24hr-RSQP0204",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.669 }
-      },
-      { "compound": "RC00000050_0.03µM_24hr-RSQP0229", "value": null },
-      {
-        "compound": "RC00030033_3µM_24hr-RSQP0094",
-        "value": { "log10_qvalue": 10, "log2_fc": -4.088 }
-      },
-      { "compound": "RC00000050_0.03µM_24hr-RSQP0232", "value": null },
-      {
-        "compound": "RC00029799_3µM_24hr-RSQP0230",
-        "value": { "log10_qvalue": 10, "log2_fc": -3.362 }
-      },
-      {
-        "compound": "RC00000449_3µM_24hr-RSQP0231",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.732 }
-      },
-      {
-        "compound": "RC00029873_3µM_24hr-RSQP0113",
-        "value": { "log10_qvalue": 9.27, "log2_fc": -3.409 }
-      },
-      {
-        "compound": "RC00033089_3µM_24hr-RSQP0192",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.969 }
-      },
-      {
-        "compound": "RC00032810_3µM_24hr-RSQP0125",
-        "value": { "log10_qvalue": 10, "log2_fc": -3.459 }
-      },
-      {
-        "compound": "RC00000449_3µM_24hr-RSQP0238",
-        "value": { "log10_qvalue": 10, "log2_fc": -4.309 }
-      },
-      { "compound": "RC00000449_0.03µM_24hr-RSQP0231", "value": null },
-      { "compound": "RC00000050_0.025µM_24hr-RSQP0190", "value": null },
-      {
-        "compound": "RC00033150_3µM_24hr-RSQP0224",
-        "value": { "log10_qvalue": 10, "log2_fc": -3.932 }
-      },
-      {
-        "compound": "RC00014586_3µM_24hr-RSQP0083",
-        "value": { "log10_qvalue": 10, "log2_fc": -3.215 }
-      },
-      {
-        "compound": "RC00029980_3µM_24hr-RSQP0149",
-        "value": { "log10_qvalue": 1.801, "log2_fc": 0.464 }
-      },
-      { "compound": "RC00029972_3µM_24hr-RSQP0147", "value": null },
-      {
-        "compound": "RC00030335_3µM_24hr-RSQP0215",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.201 }
-      },
-      {
-        "compound": "RC00029889_3µM_24hr-RSQP0080",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.759 }
-      },
-      {
-        "compound": "RC00032809_3µM_24hr-RSQP0124",
-        "value": { "log10_qvalue": 10, "log2_fc": -3.373 }
-      },
-      {
-        "compound": "RC00032943_3µM_24hr-RSQP0195",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.991 }
-      },
-      {
-        "compound": "RC00000028_0.03µM_24hr-RSQP0217",
-        "value": { "log10_qvalue": 4.57, "log2_fc": -0.227 }
-      },
-      {
-        "compound": "RC00030337_3µM_24hr-RSQP0227",
-        "value": { "log10_qvalue": 10, "log2_fc": -4.852 }
-      },
-      { "compound": "RC00030033_0.03µM_24hr-RSQP0233", "value": null },
-      {
-        "compound": "RC00032972_3µM_24hr-RSQP0191",
-        "value": { "log10_qvalue": 10, "log2_fc": -3.112 }
-      },
-      {
-        "compound": "RC00033149_3µM_24hr-RSQP0219",
-        "value": { "log10_qvalue": 10, "log2_fc": -4.01 }
-      },
-      {
-        "compound": "RC00033146_3µM_24hr-RSQP0221",
-        "value": { "log10_qvalue": 10, "log2_fc": -4.532 }
-      },
-      {
-        "compound": "RC00000028_3µM_6hr-RSQP0069",
-        "value": { "log10_qvalue": 2.557, "log2_fc": -2.11 }
-      },
-      {
-        "compound": "RC00030057_3µM_24hr-RSQP0088",
-        "value": { "log10_qvalue": 2.57, "log2_fc": -0.488 }
-      },
-      {
-        "compound": "RC00030040_3µM_24hr-RSQP0240",
-        "value": { "log10_qvalue": 10, "log2_fc": -5.32 }
-      },
-      {
-        "compound": "RC00029923_3µM_24hr-RSQP0210",
-        "value": { "log10_qvalue": 10, "log2_fc": -2.719 }
-      },
-      {
-        "compound": "RC00030049_3µM_24hr-RSQP0117",
-        "value": { "log10_qvalue": 10, "log2_fc": -3.474 }
-      },
-      { "compound": "RC00030264_3µM_24hr-RSQP0153", "value": null },
-      { "compound": "RC00030293_3µM_24hr-RSQP0145", "value": null },
-      { "compound": "RC00030261_3µM_24hr-RSQP0152", "value": null },
-      { "compound": "RC00000046_3µM_24hr-RSQP0025", "value": null },
-      {
-        "compound": "RC00029962_3µM_24hr-RSQP0142",
-        "value": { "log10_qvalue": 3.559, "log2_fc": -0.861 }
-      },
-      { "compound": "RC00000512_3µM_24hr-RSQP0057", "value": null },
-      { "compound": "RC00000479_3µM_24hr-RSQP0050", "value": null },
-      { "compound": "RC00000397_3µM_24hr-RSQP0052", "value": null },
-      { "compound": "RC00029964_3µM_24hr-RSQP0146", "value": null },
-      { "compound": "RC00029978_3µM_24hr-RSQP0148", "value": null },
-      { "compound": "RC00032801_3µM_24hr-RSQP0206", "value": null },
-      {
-        "compound": "RC00000399_3µM_24hr-RSQP0024",
-        "value": { "log10_qvalue": 1.914, "log2_fc": -0.386 }
-      },
-      { "compound": "RC00000050_0.0089µM_24hr-RSQP0106", "value": null },
-      { "compound": "RC00000059_3µM_24hr-RSQP0032", "value": null },
-      { "compound": "RC00000050_0.01814µM_24hr-RSQP0187", "value": null },
-      { "compound": "RC00000448_3µM_24hr-RSQP0053", "value": null },
-      { "compound": "RC00000219_3µM_24hr-RSQP0010", "value": null },
-      { "compound": "RC00000441_3µM_24hr-RSQP0049", "value": null },
-      { "compound": "RC00000050_0.01µM_24hr-RSQP0232", "value": null },
-      { "compound": "RC00000050_0.01µM_24hr-RSQP0229", "value": null },
-      { "compound": "RC00000449_0.01µM_24hr-RSQP0231", "value": null },
-      {
-        "compound": "RC00030038_3µM_24hr-RSQP0087",
-        "value": { "log10_qvalue": 1.902, "log2_fc": -0.429 }
-      },
-      { "compound": "RC00030033_0.01µM_24hr-RSQP0233", "value": null },
-      { "compound": "RC00000388_3µM_24hr-RSQP0041", "value": null },
-      { "compound": "RC00000464_3µM_24hr-RSQP0054", "value": null },
-      { "compound": "RC00029799_0.0026µM_24hr-RSQP0111", "value": null },
-      { "compound": "RC00032824_20µM_16hr-RSQP0200", "value": null },
-      { "compound": "RC00029984_3µM_24hr-RSQP0150", "value": null },
-      { "compound": "RC00029799_0.01µM_24hr-RSQP0230", "value": null },
-      { "compound": "RC00030033_0.000518µM_24hr-RSQP0188", "value": null },
-      { "compound": "RC00030260_3µM_24hr-RSQP0151", "value": null },
-      { "compound": "RC00000432_10µM_24hr-RSQP0017", "value": null },
-      { "compound": "RC00000449_0.003µM_24hr-RSQP0110", "value": null },
-      { "compound": "RC00030238_3µM_24hr-RSQP0139", "value": null },
-      { "compound": "RC00030248_3µM_24hr-RSQP0140", "value": null },
-      { "compound": "RC00029814_3µM_24hr-RSQP0127", "value": null },
-      { "compound": "RC00000394_3µM_24hr-RSQP0051", "value": null },
-      { "compound": "RC00029813_3µM_24hr-RSQP0126", "value": null },
-      { "compound": "RC00029955_3µM_24hr-RSQP0138", "value": null },
-      { "compound": "RC00000028_0.0023µM_24hr-RSQP0107", "value": null },
-      { "compound": "RC00000070_3µM_24hr-RSQP0034", "value": null },
-      { "compound": "RC00000053_3µM_24hr-RSQP0030", "value": null },
-      { "compound": "RC00000062_3µM_24hr-RSQP0007", "value": null },
-      { "compound": "RC00029943_3µM_24hr-RSQP0134", "value": null },
-      { "compound": "RC00000069_3µM_24hr-RSQP0033", "value": null },
-      { "compound": "RC00000224_0.0059µM_24hr-RSQP0109", "value": null },
-      { "compound": "RC00029953_3µM_24hr-RSQP0137", "value": null },
-      { "compound": "RC00000366_3µM_24hr-RSQP0037", "value": null },
-      { "compound": "RC00000047_3µM_24hr-RSQP0026", "value": null },
-      { "compound": "RC00000203_3µM_24hr-RSQP0038", "value": null },
-      { "compound": "RC00029946_3µM_24hr-RSQP0135", "value": null },
-      { "compound": "RC00000115_3µM_24hr-RSQP0036", "value": null },
-      { "compound": "RC00029816_3µM_24hr-RSQP0128", "value": null },
-      { "compound": "RC00000365_0.1243µM_24hr-RSQP0108", "value": null },
-      { "compound": "RC00000421_10µM_24hr-RSQP0015", "value": null },
-      { "compound": "RC00029949_3µM_24hr-RSQP0136", "value": null },
-      { "compound": "RC00029818_3µM_24hr-RSQP0129", "value": null },
-      { "compound": "RC00000060_3µM_24hr-RSQP0006", "value": null },
-      { "compound": "RC00000428_1µM_24hr-RSQP0016", "value": null },
-      { "compound": "RC00029898_3µM_24hr-RSQP0091", "value": null },
-      { "compound": "RC00029932_3µM_24hr-RSQP0132", "value": null },
-      { "compound": "RC00029833_3µM_24hr-RSQP0141", "value": null },
-      { "compound": "RC00000050_0.003µM_24hr-RSQP0229", "value": null },
-      { "compound": "RC00030075_3µM_24hr-RSQP0073", "value": null },
-      { "compound": "RC00000103_3µM_24hr-RSQP0035", "value": null },
-      { "compound": "RC00032825_4µM_16hr-RSQP0201", "value": null },
-      { "compound": "RC00032933_4µM_16hr-RSQP0209", "value": null },
-      { "compound": "RC00029910_3µM_24hr-RSQP0092", "value": null },
-      { "compound": "RC00030027_3µM_24hr-RSQP0247", "value": null },
-      { "compound": "RC00029807_3µM_24hr-RSQP0194", "value": null },
-      { "compound": "RC00029799_0.003µM_24hr-RSQP0230", "value": null },
-      { "compound": "RC00000148_1µM_24hr-RSQP0064", "value": null },
-      { "compound": "RC00000435_10µM_24hr-RSQP0018", "value": null },
-      { "compound": "RC00000449_0.003µM_24hr-RSQP0231", "value": null },
-      { "compound": "RC00000054_3µM_24hr-RSQP0031", "value": null },
-      { "compound": "RC00000142_10µM_24hr-RSQP0012", "value": null },
-      { "compound": "RC00000435_1µM_24hr-RSQP0018", "value": null },
-      { "compound": "RC00000034_3µM_24hr-RSQP0029", "value": null },
-      { "compound": "RC00000420_3µM_24hr-RSQP0014", "value": null },
-      { "compound": "RC00000421_1µM_24hr-RSQP0015", "value": null },
-      { "compound": "RC00000034_10µM_24hr-RSQP0019", "value": null },
-      { "compound": "RC00000052_3µM_24hr-RSQP0027", "value": null },
-      { "compound": "RC00030315_3µM_24hr-RSQP0245", "value": null },
-      { "compound": "RC00000432_1µM_24hr-RSQP0017", "value": null },
-      { "compound": "RC00000156_1µM_24hr-RSQP0067", "value": null },
-      { "compound": "RC00029940_3µM_24hr-RSQP0133", "value": null },
-      { "compound": "RC00029794_3µM_24hr-RSQP0102", "value": null },
-      { "compound": "RC00029820_3µM_24hr-RSQP0130", "value": null },
-      { "compound": "RC00000146_1µM_24hr-RSQP0013", "value": null },
-      { "compound": "RC00030023_3µM_24hr-RSQP0180", "value": null },
-      { "compound": "RC00000157_3µM_24hr-RSQP0248", "value": null },
-      { "compound": "RC00029822_3µM_24hr-RSQP0131", "value": null },
-      { "compound": "RC00000049_3µM_24hr-RSQP0028", "value": null },
-      { "compound": "RC00000034_1µM_24hr-RSQP0019", "value": null },
-      { "compound": "RC00030027_3µM_24hr-RSQP0181", "value": null },
-      { "compound": "RC00000157_1µM_24hr-RSQP0068", "value": null },
-      { "compound": "RC00000142_1µM_24hr-RSQP0012", "value": null },
-      {
-        "compound": "RC00030071_3µM_24hr-RSQP0089",
-        "value": { "log10_qvalue": 4.017, "log2_fc": -0.647 }
-      },
-      { "compound": "RC00000151_1µM_24hr-RSQP0066", "value": null },
-      { "compound": "RC00000151_10µM_24hr-RSQP0066", "value": null },
-      { "compound": "RC00030318_3µM_24hr-RSQP0183", "value": null },
-      { "compound": "RC00030313_3µM_24hr-RSQP0173", "value": null },
-      { "compound": "RC00030316_3µM_24hr-RSQP0182", "value": null },
-      { "compound": "RC00030270_3µM_24hr-RSQP0156", "value": null },
-      { "compound": "RC00000148_10µM_24hr-RSQP0064", "value": null },
-      { "compound": "RC00029904_3µM_24hr-RSQP0090", "value": null },
-      { "compound": "RC00000420_1µM_24hr-RSQP0014", "value": null },
-      { "compound": "RC00030309_3µM_24hr-RSQP0171", "value": null },
-      { "compound": "RC00030315_3µM_24hr-RSQP0174", "value": null },
-      { "compound": "RC00000428_10µM_24hr-RSQP0016", "value": null },
-      { "compound": "RC00030019_3µM_24hr-RSQP0177", "value": null },
-      { "compound": "RC00000156_10µM_24hr-RSQP0067", "value": null },
-      { "compound": "RC00030043_3µM_24hr-RSQP0086", "value": null },
-      { "compound": "RC00032811_3µM_24hr-RSQP0205", "value": null },
-      { "compound": "RC00000150_0.1µM_24hr-RSQP0065", "value": null },
-      { "compound": "RC00030310_3µM_24hr-RSQP0172", "value": null },
-      { "compound": "RC00000157_3µM_24hr-RSQP0068", "value": null },
-      { "compound": "RC00030273_3µM_24hr-RSQP0157", "value": null },
-      { "compound": "RC00030017_3µM_24hr-RSQP0176", "value": null },
-      { "compound": "RC00030299_3µM_24hr-RSQP0169", "value": null },
-      { "compound": "RC00000150_1µM_24hr-RSQP0065", "value": null },
-      { "compound": "RC00030295_3µM_24hr-RSQP0168", "value": null },
-      { "compound": "RC00029863_3µM_24hr-RSQP0175", "value": null },
-      { "compound": "RC00030020_3µM_24hr-RSQP0178", "value": null },
-      { "compound": "RC00030021_3µM_24hr-RSQP0179", "value": null },
-      { "compound": "RC00030300_3µM_24hr-RSQP0170", "value": null },
-      { "compound": "RC00029991_3µM_24hr-RSQP0164", "value": null },
-      { "compound": "RC00030005_3µM_24hr-RSQP0166", "value": null },
-      { "compound": "RC00030006_3µM_24hr-RSQP0167", "value": null },
-      { "compound": "RC00029996_3µM_24hr-RSQP0165", "value": null },
-      { "compound": "RC00030282_3µM_24hr-RSQP0158", "value": null },
-      { "compound": "RC00030268_3µM_24hr-RSQP0155", "value": null },
-      { "compound": "RC00029857_3µM_24hr-RSQP0163", "value": null },
-      { "compound": "RC00029846_3µM_24hr-RSQP0161", "value": null },
-      { "compound": "RC00029839_3µM_24hr-RSQP0160", "value": null },
-      { "compound": "RC00029854_3µM_24hr-RSQP0162", "value": null },
-      {
-        "compound": "RC00000506_50µM_96hr-RSQP0185",
-        "value": { "log10_qvalue": 4.989, "log2_fc": 0.69 }
-      },
-      {
-        "compound": "RC00000535_50µM_96hr-RSQP0186",
-        "value": { "log10_qvalue": 4.009, "log2_fc": 0.578 }
-      },
-      { "compound": "RC00029837_3µM_24hr-RSQP0159", "value": null },
-      {
-        "compound": "RC00000028_3µM_24hr-RSQP0217",
-        "value": { "log10_qvalue": 10, "log2_fc": -1.61 }
-      },
-      {
-        "compound": "RC00032920_0.2µM_16hr-RSQP0207",
-        "value": { "log10_qvalue": 10, "log2_fc": -3.796 }
-      },
-      {
-        "compound": "RC00032934_0.4µM_16hr-RSQP0208",
-        "value": { "log10_qvalue": 10, "log2_fc": -6.135 }
-      },
-      { "compound": "RC00033906_3µM_24hr-RSQP0407", "value": null },
-      { "compound": "RC00033149_0.1µM_24hr-RSQP0410", "value": null },
-      { "compound": "RC00033149_0.3µM_24hr-RSQP0410", "value": null },
-      { "compound": "RC00033942_3µM_24hr-RSQP0409", "value": null },
-      { "compound": "RC00033141_0.1µM_24hr-RSQP0411", "value": null },
-      { "compound": "RC00000050_3µM_24hr-RSQP0412", "value": null },
-      { "compound": "RC00033904_3µM_24hr-RSQP0408", "value": null },
-      { "compound": "RC00000146_3µM_24hr-RSQP0013", "value": null },
-      { "compound": "RC00033141_0.03µM_24hr-RSQP0411", "value": null },
-      { "compound": "RC00033149_0.03µM_24hr-RSQP0410", "value": null },
-      { "compound": "RC00033896_3µM_24hr-RSQP0405", "value": null },
-      { "compound": "RC00030077_3µM_24hr-RSQP0250", "value": null },
-      { "compound": "RC00033141_0.3µM_24hr-RSQP0411", "value": null },
-      { "compound": "RC00033149_0.01µM_24hr-RSQP0410", "value": null },
-      { "compound": "RC00033141_0.01µM_24hr-RSQP0411", "value": null },
-      { "compound": "RC00033900_3µM_24hr-RSQP0404", "value": null }
-    ]
+    "x": -8.036783702747844,
+    "y": -9.906257027978276,
+    "id": 280,
+    "smiles": "c1ccc2cc3nc4c(ccn5ccnc45)cc3cc2c1"
+  },
+  {
+    "x": 7.923566993019662,
+    "y": 9.65851832581,
+    "id": 320,
+    "smiles": "c1ccc2c(c1)ccc1nc3ncccc3n12"
+  },
+  {
+    "x": -8.066946124210528,
+    "y": 6.176984432573548,
+    "id": 360,
+    "smiles": "c1ccc2c(c1)[nH]c1c2ncc2[nH]c3ccccc3c21"
+  },
+  {
+    "x": -8.567165541153905,
+    "y": 0.7276778578835206,
+    "id": 400,
+    "smiles": "Cn1cc2ccccc2c2c3ccccc3nc1-2.I"
+  },
+  {
+    "x": 0.07970258599248936,
+    "y": 1.7351453812128383,
+    "id": 440,
+    "smiles": "C[n+]1cccc2c3[nH]c4ccccc4c3ccc21.[I-]"
+  },
+  {
+    "x": 9.380171155968139,
+    "y": 1.7304985485185043,
+    "id": 480,
+    "smiles": "c1ccc2c3c(ccc2c1)-c1cccc2cccc-3c12"
+  },
+  {
+    "x": -3.8000896460718225,
+    "y": 5.5142841407142384,
+    "id": 520,
+    "smiles": "c1ccc(-c2c[nH]c3c4ccccc4nc-3c2-c2ccccc2)cc1"
+  },
+  {
+    "x": 3.004958764773594,
+    "y": 0.772970293297579,
+    "id": 560,
+    "smiles": "c1ccc(-c2ncnc3ccc(-c4cnc5ccccc5c4)cc23)cc1"
+  },
+  {
+    "x": -6.992640518256694,
+    "y": -0.16355301056879412,
+    "id": 600,
+    "smiles": "C[n+]1c2ccccc2cc2oc3ccccc3c21"
+  },
+  {
+    "x": -6.197297379469897,
+    "y": 9.237916621647248,
+    "id": 640,
+    "smiles": "Cn1c2nc3ccccc3c-2nc2ccccc21"
+  },
+  {
+    "x": 7.545527475657799,
+    "y": 6.632688605893225,
+    "id": 680,
+    "smiles": "c1coc(-c2nc3ccccc3c3nc4ccccc4n23)c1"
+  },
+  {
+    "x": -2.6640637269657264,
+    "y": 9.648144121568663,
+    "id": 720,
+    "smiles": "c1ccc(-c2ccc(-c3cc4ccccc4[nH]3)cc2)cc1"
+  },
+  {
+    "x": -0.5604163562221487,
+    "y": -1.0799746501177196,
+    "id": 760,
+    "smiles": "Cc1c2ccncc2cc2c1sc1ccncc12"
+  },
+  {
+    "x": -0.9655115233181366,
+    "y": -3.840680934267584,
+    "id": 800,
+    "smiles": "c1ccc(-c2nn3ccccc3c2-c2ccncc2)cc1"
+  },
+  {
+    "x": -8.182734851727322,
+    "y": 3.1768914456021733,
+    "id": 840,
+    "smiles": "COc1ccc2cc3nc4ccccc4c(-c4ccccc4)c3cc2c1.Cl"
+  },
+  {
+    "x": -6.4566260489154015,
+    "y": 9.218886868908193,
+    "id": 880,
+    "smiles": "c1cncc(-c2cc3ccccc3[nH]2)c1"
+  },
+  {
+    "x": 8.243890557843756,
+    "y": -9.040755384902344,
+    "id": 921,
+    "smiles": "c1ccc2sc(-c3nc4ccccc4s3)nc2c1"
+  },
+  {
+    "x": 7.624951274792995,
+    "y": -9.79529327699549,
+    "id": 961,
+    "smiles": "Cc1cc[n+](C)c2ccccc12.[I-]"
+  },
+  {
+    "x": -5.068661209463179,
+    "y": -3.146267038883259,
+    "id": 1001,
+    "smiles": "Cc1cccc2cc(-c3ccccc3)c(-c3ccccc3)c[n+]12"
+  },
+  {
+    "x": 0.47700286335443565,
+    "y": 5.853346603992385,
+    "id": 1041,
+    "smiles": "Cc1cc(-c2ccccc2)c2ccc3c(-c4ccccc4)cc(C)nc3c2n1"
+  },
+  {
+    "x": -1.171575200563293,
+    "y": 5.976208789598939,
+    "id": 1081,
+    "smiles": "C(=C\\c1cccc2ccccc12)\\c1ccc2ccccc2c1"
+  },
+  {
+    "x": -0.500726532422803,
+    "y": 8.486864465317932,
+    "id": 1121,
+    "smiles": "Cc1cccn2c1cc1c3ccccc3nc(-c3ccco3)c12"
+  },
+  {
+    "x": -9.047358864059433,
+    "y": -3.946058979973781,
+    "id": 1161,
+    "smiles": "Cc1ccc2c(c1)[nH]c1cc(-c3ccccc3)ccc12"
+  },
+  {
+    "x": -9.037644018526198,
+    "y": -7.628916071083021,
+    "id": 1201,
+    "smiles": "c1ccc(-c2nc(-c3ccncc3)[nH]c2-c2ccccc2)cc1"
+  },
+  {
+    "x": 6.00066877736932,
+    "y": 3.9617888520398026,
+    "id": 1241,
+    "smiles": "c1cc(-c2ccn3cncc3c2)c2cc[nH]c2n1"
+  },
+  {
+    "x": 5.592827892524209,
+    "y": -1.7529606869101766,
+    "id": 1281,
+    "smiles": "Cc1ccc2ccc(-c3ccccn3)cc2n1"
+  },
+  {
+    "x": 8.146800275059192,
+    "y": -0.3887979952792584,
+    "id": 1321,
+    "smiles": "c1ccc(-c2cncnc2-c2cccs2)cc1"
+  },
+  {
+    "x": 7.046755068555946,
+    "y": 1.229451281561813,
+    "id": 1361,
+    "smiles": "c1ccc(-c2cnn3c(-c4ccccc4)c(-c4ccccc4)nc3n2)cc1"
+  },
+  {
+    "x": -8.036519233346816,
+    "y": -2.1621963218182083,
+    "id": 1401,
+    "smiles": "c1ccc(-c2nccc(-c3ccncc3)n2)cc1"
+  },
+  {
+    "x": -5.503649661840417,
+    "y": 8.124023628215351,
+    "id": 1441,
+    "smiles": "Cc1ccc(-c2ccnc(-c3cccc(-c4ccccn4)n3)c2)cc1"
+  },
+  {
+    "x": 6.562150258077871,
+    "y": 1.1544443321621412,
+    "id": 1481,
+    "smiles": "Cc1cc(C)c2c(c1)c1ccccc1c[n+]2C.[Cl-]"
+  },
+  {
+    "x": 1.584426644126932,
+    "y": 8.135193772690634,
+    "id": 1521,
+    "smiles": "c1cc(-c2ccoc2)n2ccnc2c1"
+  },
+  {
+    "x": -2.985473990310279,
+    "y": 0.07159309173120931,
+    "id": 1561,
+    "smiles": "c1ccc2[nH]c(-c3cnccn3)nc2c1"
+  },
+  {
+    "x": -3.9480880650807038,
+    "y": -4.217191565399294,
+    "id": 1601,
+    "smiles": "c1ccc(-c2[nH]ncc2-c2nc3ccccc3[nH]2)cc1"
+  },
+  {
+    "x": -0.12708090974778763,
+    "y": 8.84443466715663,
+    "id": 1642,
+    "smiles": "Cc1nc2cc3ccccc3cc2s1"
+  },
+  {
+    "x": -9.923938998932265,
+    "y": 4.63001548264157,
+    "id": 1682,
+    "smiles": "Cc1nc2c(ccc3[nH]c4ccccc4c32)s1"
+  },
+  {
+    "x": -3.628085380869832,
+    "y": 3.4447425234804996,
+    "id": 1722,
+    "smiles": "Cc1ccc(-c2nc3ccccc3s2)cc1"
+  },
+  {
+    "x": 5.622511433436554,
+    "y": 0.34010159035446463,
+    "id": 1762,
+    "smiles": "Clc1ccc2nc(-c3c[nH]c4ccccc34)cc(-c3ccccc3)c2c1"
+  },
+  { "x": 6.736632236109582, "y": -9.276742912638314, "id": 1802, "smiles": "Cc1cnc2ncc3sccc3c2c1" },
+  {
+    "x": 9.35666751406314,
+    "y": 8.719283386654304,
+    "id": 1842,
+    "smiles": "c1ccc(-c2nc3ccc(Nc4ccnc5ccccc45)cc3[nH]2)cc1"
+  },
+  {
+    "x": -4.96653179651104,
+    "y": -3.3634044325569246,
+    "id": 1882,
+    "smiles": "C[n+]1c2ccccc2c(Cl)c2sc3ccccc3c21"
+  },
+  {
+    "x": 9.835876575837503,
+    "y": -6.844359362468526,
+    "id": 1922,
+    "smiles": "COc1ccc2c(-c3nccc4c3[nH]c3ccccc34)ccnc2c1"
+  },
+  {
+    "x": -4.1672835373281325,
+    "y": 0.24656364112852103,
+    "id": 1962,
+    "smiles": "Cc1ccc(Nc2c3ccccc3nc3ccccc23)cc1"
+  },
+  {
+    "x": 5.8775685845323355,
+    "y": 7.9926294319415945,
+    "id": 2002,
+    "smiles": "Clc1ccccc1-c1cc(-c2c[nH]c3ccccc23)nc(-c2c[nH]c3ccccc23)c1"
+  },
+  {
+    "x": -2.949252868358352,
+    "y": -8.850815734813061,
+    "id": 2042,
+    "smiles": "Cc1nc2cc(-c3nc4cc(-c5nc6cc(-c7ccccc7)ccc6[nH]5)ccc4[nH]3)ccc2[nH]1"
+  },
+  {
+    "x": 1.8829781487742725,
+    "y": -8.485243688504385,
+    "id": 2082,
+    "smiles": "COc1c(-c2ccccc2)sc2ccccc12"
+  },
+  {
+    "x": 5.717857614047697,
+    "y": 6.856715812336041,
+    "id": 2122,
+    "smiles": "Cc1cccc2nc(-c3cccs3)[nH]c12"
+  },
+  {
+    "x": -6.386117803327327,
+    "y": -1.9151659593265649,
+    "id": 2162,
+    "smiles": "Nc1ccc(-c2[nH]c3ccccc3c2-c2ccccc2)cc1"
+  },
+  {
+    "x": 8.11981549484782,
+    "y": 8.685481714341478,
+    "id": 2202,
+    "smiles": "Cc1ccc2nc3nc4c(C)cccc4c(N)c3cc2c1"
+  },
+  {
+    "x": -5.158881889732552,
+    "y": 6.648271161479528,
+    "id": 2242,
+    "smiles": "C(=C/c1c[nH]c2ccccc12)\\c1ccnc2ccccc12"
+  },
+  { "x": -8.170759646685038, "y": 8.382984036170921, "id": 2282, "smiles": "c1cc(-c2ccncn2)ccn1" },
+  {
+    "x": 7.340365531464677,
+    "y": -4.335969616985178,
+    "id": 2322,
+    "smiles": "CNc1nc2cnc(-c3cccc4ccccc34)cc2n1-c1ccccc1"
+  },
+  {
+    "x": 1.0694091119296765,
+    "y": -4.674524972404588,
+    "id": 2362,
+    "smiles": "c1ccc(-c2nc3cc(-n4ccnc4)ccc3[nH]2)nc1"
+  },
+  {
+    "x": 6.318455663506658,
+    "y": -0.5306406016657927,
+    "id": 2402,
+    "smiles": "Nc1nc2ccccc2n1-c1ccccc1"
+  },
+  {
+    "x": -9.4536544707378,
+    "y": 6.313393805786834,
+    "id": 2442,
+    "smiles": "c1ccc2c(-c3cnc4cnc(-c5cn[nH]c5)cn34)c[nH]c2c1"
+  },
+  {
+    "x": 2.3371172104264595,
+    "y": 2.790539156512807,
+    "id": 2482,
+    "smiles": "Cc1cccc(-n2c(-c3ccco3)nc3nc4ccccc4nc32)c1"
+  },
+  {
+    "x": -0.465315675063005,
+    "y": 5.317708715792229,
+    "id": 2522,
+    "smiles": "Cl.Nc1ccccc1-c1nc2ccc[nH]c-2n1"
+  },
+  {
+    "x": -2.681093370997192,
+    "y": -7.054181518608065,
+    "id": 2562,
+    "smiles": "Cc1ccc2c(c1)-c1nc3cnc4ccccc4c3cc1CO2.Cl"
+  },
+  {
+    "x": 3.397177551892483,
+    "y": -0.5601542225034315,
+    "id": 2602,
+    "smiles": "Nc1cccc2c(-c3ccncc3)c[nH]c12"
+  },
+  {
+    "x": -8.923870072845146,
+    "y": 0.3623552398253729,
+    "id": 2642,
+    "smiles": "Cc1cc(-c2c[nH]c3cnccc23)ccn1"
+  },
+  {
+    "x": 7.494495505393665,
+    "y": -4.610962056713963,
+    "id": 2682,
+    "smiles": "Cc1ccc(-c2csc3nc(-c4cc5ccccc5o4)cn23)cc1"
+  },
+  {
+    "x": -4.0818806283293085,
+    "y": 9.352433209352917,
+    "id": 2722,
+    "smiles": "C[n+]1c2cccc(Cl)c2cc2sc3ccccc3c21"
+  },
+  {
+    "x": -4.161452124548517,
+    "y": 6.2763774414230475,
+    "id": 2762,
+    "smiles": "c1ccc(Cn2c(-c3ccccn3)nc3ccccc32)cc1"
+  },
+  {
+    "x": 3.0804202464172903,
+    "y": 3.1578517525698757,
+    "id": 2802,
+    "smiles": "Nc1ncc(-c2ccccc2)cc1-c1nc2ccccc2[nH]1"
+  },
+  {
+    "x": -8.967189260198545,
+    "y": 2.204836229395797,
+    "id": 2843,
+    "smiles": "C[n+]1cc2ccccc2c2cc(F)ccc21.[Cl-]"
+  },
+  {
+    "x": 5.044676359485077,
+    "y": 3.491250374416591,
+    "id": 2883,
+    "smiles": "Nc1ccc(-c2nc(-c3ccccc3)c(-c3ccccc3)[nH]2)cc1"
+  },
+  {
+    "x": 6.578044476032385,
+    "y": -4.721710693388599,
+    "id": 2923,
+    "smiles": "c1ccc(-c2cc(-c3cc(-c4ccccc4)[nH]n3)[nH]n2)cc1"
+  },
+  {
+    "x": -5.729055154406799,
+    "y": 6.763663362327211,
+    "id": 2963,
+    "smiles": "Cc1ccncc1-c1cccc2c1ncn2-c1ccncn1"
+  },
+  {
+    "x": 2.3116307969993386,
+    "y": -6.728076044208278,
+    "id": 3003,
+    "smiles": "COc1cccc(-c2nc3ccc(-c4ccsc4)cn3c2-c2cccc(-c3ccccc3)c2)c1"
+  },
+  {
+    "x": 4.487145575111352,
+    "y": -6.716717296754431,
+    "id": 3043,
+    "smiles": "Cn1c(-c2cccs2)cc(-c2ccsc2)c1-c1cccs1"
+  },
+  {
+    "x": 1.8628249968193842,
+    "y": 3.6462179134792407,
+    "id": 3083,
+    "smiles": "Nc1ccc2c(Nc3ccccc3)c3ccccc3nc2c1"
+  },
+  {
+    "x": -0.08322459465624732,
+    "y": 4.246979255182527,
+    "id": 3123,
+    "smiles": "c1ccc2c(c1)ncn2-c1ccc(-c2ccnc3ncnn23)cc1"
+  },
+  {
+    "x": 2.546448287912849,
+    "y": 6.684024955329271,
+    "id": 3163,
+    "smiles": "Clc1ccc(-c2nc3ccccc3c3cc4ccccn4c23)s1"
+  },
+  {
+    "x": -6.015107021600841,
+    "y": -3.124371331721165,
+    "id": 3203,
+    "smiles": "COc1ccc(-c2cn3ccc4ccccc4c3n2)cc1"
+  },
+  {
+    "x": 3.318637046120397,
+    "y": -1.9595895265925698,
+    "id": 3243,
+    "smiles": "Clc1cccc(-c2ccc(-c3ccc(-c4nc5ccccc5[nH]4)cc3)cc2)c1"
+  },
+  {
+    "x": 5.2352805945393435,
+    "y": 5.918040317400294,
+    "id": 3283,
+    "smiles": "Nc1nc(-c2cc3c(ccc4ccccc43)nc2Cl)c2ccc3c4ccccc4[nH]c3c2n1"
+  },
+  {
+    "x": 9.326987602358887,
+    "y": -8.181204372700265,
+    "id": 3323,
+    "smiles": "Nc1cc(-c2cn(-c3ccccc3)c3cnccc23)ccn1"
+  },
+  {
+    "x": 4.926816294469138,
+    "y": 8.273985014508494,
+    "id": 3363,
+    "smiles": "Cn1c(-c2ccc3ncn(Cc4ccc(-c5ccccc5)cc4)c3c2)nc2ccccc21"
+  },
+  {
+    "x": -9.825136630940206,
+    "y": 1.8643149534150503,
+    "id": 3403,
+    "smiles": "Cc1cc2c(sc3c(C)ccc(C)c32)c(C)n1.Cl"
+  },
+  {
+    "x": 3.085540218544649,
+    "y": -5.325719510071307,
+    "id": 3443,
+    "smiles": "Cc1ccccc1Nc1ccnc2[nH]c3ccccc3c12"
+  },
+  {
+    "x": -0.6736419132841753,
+    "y": -0.9024613161853434,
+    "id": 3483,
+    "smiles": "c1ccc(Oc2csc3ccccc23)cc1"
+  },
+  {
+    "x": -4.634272615734374,
+    "y": 8.415512074434886,
+    "id": 3523,
+    "smiles": "Cl.Nc1ncc(-c2cccnc2)cc1-c1nc2ccccc2o1"
+  },
+  {
+    "x": 7.6394137837941685,
+    "y": 8.72799845553121,
+    "id": 3563,
+    "smiles": "Cc1cccc(Nc2ncnc3ccccc23)c1.Cl"
+  },
+  {
+    "x": -3.6789086414632433,
+    "y": 0.9321492329382508,
+    "id": 3603,
+    "smiles": "c1csc(-c2ccc(-c3cncnc3)s2)c1"
+  },
+  {
+    "x": 2.095341906482844,
+    "y": -7.987606528678066,
+    "id": 3643,
+    "smiles": "C[n+]1c2cccc(Cl)c2cc2[nH]c3ccccc3c21"
+  },
+  {
+    "x": 8.661535491634751,
+    "y": -9.012936956451076,
+    "id": 3683,
+    "smiles": "c1ccc(Nc2ncnc3ccc(-c4cccnc4)cc23)cc1"
+  },
+  {
+    "x": -7.2497852073844316,
+    "y": 4.924569653702434,
+    "id": 3723,
+    "smiles": "c1cncc(-c2csc(-c3cncs3)c2)c1"
+  },
+  {
+    "x": 4.882749418481257,
+    "y": -3.7029784867916593,
+    "id": 3763,
+    "smiles": "Clc1ccc(-c2ccc3ccn4ccnc4c3n2)cc1"
+  },
+  { "x": 5.848026530405953, "y": -8.666309306576654, "id": 3803, "smiles": "CNc1ccc2ccccc2c1" },
+  {
+    "x": 4.7668707116507925,
+    "y": 1.7789809789781863,
+    "id": 3843,
+    "smiles": "Clc1nc(-n2ccnc2)c2ccccc2c1-c1ccccc1"
+  },
+  {
+    "x": 0.6995464557696671,
+    "y": 0.5040366178235232,
+    "id": 3883,
+    "smiles": "Nc1c(-c2ccccc2)nc2ncccn12"
+  },
+  {
+    "x": -4.919340794068496,
+    "y": 5.24428854918261,
+    "id": 3923,
+    "smiles": "c1coc(-c2cc(-c3ccco3)nc(-c3ccco3)c2)c1"
+  },
+  {
+    "x": 3.411014285934497,
+    "y": 9.01653364628201,
+    "id": 3963,
+    "smiles": "Cc1cc2cc[n+](Cc3ccccc3)c3c2c(n1)-c1ccccc1-3.[Br-]"
+  },
+  {
+    "x": -3.6689093376111703,
+    "y": 0.6850429082389944,
+    "id": 4003,
+    "smiles": "c1ccc(-c2c3c(nc4ccccc24)CCCC3)cc1"
+  },
+  {
+    "x": 9.946540787349264,
+    "y": 7.897400537339717,
+    "id": 4043,
+    "smiles": "O=c1cc(-c2ccccc2)oc2cc3ccccc3cc12"
+  },
+  {
+    "x": 6.031389828934465,
+    "y": -8.492199453122327,
+    "id": 4083,
+    "smiles": "c1ccc2c(NCCc3c[nH]c4ccccc34)c3ccccc3nc2c1"
+  },
+  {
+    "x": -0.11809763385531191,
+    "y": 5.051039116540474,
+    "id": 4123,
+    "smiles": "c1coc(-c2nc3[nH]ncc3cc2-c2ccncn2)c1"
+  },
+  {
+    "x": -8.206346418430964,
+    "y": 1.8761151607798645,
+    "id": 4163,
+    "smiles": "Cc1nn(C)c2nc3ccccc3c(N)c12.Cl"
+  },
+  {
+    "x": -2.210990405213189,
+    "y": -5.932328510845535,
+    "id": 4203,
+    "smiles": "O=c1c2ccccc2[nH]c2nc3ccccc3c(Nc3ccccc3)c12"
+  },
+  { "x": -6.201016206379979, "y": -2.114806392285251, "id": 4243, "smiles": "Cc1cc2nccc(C)c2cc1C" },
+  {
+    "x": 9.373928137571411,
+    "y": -7.068581566943237,
+    "id": 4283,
+    "smiles": "c1ccc(-c2cc(-c3cc(-c4ccccn4)[nH]n3)n[nH]2)nc1"
+  },
+  { "x": -7.486515122925912, "y": 2.6859914402479212, "id": 4323, "smiles": "Cc1ccc2ccncc2c1N" },
+  {
+    "x": -8.776760431350908,
+    "y": 5.409081765718735,
+    "id": 4363,
+    "smiles": "Cc1nc(-c2ccccc2-c2ccccc2)[nH]c1C"
+  },
+  { "x": 9.600688079336777, "y": -2.026773646853335, "id": 4403, "smiles": "c1ncc(-c2ccsc2)cn1" },
+  {
+    "x": -4.266899055008864,
+    "y": 1.5357929462760609,
+    "id": 4443,
+    "smiles": "[Br-].c1ccc2c(CC[n+]3cccc(-c4c[nH]c5ccccc45)c3)c[nH]c2c1"
+  },
+  {
+    "x": -0.7518005103847702,
+    "y": 5.058410402424904,
+    "id": 4483,
+    "smiles": "c1cncc(-c2cc(-c3ccncc3)c3c(n2)-c2ccsc2CC3)c1"
+  },
+  {
+    "x": 1.605275521120575,
+    "y": 0.0005778316919347048,
+    "id": 4523,
+    "smiles": "Nc1nnc(-c2ccccc2)c2c(-c3ccccc3)n(-c3ccccc3)nc12"
+  },
+  {
+    "x": -6.32959797051686,
+    "y": -7.536970869549746,
+    "id": 4563,
+    "smiles": "c1ccc(-n2nnc3cnccc32)cc1"
+  },
+  {
+    "x": -6.659212612513539,
+    "y": 2.1147666688702493,
+    "id": 4603,
+    "smiles": "C(=C/c1ccc(-c2nc3ccccc3[nH]2)cc1)\\c1ccccc1"
+  },
+  {
+    "x": -3.9481255438240925,
+    "y": 3.7192682544083855,
+    "id": 4643,
+    "smiles": "COc1ccc2cc(-c3nc(-c4ccccc4C)[nH]c3-c3ccncc3)ccc2c1"
+  },
+  {
+    "x": 5.611957478790233,
+    "y": 5.9799572082028085,
+    "id": 4683,
+    "smiles": "Nc1nc(-c2ccccc2)c(-c2ccccc2)s1"
+  },
+  {
+    "x": -6.853321829686658,
+    "y": -3.1583898320957715,
+    "id": 4723,
+    "smiles": "Cn1cc(-c2cnc3cnc(-c4ccccc4)cn23)cn1"
+  },
+  {
+    "x": -7.420877577300078,
+    "y": 1.2137866051581412,
+    "id": 4763,
+    "smiles": "C[n+]1cc(-c2ccccc2)oc1-c1ccccc1"
+  },
+  {
+    "x": -8.162566805649263,
+    "y": -7.471337273953025,
+    "id": 4803,
+    "smiles": "c1cc2c3c(c1)-c1cccc4nc5ccccc5c(c14)N3CC2"
+  },
+  {
+    "x": -1.1342817646688843,
+    "y": 7.6817029440698406,
+    "id": 4843,
+    "smiles": "NCCc1c(-c2ccccc2)n(-c2ccccc2)c2ccccc12"
+  },
+  {
+    "x": 4.568905186385157,
+    "y": -4.640213931740997,
+    "id": 4883,
+    "smiles": "Nc1ccccc1-c1nc2ccc[nH]c-2n1"
+  },
+  {
+    "x": 7.6465134554980025,
+    "y": -7.823619912455211,
+    "id": 4923,
+    "smiles": "Cn1ccnc1-c1cc(-c2cccc3ccccc23)nn1C"
+  },
+  {
+    "x": -0.8777727708657359,
+    "y": 7.722757889946447,
+    "id": 4963,
+    "smiles": "Clc1ccc2c(-c3cnn(-c4ccccc4)c3)ccnc2c1"
+  },
+  {
+    "x": -1.4145532383472457,
+    "y": -5.118062037087836,
+    "id": 5003,
+    "smiles": "Nc1nc2ccc(-c3ccccc3)cc2s1"
+  },
+  {
+    "x": 5.305305380259098,
+    "y": 2.680560324829635,
+    "id": 5043,
+    "smiles": "O=c1oc2ccccc2c2c1cc(-c1ccccc1)n2-c1ccccc1"
+  },
+  {
+    "x": -7.684695363537388,
+    "y": -1.667203702648612,
+    "id": 5083,
+    "smiles": "c1ccc2c(c1)NCc1c[nH]c3nccc-2c13"
+  },
+  {
+    "x": 5.516997788756704,
+    "y": 0.008031560057425224,
+    "id": 5123,
+    "smiles": "Fc1cccc(-c2[nH]c(-c3ccccc3)nc2-c2ccncc2)c1"
+  },
+  {
+    "x": -4.657498221656637,
+    "y": -5.623918716684009,
+    "id": 5163,
+    "smiles": "c1ccc(-c2[nH]c(-c3ccccc3)c3c2CCC3)cc1"
+  },
+  {
+    "x": -6.275289989073181,
+    "y": -5.849714625638871,
+    "id": 5203,
+    "smiles": "c1ccc2c(C(c3c[nH]c4ccccc34)c3c[nH]c4ccccc34)c[nH]c2c1"
+  },
+  {
+    "x": 4.31959450964972,
+    "y": -6.55020338762871,
+    "id": 5243,
+    "smiles": "COc1ccc2[nH]c3c(C)c4ccncc4c(C)c3c2c1"
+  },
+  {
+    "x": -8.020611697744355,
+    "y": -4.239240009948073,
+    "id": 5283,
+    "smiles": "Clc1ccc(-c2nn(-c3ccc4ccccc4n3)c3ncncc23)cc1"
+  },
+  {
+    "x": -2.8960578398173187,
+    "y": 0.3715172760326233,
+    "id": 5323,
+    "smiles": "c1ccc(Cn2c(-c3cscn3)nc3ccccc32)cc1"
+  },
+  {
+    "x": -0.3447040794873413,
+    "y": 3.918028695900979,
+    "id": 5363,
+    "smiles": "Fc1cccc(-n2cc(-c3ccnc4ccccc34)cn2)c1"
+  },
+  {
+    "x": -9.721764775757634,
+    "y": -2.5492666666021213,
+    "id": 5403,
+    "smiles": "COc1ccc(OC)c(-c2nc3ccccc3nc2-c2ccccc2)c1"
+  },
+  {
+    "x": 5.799953105543757,
+    "y": -5.94179956088313,
+    "id": 5443,
+    "smiles": "Clc1ccccc1-c1ccc2nccn2c1"
+  },
+  {
+    "x": -4.046287476548769,
+    "y": 5.9187242231123385,
+    "id": 5483,
+    "smiles": "C[n+]1c2ccccc2c(Nc2cccc(N)c2)c2ccccc21"
+  },
+  {
+    "x": -9.705398483937113,
+    "y": 7.929993331602667,
+    "id": 5523,
+    "smiles": "C[n+]1ccc(/C=C/c2cc[n+](C)c3ccccc23)c2ccccc21"
+  },
+  {
+    "x": 3.8330604889412268,
+    "y": -3.3973905481479028,
+    "id": 5563,
+    "smiles": "Cc1nnc(-c2ccc(-c3ccccc3)cc2)n1-c1ccccc1"
+  },
+  {
+    "x": 1.6353304058336562,
+    "y": 4.674877378367235,
+    "id": 5603,
+    "smiles": "CN1Cc2c(cn3c2ccc2ccccc23)-c2ccccc21"
+  },
+  {
+    "x": 4.837429246974999,
+    "y": 4.777352502128087,
+    "id": 5643,
+    "smiles": "Nc1ccc2nc3ccc(N)cc3cc2c1"
+  },
+  {
+    "x": 6.530703452442843,
+    "y": -0.6632426600962926,
+    "id": 5683,
+    "smiles": "Cc1cccc(C)c1Nc1c(-c2ccccn2)nc2ccccn12"
+  },
+  {
+    "x": -5.292645590078955,
+    "y": 1.8079221835079373,
+    "id": 5723,
+    "smiles": "Cl.c1ccc2c(c1)ncn2-c1ccnc(Nc2ccncc2)n1"
+  },
+  {
+    "x": 1.2519876440031794,
+    "y": 1.6167148169686776,
+    "id": 5763,
+    "smiles": "Cc1ccc2[nH]c(-c3ccc(-c4ccc(-c5ccc(F)cc5)cc4)cc3)nc2c1"
+  },
+  {
+    "x": -2.732049596296493,
+    "y": 1.067291160874868,
+    "id": 5803,
+    "smiles": "Clc1ccc(-c2ccc(-c3ccccn3)nc2)cc1"
+  },
+  {
+    "x": 9.908036890062888,
+    "y": -6.651172012463369,
+    "id": 5843,
+    "smiles": "COc1ccccc1-c1cc(-c2cccc3ccccc23)nc(N)n1"
+  },
+  {
+    "x": -8.450860989008607,
+    "y": 5.145907230963669,
+    "id": 5883,
+    "smiles": "c1ccc(COc2c3ccccc3cc3sccc23)cc1"
+  },
+  {
+    "x": -7.9571746830361345,
+    "y": 4.942054630770297,
+    "id": 5923,
+    "smiles": "Cc1ccc(-c2nc3cc(C)ccc3o2)cc1"
+  },
+  {
+    "x": 4.024765418691247,
+    "y": 0.4927584520481165,
+    "id": 5963,
+    "smiles": "Nc1nc2ccccc2c2cc(Cc3ccccc3)oc12"
+  },
+  {
+    "x": -1.5935628188186879,
+    "y": -6.112359614264111,
+    "id": 6003,
+    "smiles": "c1c[nH]c2nc(-c3cscn3)nc-2c1"
+  },
+  {
+    "x": -1.8077000245280175,
+    "y": 9.972827059877861,
+    "id": 6043,
+    "smiles": "Nc1nc2ccccc2c2cc(F)ccc12"
+  },
+  {
+    "x": 4.948429560703612,
+    "y": 0.7653369704344115,
+    "id": 6083,
+    "smiles": "COc1ccccc1-c1oc2ccccc2c1-c1ccccc1OC"
+  },
+  {
+    "x": -2.8501744205485524,
+    "y": -5.575350229452041,
+    "id": 6123,
+    "smiles": "COc1cccc(-c2ccc(-c3ccccc3)o2)c1"
+  },
+  {
+    "x": 7.017814043099506,
+    "y": -7.458706314861607,
+    "id": 6163,
+    "smiles": "Oc1ccc(-c2cc(-c3ccccc3)c3oc4ccccc4c3n2)cc1"
+  },
+  {
+    "x": -1.439745024625413,
+    "y": 3.6712100624540547,
+    "id": 6203,
+    "smiles": "Cc1ncn2nc(-c3ccccc3)cc2n1"
+  },
+  {
+    "x": 7.801263488904411,
+    "y": 6.713410826650797,
+    "id": 6243,
+    "smiles": "c1ccc(-n2nncc2-c2cccnc2)cc1"
+  },
+  {
+    "x": 1.3816676745883818,
+    "y": 4.663459452962009,
+    "id": 6283,
+    "smiles": "C=CC[n+]1cccc2c3ccccc3ccc21.[Br-]"
+  },
+  {
+    "x": -3.119180892847897,
+    "y": 5.924960857666019,
+    "id": 6323,
+    "smiles": "Cc1n(Cc2ccc3ccccc3n2)c2ccccc2[n+]1Cc1ccc2ccccc2n1"
+  },
+  {
+    "x": -5.418169916389282,
+    "y": 4.75930412999495,
+    "id": 6363,
+    "smiles": "Cc1ccc(-c2cc(-c3c(-c4ccccc4)[nH]c4ccccc34)c3c(=O)[nH]cnc3n2)cc1"
+  },
+  {
+    "x": -1.7357310155988728,
+    "y": 0.550146407112484,
+    "id": 6403,
+    "smiles": "COc1ccc(Nc2ccnc3ccccc23)cc1.Cl"
+  },
+  {
+    "x": -8.636517706651654,
+    "y": -2.9954471249802106,
+    "id": 6443,
+    "smiles": "c1cc(C[n+]2cccc3ccccc32)cc(C[n+]2cccc3ccccc32)c1"
+  },
+  {
+    "x": -6.8893118345060245,
+    "y": 3.5253544995592314,
+    "id": 6483,
+    "smiles": "c1ccc(Oc2ccccc2)cc1"
+  },
+  {
+    "x": 0.2028936895231137,
+    "y": -3.5633903851305426,
+    "id": 6523,
+    "smiles": "Cc1n[nH]c2cnc(-c3cnccn3)cc12"
+  },
+  {
+    "x": 2.0976650665355265,
+    "y": -5.6598797562366965,
+    "id": 6563,
+    "smiles": "Cc1cn2nc(N)c3ccccc3c2n1"
+  },
+  {
+    "x": -4.6173561941212515,
+    "y": 6.063776068306904,
+    "id": 6603,
+    "smiles": "Clc1ccc(-c2nc3cc4nc5ccccc5nc4cc3[nH]2)c(Cl)c1"
+  },
+  {
+    "x": 5.117626783166465,
+    "y": -0.5844207852197858,
+    "id": 6643,
+    "smiles": "Cn1c(=O)c2ccccc2c2ccccc21"
+  },
+  {
+    "x": -6.9653651086510004,
+    "y": 9.098598524350265,
+    "id": 6683,
+    "smiles": "Cn1c2ccccc2n2c3nc4ccccc4nc3c(C#N)c12"
+  },
+  { "x": 5.088689250939353, "y": 3.4947970609366976, "id": 6723, "smiles": "Nc1ccccc1-c1cc[nH]n1" },
+  {
+    "x": 8.485286524631004,
+    "y": -4.744493742817459,
+    "id": 6763,
+    "smiles": "Cc1cn(-c2cc3[nH]c(-c4ccncc4)nc3cc2C)cn1"
+  },
+  {
+    "x": 3.272072325014431,
+    "y": 2.6761790057320756,
+    "id": 6803,
+    "smiles": "Fc1ccccc1-c1cncnc1-c1cccs1"
+  },
+  {
+    "x": 5.028821965895647,
+    "y": 2.79324589549776,
+    "id": 6843,
+    "smiles": "c1cc(Cc2ccc(-c3ccsc3)cc2)ccn1"
+  },
+  {
+    "x": -7.129009359667555,
+    "y": 2.634590020684918,
+    "id": 6883,
+    "smiles": "Cn1cc(-c2csc(-c3c[nH]c4ccc(F)cc34)n2)c2cccnc21"
+  },
+  {
+    "x": 2.6245307503557704,
+    "y": -4.166519085933342,
+    "id": 6923,
+    "smiles": "Clc1ncnc2c1oc1ccccc12"
+  },
+  { "x": 6.852122924409734, "y": 2.427277358602611, "id": 6963, "smiles": "Cc1cccnc1" },
+  {
+    "x": 6.275627113150918,
+    "y": 6.908141133495885,
+    "id": 7003,
+    "smiles": "CNc1nccc(-c2[nH]c(-c3ccccc3)nc2-c2ccccc2)n1"
+  },
+  {
+    "x": 8.632193911558275,
+    "y": 6.5284242540039195,
+    "id": 7043,
+    "smiles": "Clc1nc2ccccc2n2c(-c3ccccc3)nnc12"
+  },
+  {
+    "x": 4.606391278422134,
+    "y": 5.063786653497836,
+    "id": 7083,
+    "smiles": "COc1ccc2nc(-c3cc(-c4ccc(F)cc4)nc4ccccc34)[nH]c2c1"
+  },
+  {
+    "x": 4.40057281241419,
+    "y": -3.0901838552469085,
+    "id": 7123,
+    "smiles": "Cc1ccc2nc3ccccc3c(Nc3cccc(Cl)c3)c2c1"
+  },
+  {
+    "x": -5.236992671619363,
+    "y": 5.512334843874211,
+    "id": 7163,
+    "smiles": "Cc1ccc2nc(-c3ccc4ccccc4c3)c(NCc3ccccc3)n2c1"
+  },
+  {
+    "x": 8.670570214393827,
+    "y": 3.424276923792565,
+    "id": 7203,
+    "smiles": "CNc1ccc(-c2nc3ccccc3s2)cc1C"
+  },
+  {
+    "x": 6.400272118495401,
+    "y": -2.544189516565889,
+    "id": 7243,
+    "smiles": "c1ccc(-c2nn(-c3ccccc3)[n+](-c3ccccc3)n2)cc1"
+  },
+  {
+    "x": 7.013520576790416,
+    "y": -6.805586748038137,
+    "id": 7283,
+    "smiles": "Cl.Oc1nc(-c2ccccn2)cc2ccccc12"
+  },
+  {
+    "x": 4.037198481775475,
+    "y": -0.12727854762365354,
+    "id": 7323,
+    "smiles": "COc1ccc2sc(-c3ccncc3)nc2c1"
+  },
+  {
+    "x": -4.690201935978853,
+    "y": 1.7061886816652017,
+    "id": 7363,
+    "smiles": "C(=N/c1ccc(Oc2ccc(/N=C/c3c4ccccc4cc4ccccc34)cc2)cc1)\\c1c2ccccc2cc2ccccc12"
+  },
+  {
+    "x": -0.021412651512612513,
+    "y": 3.403282526081842,
+    "id": 7403,
+    "smiles": "c1ccc(-c2ccc3nnc(Cc4cccc5cnccc45)n3n2)cc1"
+  },
+  {
+    "x": -8.267589356417986,
+    "y": -0.5045159207728744,
+    "id": 7443,
+    "smiles": "c1ccc2c(c1)OCCn1c-2nc2ccccc21"
+  },
+  {
+    "x": 1.4613502754099716,
+    "y": 4.9793874280222195,
+    "id": 7483,
+    "smiles": "Cc1ccccc1-c1cncnc1Nc1ccccc1"
+  },
+  {
+    "x": -8.748886603609494,
+    "y": 8.200711648491861,
+    "id": 7523,
+    "smiles": "Fc1ccc(-c2cnn3c(-c4cccs4)ccnc23)cc1"
+  },
+  {
+    "x": -4.067082608632151,
+    "y": -9.034152827530292,
+    "id": 7563,
+    "smiles": "COc1ccccc1-c1nc(Nc2ccc3[nH]ncc3c2)c2ccccc2n1"
+  },
+  {
+    "x": -4.103831580726274,
+    "y": -5.801039304295368,
+    "id": 7603,
+    "smiles": "Cl.O.c1ccc(OCCOc2ccccc2Nc2c3ccccc3nc3ccccc23)c(Nc2c3ccccc3nc3ccccc23)c1"
+  },
+  {
+    "x": -0.2474121702790164,
+    "y": 2.6966194241908212,
+    "id": 7643,
+    "smiles": "Cc1ccc2sc(-n3c(-c4ccccc4)nc4ccccc4c3=O)nc2c1"
+  },
+  {
+    "x": 6.244865443667603,
+    "y": 3.587116468995074,
+    "id": 7683,
+    "smiles": "c1ccc(-c2ccc(-c3nc(-c4ccncc4)no3)cc2)cc1"
+  },
+  {
+    "x": -6.398249343782041,
+    "y": 7.9540168503423985,
+    "id": 7723,
+    "smiles": "c1ccc(-c2nc(NCc3cccnc3)c3oc4ccccc4c3n2)cc1"
+  },
+  {
+    "x": 4.772189114147167,
+    "y": 8.212887971878295,
+    "id": 7763,
+    "smiles": "N#Cc1cc2ccncc2c2ccccc12"
+  },
+  {
+    "x": -3.267030494114911,
+    "y": -7.591224602115871,
+    "id": 7803,
+    "smiles": "Cc1nn(-c2ccccc2)c2ncc3c(Cl)c4cccc(Cl)c4nc3c12"
+  },
+  {
+    "x": -8.097948443650962,
+    "y": -5.265936279514247,
+    "id": 7843,
+    "smiles": "[Br-].c1ccc(-c2cn3c([n+]2-c2ccccc2)CCC3)cc1"
+  },
+  {
+    "x": 2.6412900623857283,
+    "y": 5.29562866436061,
+    "id": 7883,
+    "smiles": "O=c1cc(-c2cccnc2)[nH]c2ccccc12"
+  },
+  { "x": 8.102697872161194, "y": -2.032849682604736, "id": 7923, "smiles": "Nc1nc2ccccc2n2cnnc12" },
+  {
+    "x": 5.30014948501773,
+    "y": -5.779074175075651,
+    "id": 7963,
+    "smiles": "Cc1nnc2c3c(-c4ccccc4)c(-c4ccccc4)n(-c4cccc(Cl)c4)c3ncn12"
+  },
+  { "x": 9.822312133147399, "y": 4.537884617494207, "id": 8003, "smiles": "Cc1ccc2sc(C)c(C)c2c1" },
+  {
+    "x": 2.5349988953788927,
+    "y": -2.5048140968689347,
+    "id": 8043,
+    "smiles": "Cc1ccc(-c2c3c(nc4cnc5ccccc5c24)-c2cc(Cl)ccc2OC3)cc1"
+  },
+  {
+    "x": -6.9233320313545255,
+    "y": -1.5682809672493612,
+    "id": 8083,
+    "smiles": "Cl.Cl.Cl.Cl.Nc1ccc(-c2ccc(N)c(N)c2)cc1N"
+  },
+  {
+    "x": -6.666418312216931,
+    "y": -8.384516338732361,
+    "id": 8123,
+    "smiles": "O=c1c2ccccc2nc(Cc2c[nH]c3ccccc23)n1-c1ccccc1"
+  },
+  {
+    "x": -1.7498729319699855,
+    "y": 6.204413397177198,
+    "id": 8163,
+    "smiles": "COc1cc(OC)c2c(c1)c1ccccc1c[n+]2C.[Cl-]"
+  },
+  {
+    "x": 9.436282194022123,
+    "y": 1.3462505658723103,
+    "id": 8203,
+    "smiles": "Brc1cccc(-c2cc(-c3ccccc3)c3ccccc3n2)c1"
+  },
+  {
+    "x": 8.688067587223522,
+    "y": 2.974732548984015,
+    "id": 8243,
+    "smiles": "NCc1ccc(-c2cnccc2-c2ccccc2)s1"
+  },
+  {
+    "x": 9.483837521024384,
+    "y": -4.045673457373051,
+    "id": 8283,
+    "smiles": "COc1ccc(-c2cc3ncccc3c(N)n2)cc1"
+  },
+  {
+    "x": -1.9581611980351887,
+    "y": 4.535670247185246,
+    "id": 8323,
+    "smiles": "COc1ccc2c3cc[nH]c(C)c-3nc2c1"
+  },
+  {
+    "x": -3.924908435995915,
+    "y": -5.781021346025881,
+    "id": 8363,
+    "smiles": "O=c1[nH]c2cc(-c3ccc4ccccc4c3)ccc2c2[nH]c(-c3ccccc3Cl)nc12"
+  },
+  {
+    "x": 3.2020859207016237,
+    "y": -7.004438019361783,
+    "id": 8403,
+    "smiles": "Cn1cc(-c2ccc3ncnc(Oc4ccc5ncccc5c4)c3c2)cn1"
+  },
+  {
+    "x": 6.494733824220557,
+    "y": -7.86492924352419,
+    "id": 8443,
+    "smiles": "Cc1cc(C)cc(C[n+]2ccc(-c3cc4ccccc4o3)cc2)c1.[Br-]"
+  },
+  {
+    "x": -7.234868511791235,
+    "y": 5.239409712335359,
+    "id": 8483,
+    "smiles": "Clc1ccc(-c2nc3ccc(Nc4ncnc5ccccc45)cc3[nH]2)cc1"
+  },
+  {
+    "x": 2.9662622311666667,
+    "y": 4.807067673677787,
+    "id": 8523,
+    "smiles": "Clc1ccc(-c2nc(-c3ccccc3Oc3ccccc3)c(-c3ccncc3)[nH]2)cc1"
+  },
+  {
+    "x": -7.515136834129064,
+    "y": 8.87855878726355,
+    "id": 8563,
+    "smiles": "Cc1ccc(-c2nnc(-c3cccc4ccccc34)o2)cc1"
+  },
+  {
+    "x": 3.144145802149719,
+    "y": -1.6770114594866605,
+    "id": 8603,
+    "smiles": "Cc1ccccc1C[n+]1cccc(Cn2c3ccccc3c3ccccc32)c1"
+  },
+  { "x": 2.311533630552187, "y": 3.4695288377461875, "id": 8643, "smiles": "Sc1nc2ccccc2n2cccc12" },
+  {
+    "x": -0.8386119973232731,
+    "y": 2.0549562797858645,
+    "id": 8683,
+    "smiles": "C#Cc1cc2ccccc2c2ccccc12"
+  },
+  {
+    "x": -9.411136112419193,
+    "y": 5.844358959635599,
+    "id": 8723,
+    "smiles": "Cc1cc(Nc2ccccc2)n2nc(C)c(-c3ccccc3)c2n1"
+  },
+  {
+    "x": 2.8099635627181883,
+    "y": 0.2398445634144295,
+    "id": 8763,
+    "smiles": "O=c1[nH]cnc2c1ccc1ccccc12"
+  },
+  {
+    "x": 9.422315009423315,
+    "y": -9.865839364409709,
+    "id": 8803,
+    "smiles": "C1=Nc2ccccc2/C1=C/c1ccccc1"
+  },
+  {
+    "x": 5.7421138593080645,
+    "y": 4.184970041262233,
+    "id": 8843,
+    "smiles": "CN(Cc1ccc2ccccc2c1)c1nc(-c2cccnc2)nc2ccccc12"
+  },
+  {
+    "x": 5.51077810248508,
+    "y": 1.8868193419487778,
+    "id": 8883,
+    "smiles": "c1ccc(Oc2ccc(-c3cc[nH]n3)cc2)cc1"
+  },
+  {
+    "x": 1.3174751948100152,
+    "y": 9.758828543924793,
+    "id": 8923,
+    "smiles": "c1ccc(Cn2c(Nc3ccccc3)nc3ccccc32)cc1"
+  },
+  {
+    "x": -0.8337147071966466,
+    "y": -5.036302234646577,
+    "id": 8963,
+    "smiles": "C[n+]1ccc(-c2c3nc(c(-c4cc[n+](C)cc4)c4ccc([nH]4)c(-c4cc[n+](C)cc4)c4ccc([nH]4)c(-c4cc[n+](C)cc4)c4nc2C=C4)C=C3)cc1"
+  },
+  {
+    "x": -6.241596180986475,
+    "y": 7.655109976818757,
+    "id": 9003,
+    "smiles": "Fc1ccc(-c2nc3ccc(Nc4ncnc5ccccc45)cc3[nH]2)cc1"
+  },
+  {
+    "x": 9.378131269687099,
+    "y": 2.3126843688282364,
+    "id": 9043,
+    "smiles": "c1ccc(CNc2nc3ccccc3c3nc(-c4ccccc4)nn23)cc1"
+  },
+  {
+    "x": 1.8333458068439548,
+    "y": 0.7533218343923753,
+    "id": 9083,
+    "smiles": "O=c1c2cnn(-c3ccccc3)c2n2c(-c3ccccc3)nnc2n1-c1ccccc1"
+  },
+  {
+    "x": 0.09945161710022354,
+    "y": -7.460928676565621,
+    "id": 9123,
+    "smiles": "COc1ccc(-c2ccc3ncnc(Nc4cccc5[nH]ncc45)c3c2)cc1"
+  },
+  {
+    "x": 4.6548172776377115,
+    "y": 3.923028267318575,
+    "id": 9163,
+    "smiles": "Nc1ccccc1-c1nc(-c2ccc(Oc3ccccc3)cc2)c2c(N)nccn12"
+  },
+  {
+    "x": -9.638315686928065,
+    "y": -2.073616920458954,
+    "id": 9203,
+    "smiles": "COc1ccc(-[n+]2nc(-c3ccc(-c4ccccc4)cc3)nn2-c2ccccc2)cc1.[Cl-]"
+  },
+  {
+    "x": 6.3697171856982315,
+    "y": -5.689386641426353,
+    "id": 9243,
+    "smiles": "Nc1nccn2c(-c3ccoc3)nc(-c3ccc(Oc4ccccc4)cc3)c12"
+  },
+  {
+    "x": 6.434063895645625,
+    "y": -2.144220228281233,
+    "id": 9283,
+    "smiles": "c1ccc(COc2ccc3cc(-c4cccnc4)ccc3c2)cc1"
+  },
+  {
+    "x": 9.100101912702225,
+    "y": -3.742268161505069,
+    "id": 9323,
+    "smiles": "c1ccc(Nc2nc3cccnc3[se]2)cc1"
+  },
+  {
+    "x": -3.8167718859759425,
+    "y": 3.4161829577724845,
+    "id": 9363,
+    "smiles": "c1ccc(-c2cn[nH]c2-c2ccc(OCc3ccc4ccccc4n3)cc2)nc1"
+  },
+  {
+    "x": -5.047562777492414,
+    "y": -4.64236653361584,
+    "id": 9403,
+    "smiles": "O=c1c2cccnc2sn1-c1cccc2ccccc12"
+  },
+  {
+    "x": -8.493165108050643,
+    "y": 9.86017807921339,
+    "id": 9443,
+    "smiles": "Cc1ccc2nc(-c3c[nH]c4ccccc34)c(C#N)cc2c1"
+  },
+  {
+    "x": -7.932206784774718,
+    "y": 5.071051813964793,
+    "id": 9483,
+    "smiles": "c1ccc2c(c1)nc(-c1ccc(N3CCCC3)cc1)c1cccn12"
+  },
+  {
+    "x": -5.472235612420975,
+    "y": -3.9299013145767736,
+    "id": 9523,
+    "smiles": "Cc1ccc2c3c([nH]c2c1)-c1c(cnn1-c1ccccc1)CCC3"
+  },
+  {
+    "x": 3.933645787195502,
+    "y": -9.558766239614918,
+    "id": 9563,
+    "smiles": "Cc1cccn2cc(-c3ccc(F)cc3)cc12"
+  },
+  {
+    "x": 1.8218559862162529,
+    "y": -0.5437216882338269,
+    "id": 9603,
+    "smiles": "Cc1cccc(-n2cnc3c(-c4ccccc4)csc3c2=O)c1"
+  },
+  {
+    "x": 1.9773137502073759,
+    "y": -8.659018427997518,
+    "id": 9643,
+    "smiles": "COc1ccc(-c2c(-c3ccc(OC)cc3)n3nc(-c4ccccc4)c(-c4ccncc4)c3n2C)cc1"
+  },
+  {
+    "x": 4.310982359691597,
+    "y": -5.672267475066803,
+    "id": 9683,
+    "smiles": "Oc1cccc(-c2cc(-c3ccccc3)nc(-c3ccsc3)c2)c1"
+  },
+  {
+    "x": 9.274533448996365,
+    "y": 0.5348076974210159,
+    "id": 9723,
+    "smiles": "Cc1ccc(-c2nc3cc(N)ccc3o2)cc1"
+  },
+  {
+    "x": -7.747465185086719,
+    "y": 2.034561002794355,
+    "id": 9763,
+    "smiles": "Fc1cccc(-c2cccc3ncnn23)c1"
+  },
+  {
+    "x": -3.7704745006731644,
+    "y": 5.532710302805498,
+    "id": 9803,
+    "smiles": "c1ccc(CNc2[nH]cnc3c4ccccc4nc2-3)cc1"
+  },
+  {
+    "x": -2.846774268444472,
+    "y": 4.627018859891461,
+    "id": 9843,
+    "smiles": "Cl.c1ccc(CCNCc2ccc3ccc4cccc5ccc2c3c45)cc1"
+  },
+  {
+    "x": -9.979804063852553,
+    "y": 6.226741812911069,
+    "id": 9883,
+    "smiles": "Fc1ccc(-c2cc(-c3nc4ncccc4[nH]3)c3cc(F)ccc3n2)cc1"
+  },
+  {
+    "x": -7.8359109346050015,
+    "y": -6.928226855597011,
+    "id": 9923,
+    "smiles": "CN(C)c1ccc(/C=C/c2ccc3c4ccccc4ccc3[n+]2-c2ccccc2)cc1.[Cl-]"
+  },
+  {
+    "x": -6.982847322089429,
+    "y": 9.996692331470904,
+    "id": 9963,
+    "smiles": "c1cncc(CNc2ccn3ncc(-c4ccc5ccccc5c4)c3n2)c1"
   }
 ]
