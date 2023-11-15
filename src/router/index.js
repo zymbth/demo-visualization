@@ -21,6 +21,11 @@ export const routes = [
         component: () => import('@/views/echarts/line-bar-diagram.vue'),
       },
       {
+        path: 'bar-diagram',
+        meta: { title: 'Bar Diagram' },
+        component: () => import('@/views/echarts/bar-diagram/index.vue'),
+      },
+      {
         path: 'pie-diagram',
         meta: { title: 'Pie Diagram' },
         component: () => import('@/views/echarts/pie-diagram/index.vue'),
