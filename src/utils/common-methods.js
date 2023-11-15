@@ -140,3 +140,25 @@ export function isArrElementsEqual(arr1, arr2) {
     return false
   return arr1.every(p1 => arr2.find(p2 => p1 === p2))
 }
+
+export function resolveRoutePath(...paths) {
+  let resolvedPath = ''
+
+  for (let i = 0; i < paths.length; i++) {
+    const path = paths[i]
+
+    if (typeof path !== 'string') {
+      throw new TypeError('All arguments must be strings')
+    }
+
+    if (resolvedPath === '') {
+      resolvedPath = path
+    } else if (path.startsWith('/')) {
+      resolvedPath = path
+    } else {
+      resolvedPath = `${resolvedPath}/${path}`
+    }
+  }
+
+  return resolvedPath
+}

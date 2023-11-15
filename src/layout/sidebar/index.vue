@@ -1,38 +1,17 @@
 <script setup>
 import { routes } from '@/router'
+import { resolveRoutePath } from '@/utils/common-methods'
 
-function resolvePath(...paths) {
-  let resolvedPath = ''
-
-  for (let i = 0; i < paths.length; i++) {
-    const path = paths[i]
-
-    if (typeof path !== 'string') {
-      throw new TypeError('All arguments must be strings')
-    }
-
-    if (resolvedPath === '') {
-      resolvedPath = path
-    } else if (path.startsWith('/')) {
-      resolvedPath = path
-    } else {
-      resolvedPath = `${resolvedPath}/${path}`
-    }
-  }
-
-  return resolvedPath
-}
 </script>
 <template>
   <div class="sidebar-wrapper">
-    <div class="menu-lv1" v-for="route in routes.filter(r => r.meta?.isMenu)" :key="route.path">
+    <div v-for="route in routes.filter(r => r.meta?.isMenu)" :key="route.path">
       <label>{{ route.meta?.title }}</label>
-      <ul v-if="route.children.length > 0">
+      <ul class="no-marker" v-if="route.children.length > 0">
         <li
-          class="menu-lv2"
           v-for="subRoute in route.children.filter(r => r.path !== 'index')"
           :key="subRoute.path">
-          <router-link :to="resolvePath(route.path, subRoute.path)">{{
+          <router-link :to="resolveRoutePath(route.path, subRoute.path)">{{
             subRoute.meta?.title || subRoute.path
           }}</router-link>
         </li>
@@ -43,7 +22,7 @@ function resolvePath(...paths) {
 <style lang="scss" scoped>
 .sidebar-wrapper {
   width: 200px;
-  max-height: 80vh;
+  max-height: calc(100vh - 2 * var(--nav-height) - 40px); //80vh;
   border-radius: 4px;
   padding: 10px;
   background-color: #fff;
@@ -52,10 +31,14 @@ function resolvePath(...paths) {
   line-height: 1.5;
   color: #333;
   text-align: left;
-
-}
-ul {
-  padding-inline-start: 0;
-  list-style-type: none;
+  overflow-y: auto;
+  label {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  ul {
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+  }
 }
 </style>
