@@ -45,9 +45,9 @@ import SidebarComp from './sidebar/index.vue'
 }
 .sidebar {
   position: fixed;
-  top: 50%;
-  right: 20px;
-  transform: translateY(-50%);
-  z-index: 999;
+  bottom: 50%;
+  right: 12px;
+  transform: translateY(50%);
+  z-index: 3100;
 }
 </style>
