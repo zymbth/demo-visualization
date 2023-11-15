@@ -8,6 +8,13 @@ import SidebarComp from './sidebar/index.vue'
       <router-link to="/echarts">Echarts</router-link>
       <router-link to="/d3">D3</router-link>
     </div>
+    <a
+      class="github-link"
+      href="https://github.com/zymbth/demo-visualization"
+      target="_blank"
+      title="repository">
+      <img src="@/assets/github.svg" />
+    </a>
   </nav>
   <section class="main-sec">
     <router-view v-slot="{ Component, route }">
@@ -21,6 +28,28 @@ import SidebarComp from './sidebar/index.vue'
   <SidebarComp class="sidebar" />
 </template>
 <style lang="scss" scoped>
+.stickynav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: var(--nav-height);
+  margin: 0 1em;
+  color: #fff;
+  background-color: #f1f1f1;
+  border-radius: 0 0 12px 12px;
+  z-index: 1000;
+  .github-link {
+    position: absolute;
+    top: 50%;
+    right: 12px;
+    transform: translateY(-50%);
+    > img {
+      height: 36px;
+      vertical-align: top;
+    }
+  }
+}
 .nav-links {
   display: flex;
   justify-content: center;

@@ -39,19 +39,6 @@
   padding: calc(2rem + var(--nav-height)) 2rem 2rem;
   text-align: left;
 }
-.stickynav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: var(--nav-height);
-  margin: 0 1em;
-  color: #fff;
-  background-color: #f1f1f1;
-  border-radius: 0 0 12px 12px;
-  z-index: 1000;
-}
-// .main-sec {}
 
 .data-view-tb {
   font-size: 14px;
