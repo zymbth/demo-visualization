@@ -1,5 +1,4 @@
 <script setup>
-import { ref, onMounted } from 'vue'
 import useHandleListenPageSizeChange from '@/use/use-handle-listen-page-size-change'
 import data from './data.json'
 

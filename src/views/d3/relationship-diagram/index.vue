@@ -1,5 +1,4 @@
 <script setup>
-import { reactive, onMounted } from 'vue'
 import data from './data.json'
 
 const svgWidth = 800,

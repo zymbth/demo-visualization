@@ -1,5 +1,4 @@
 <script setup>
-import { ref, watch, onMounted } from 'vue'
 import { myIsNumber } from '@/utils/common-methods'
 import exportSvgToPng from '@/utils/export-svg-to-png'
 import ContextMenuComp from '@/components/ContextMenu/index.vue'

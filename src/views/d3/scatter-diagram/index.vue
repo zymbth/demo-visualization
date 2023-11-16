@@ -1,5 +1,4 @@
 <script setup>
-import { ref, onMounted } from 'vue'
 import D3ScatterDiagram from './d3-scatter'
 import data from './data.json'
 

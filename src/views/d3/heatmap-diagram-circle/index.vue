@@ -1,5 +1,4 @@
 <script setup>
-import { ref, onMounted } from 'vue'
 import { myIsNumber } from '@/utils/common-methods'
 import data from './data.json'
 

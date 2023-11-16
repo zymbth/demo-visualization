@@ -1,6 +1,4 @@
 <script setup>
-import { ref, computed } from 'vue'
-
 /**
  * 菜单框
  * 菜单内容放在插槽中

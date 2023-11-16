@@ -1,5 +1,4 @@
 <script setup>
-import { ref, onMounted, computed, readonly } from 'vue'
 import useHandleListenPageSizeChange from '@/use/use-handle-listen-page-size-change'
 import { mergeObjects, simpleDeepCopy, isArrElementsEqual } from '@/utils/common-methods'
 // import { scaleLinear } from 'd3-scale'
