@@ -10,21 +10,21 @@ onMounted(() => {
   const { drawSvg } = new D3ScatterDiagram({
     data,
     domId: 'diagram-wrap',
-    cbShowSmiles,
-    cbHideSmiles,
-    cbSelect,
+    cbHoverSpot,
+    cbBlurSpot,
+    cbBrushEnd,
   })
   drawSvg()
 })
 
-function cbShowSmiles({ smiles, id }) {
+function cbHoverSpot({ smiles, id }) {
   currSpot.value = { smiles, id }
 }
-function cbHideSmiles() {
+function cbBlurSpot() {
   currSpot.value = {}
 }
 
-function cbSelect(value) {
+function cbBrushEnd(value) {
   tableData.value = value ?? [].filter(t => t.id || t.id === 0)
 }
 </script>
@@ -47,6 +47,10 @@ function cbSelect(value) {
         </tr>
       </tbody>
     </table>
+    <h3>Notes:</h3>
+    <ul class="no-marker">
+      <li>散点图，添加了移动、缩放、区域选择、hover功能</li>
+    </ul>
   </div>
 </template>
 <style>

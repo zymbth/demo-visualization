@@ -203,18 +203,24 @@ const handleContextMenu = event => {
 }
 </script>
 <template>
-  <div class="svg-container" ref="svgChartRef" @contextmenu.prevent="handleContextMenu">
-    <!-- 右键菜单框 -->
-    <ContextMenuComp v-model="showMenu" ref="contextMenuRef">
-      <div class="menu-item" @click="handleDownload('image/jpeg')">Download jpeg</div>
-      <div class="menu-item" @click="handleDownload('image/png')">Download png</div>
-    </ContextMenuComp>
+  <div>
+    <div class="svg-container" ref="svgChartRef" @contextmenu.prevent="handleContextMenu">
+      <!-- 右键菜单框 -->
+      <ContextMenuComp v-model="showMenu" ref="contextMenuRef">
+        <div class="menu-item" @click="handleDownload('image/jpeg')">Download jpeg</div>
+        <div class="menu-item" @click="handleDownload('image/png')">Download png</div>
+      </ContextMenuComp>
+    </div>
+    <h3>Notes:</h3>
+    <ul class="no-marker">
+      <li>添加二维坐标系，绘制热力图及图例</li>
+      <li>添加右键菜单，可保存为图片</li>
+    </ul>
   </div>
 </template>
 <style lang="scss" scoped>
 .svg-container {
   position: relative;
-  width: 100%;
   min-height: 280px;
   overflow: auto;
   &:deep svg {

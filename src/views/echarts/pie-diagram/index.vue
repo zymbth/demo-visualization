@@ -91,11 +91,15 @@ function handleClickPie(params, refEl) {
 <template>
   <div class="adjust-width">
     <div class="chart-wrap" ref="chartRef"></div>
+    <h3>Notes:</h3>
+    <ul class="no-marker">
+      <li>监听 series.pie 点击事件，控制提示框(vue组件，非echarts官方组件)的定位与显隐</li>
+      <li>系列 label 格式化</li>
+    </ul>
   </div>
 </template>
 <style lang="scss" scoped>
 .chart-wrap {
-  width: 100%;
   height: 400px;
   position: relative;
   background-color: #fff;

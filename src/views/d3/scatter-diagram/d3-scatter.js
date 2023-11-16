@@ -8,9 +8,9 @@ export default function ({
   data = [],
   domId,
   config = {},
-  cbShowSmiles,
-  cbHideSmiles,
-  cbSelect,
+  cbHoverSpot,
+  cbBlurSpot,
+  cbBrushEnd,
 } = {}) {
   if (!data instanceof Array) {
     throw new Error('Invalid scatter data')
@@ -115,11 +115,11 @@ export default function ({
       .style('fill', activeColor)
       .style('pointer-events', 'none')
 
-    cbShowSmiles?.({ smiles: originData.smiles, id: originData.id, datum })
+    cbHoverSpot?.({ smiles: originData.smiles, id: originData.id, datum })
   }
   function onMouseLeave(datum, index) {
     d3.selectAll('.tooltipDot').remove()
-    cbHideSmiles?.()
+    cbBlurSpot?.()
   }
 
   function brushedHandler({ selection, sourceEvent, endFlag }) {
@@ -141,7 +141,7 @@ export default function ({
     } else {
       dots.style('fill', activeColor)
     }
-    endFlag && cbSelect(value)
+    endFlag && cbBrushEnd(value)
     svg.property('value', value).dispatch('input')
     preventAndStop(sourceEvent)
   }

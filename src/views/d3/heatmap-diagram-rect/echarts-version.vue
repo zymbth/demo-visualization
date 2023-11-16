@@ -188,12 +188,18 @@ function drawHeatMap() {
 }
 </script>
 <template>
-  <div ref="heatmapRef" class="target-heat-map" />
+  <div>
+    <div ref="heatmapRef" class="target-heat-map" />
+    <h3>Notes:</h3>
+    <ul class="no-marker">
+      <li>自定义数据视图</li>
+      <li>根据视口尺寸及图表总类目数，调整网格内横纵坐标显示的类目数，激活滑动条型数据区域缩放</li>
+    </ul>
+  </div>
 </template>
 <style lang="scss" scoped>
 .target-heat-map {
   height: 460px;
-  width: 100%;
   min-width: 500px;
 }
 </style>

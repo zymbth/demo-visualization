@@ -16,14 +16,14 @@ export const routes = [
     children: [
       { path: 'index', component: () => import('@/views/echarts/index.vue') },
       {
-        path: 'line-bar-diagram',
-        meta: { title: 'Line-Bar Diagram' },
-        component: () => import('@/views/echarts/line-bar-diagram.vue'),
-      },
-      {
         path: 'bar-diagram',
         meta: { title: 'Bar Diagram' },
-        component: () => import('@/views/echarts/bar-diagram/index.vue'),
+        component: () => import('@/views/echarts/bar-diagram.vue'),
+      },
+      {
+        path: 'line-bar-diagram',
+        meta: { title: 'Line-Bar Diagram' },
+        component: () => import('@/views/echarts/line-bar-diagram/index.vue'),
       },
       {
         path: 'pie-diagram',

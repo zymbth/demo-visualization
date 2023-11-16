@@ -235,11 +235,16 @@ function generateD3() {
 </script>
 
 <template>
-  <div ref="chartRef" class="heatmap-chart"></div>
+  <div>
+    <div ref="chartRef" class="heatmap-chart"></div>
+    <h3>Notes:</h3>
+    <ul class="no-marker">
+      <li>添加二维坐标系，绘制热力图及图例</li>
+    </ul>
+  </div>
 </template>
 <style lang="scss" scoped>
 .heatmap-chart {
-  width: 100%;
   min-height: 280px;
   overflow: auto;
   position: relative;

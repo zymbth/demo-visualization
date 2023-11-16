@@ -42,9 +42,9 @@ const tools = [
     title: 'three.js',
     link: 'https://threejs.org/',
     paragraphs: [
-      'three.js是一个基于WebGL的JavaScript 3D库，它使得在网页上创建和展示3D图形变得更加容易。它提供了丰富的API和工具，可以用于创建各种类型的3D场景，包括动画、交互式应用和游戏等。three.js还支持多种材质和灯光效果，可以让用户创建出逼真的3D场景。无论是初学者还是专业人士，都可以使用three.js来实现自己的3D创意。'
-    ]
-  }
+      'three.js是一个基于WebGL的JavaScript 3D库，它使得在网页上创建和展示3D图形变得更加容易。它提供了丰富的API和工具，可以用于创建各种类型的3D场景，包括动画、交互式应用和游戏等。three.js还支持多种材质和灯光效果，可以让用户创建出逼真的3D场景。无论是初学者还是专业人士，都可以使用three.js来实现自己的3D创意。',
+    ],
+  },
 ]
 </script>
 <template>
@@ -77,8 +77,10 @@ const tools = [
       </h3>
       <p v-for="p in t.paragraphs">{{ p }}</p>
     </template>
-    <h2>Tips</h2>
-    <p>对于一般的图表可视化需求，推荐使用 echarts、g2。找到合适的模板，参考文档调整配置，可快速呈现。</p>
+    <h2>Notes:</h2>
+    <p>
+      对于一般的图表可视化需求，推荐使用 echarts、g2。找到合适的模板，参考文档调整配置，可快速呈现。
+    </p>
     <p>对于定制化程度很高的需求，推荐使用 d3.js</p>
   </div>
 </template>

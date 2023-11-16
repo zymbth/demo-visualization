@@ -78,12 +78,17 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="chart-wrap" ref="chartRef"></div>
+  <div>
+    <div class="chart-wrap" ref="chartRef"></div>
+    <h3>Notes:</h3>
+    <ul class="no-marker">
+      <li>自定义数据视图</li>
+    </ul>
+  </div>
 </template>
 
 <style lang="scss" scoped>
 .chart-wrap {
-  width: 100%;
   height: calc(100vh - 218px);
   min-height: 300px;
   max-height: 400px;

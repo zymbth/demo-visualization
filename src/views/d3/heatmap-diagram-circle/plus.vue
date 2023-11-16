@@ -380,8 +380,14 @@ function handleRandomHighlight() {
         <div class="menu-item" @click="handleDownload('image/png')">Download png</div>
       </ContextMenuComp>
     </div>
-    <hr/>
+    <hr />
     <button @click="handleRandomHighlight">Highlight Random Columns</button>
+    <h3>Notes:</h3>
+    <ul class="no-marker">
+      <li>添加二维坐标系，绘制热力图及图例</li>
+      <li>添加右键菜单，可保存为图片</li>
+      <li>添加高亮“列”功能</li>
+    </ul>
   </div>
 </template>
 <style lang="scss" scoped>

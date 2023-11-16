@@ -285,6 +285,11 @@ function generateEchartInitialOpts() {
 <template>
   <div class="chart-outer-wrap">
     <div class="chart-wrap" ref="chartRef"></div>
+    <h3>Notes:</h3>
+    <ul class="no-marker">
+      <li>多网格，可进行区域选择，并在网格间联动</li>
+      <li>监听区域选择事件，获取选中的散点列表</li>
+    </ul>
   </div>
 </template>
 <style lang="scss" scoped>
@@ -292,7 +297,6 @@ function generateEchartInitialOpts() {
   overflow-x: auto;
 }
 .chart-wrap {
-  width: 100%;
   min-width: 1000px;
   height: clamp(550px, calc(100vh - 218px), 800px);
 }

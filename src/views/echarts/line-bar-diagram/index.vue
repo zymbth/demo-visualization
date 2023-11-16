@@ -25,7 +25,6 @@ onMounted(() => {
       if (idx === legend.length - 1) val = parseFloat(val)
       return val
     }),
-    smooth: true,
   }))
 
   const hasLine = series.some(p => p.type === 'line')
@@ -182,12 +181,20 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="chart-wrap" ref="chartRef"></div>
+  <div>
+    <div class="chart-wrap" ref="chartRef"></div>
+    <h3>Notes:</h3>
+    <ul class="no-marker">
+      <li>自定义数据视图</li>
+      <li>折柱图，结合两种可视化方式，在同一坐标系内展现多个系列</li>
+      <li>自定义提示框组件定位</li>
+      <li>根据数据量激活 echarts 内置型数据区域缩放</li>
+    </ul>
+  </div>
 </template>
 
 <style lang="scss" scoped>
 .chart-wrap {
-  width: 100%;
   height: calc(100vh - 218px);
   min-height: 300px;
   max-height: 400px;
