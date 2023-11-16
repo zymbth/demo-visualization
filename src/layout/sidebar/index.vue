@@ -25,11 +25,7 @@ const collapsed = ref(true)
     </div>
     <!-- 收缩 - 图标 -->
     <div class="sidebar-icon" v-else @click="collapsed = false">
-      <svg
-        viewBox="0 0 1024 1024"
-        xmlns="http://www.w3.org/2000/svg"
-        width="20"
-        height="20">
+      <svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" width="20" height="20">
         <path
           d="M913.6 135.2H380.2c-26.7 0-44.4 17.8-44.4 44.4V224c0 26.7 17.8 44.4 44.4 44.4h533.3c26.7 0 44.4-17.8 44.4-44.4v-44.4c.1-26.6-17.7-44.4-44.3-44.4zm-755.6 0h-44.4c-22.2 0-44.4 22.2-44.4 44.4V224c0 22.2 22.2 44.4 44.4 44.4H158c22.2 0 44.4-22.2 44.4-44.4v-44.4c.1-22.2-22.1-44.4-44.4-44.4zm0 311.1h-44.4c-22.2 0-44.4 22.2-44.4 44.4v44.4c0 22.2 22.2 44.4 44.4 44.4H158c22.2 0 44.4-22.2 44.4-44.4v-44.4c.1-22.2-22.1-44.4-44.4-44.4zm755.6 0H380.2c-26.7 0-44.4 17.8-44.4 44.4v44.4c0 26.7 17.8 44.4 44.4 44.4h533.3c26.7 0 44.4-17.8 44.4-44.4v-44.4c.1-26.6-17.7-44.4-44.3-44.4zM158 757.4h-44.4c-22.2 0-44.4 22.2-44.4 44.4v44.4c0 22.2 22.2 44.4 44.4 44.4H158c22.2 0 44.4-22.2 44.4-44.4v-44.4c.1-22.2-22.1-44.4-44.4-44.4zm755.6 0H380.2c-26.7 0-44.4 17.8-44.4 44.4v44.4c0 26.7 17.8 44.4 44.4 44.4h533.3c26.7 0 44.4-17.8 44.4-44.4v-44.4c.1-26.6-17.7-44.4-44.3-44.4z"
           fill="#fff"
@@ -54,21 +50,12 @@ const collapsed = ref(true)
   white-space: nowrap;
   transition: all 0.36s ease-in-out;
   &.collapsed {
-    bottom: 50px;
+    bottom: 36px;
     height: 36px;
     width: 36px;
     border-radius: 50%;
     background-color: #35c4f0;
     overflow: hidden;
-  }
-
-  label {
-    font-weight: bold;
-    font-size: 16px;
-  }
-  ul {
-    margin-block-start: 0.5em;
-    margin-block-end: 0.5em;
   }
 }
 .sidebar-cont {
@@ -81,6 +68,14 @@ const collapsed = ref(true)
     font-size: 26px;
     transform: rotate(45deg);
     cursor: pointer;
+  }
+  label {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  ul {
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
   }
 }
 .sidebar-icon {
