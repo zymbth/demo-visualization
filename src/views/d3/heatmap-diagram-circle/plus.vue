@@ -15,10 +15,6 @@ onMounted(() => {
   watch(highlightCompounds, newVal => highlightCompoundCol(newVal))
 })
 
-// compound 详情页链接
-const { origin, pathname } = window.location
-let link = origin + pathname + '#/target-identification/splicing-discovery'
-
 const circleRadius = 8
 
 // [0, 4] => [1, circleRadius]
@@ -120,10 +116,7 @@ function generateD3() {
     .style('cursor', 'pointer')
     .on('click', (d, i) => {
       const compound = heatmap.value[0]?.compounds?.[i - 1]?.compound
-      if (compound) {
-        const url = `${link}/${compound}/`
-        location.href = url // window.open(url)
-      }
+      alert(compound)
     })
   yAxisGroup = g.append('g')
   yAxisGroup.call(yAxis).selectAll('text').classed('gene-text', true)

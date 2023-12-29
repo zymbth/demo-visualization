@@ -189,6 +189,10 @@ function drawHeatMap() {
 <template>
   <div>
     <div ref="heatmapRef" class="target-heat-map" />
+    <div>
+      <label>D3 version:</label>
+      <router-link to="/d3/heatmap-diagram-rect">Go</router-link>
+    </div>
     <h3>Notes:</h3>
     <ul class="no-marker">
       <li>自定义数据视图</li>

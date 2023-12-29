@@ -113,6 +113,7 @@ const legendColors = [
 //   if (!myIsNumber(val)) return 'transparent'
 //   return scaleLinear().domain(legendRange).range(legendColorRange).clamp(true)(val)
 // }
+const outOfBrushColor = 'rgba(228,228,228,0.3)'
 /**
  * echarts itemStyle.color回调函数: (params: Object) => Color
  * 根据 is_highlight & skip_ratio 值计算散点颜色
@@ -121,7 +122,7 @@ const legendColors = [
  * @returns {string} color
  */
 // function calcSpotColor({ data }) {
-//   if (!colorAllSpots.value && !data.is_highlight) return 'rgb(228, 228, 228)'
+//   if (!colorAllSpots.value && !data.is_highlight) return outOfBrushColor
 //   return mapValueToColor(data?.skip_ratio)
 // }
 
@@ -180,7 +181,8 @@ function generateEchartInitialOpts() {
       brushLink: 'all',
       xAxisIndex: 'all',
       yAxisIndex: 'all',
-      inBrush: { opacity: 1 },
+      inBrush: { opacity: 1, symbolSize: 7 },
+      outOfBrush: { color: outOfBrushColor, symbolSize: 5 },
       throttleType: 'debounce', // 去弹跳，延时触发 brushSelected 事件，brush结束不会立即触发一次
       throttleDelay: selectDelay,
       removeOnClick: false,
@@ -248,9 +250,11 @@ function generateEchartInitialOpts() {
     prev.series[idx] = {
       type: 'scatter',
       name: k,
+      colorBy: 'data',
       xAxisIndex: idx,
       yAxisIndex: idx,
-      symbolSize: 5,
+      // symbolSize: 5,
+      symbolSize: ({ is_highlight }) => (/* !colorAllSpots.value && */ is_highlight ? 7 : 5),
       datasetIndex: idx,
       encode: { x: 'x', y: 'y' },
       // itemStyle: { color: calcSpotColor },

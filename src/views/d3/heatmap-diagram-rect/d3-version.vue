@@ -210,6 +210,10 @@ const handleContextMenu = event => {
         <div class="menu-item" @click="handleDownload('image/png')">Download png</div>
       </ContextMenuComp>
     </div>
+    <div>
+      <label>D3 version:</label>
+      <router-link to="/echarts/heatmap-diagram-rect">Go</router-link>
+    </div>
     <h3>Notes:</h3>
     <ul class="no-marker">
       <li>添加二维坐标系，绘制热力图及图例</li>
