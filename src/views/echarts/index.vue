@@ -12,7 +12,7 @@ const references = [{ label: "Echarts' official website", link: 'https://echarts
         <a :href="r.link" target="_blank">Go</a>
       </div>
     </div>
-    <h3>Demos:</h3>
+    <h3>Demo list:</h3>
     <ul class="no-marker">
       <li
         v-for="p in $router.options.routes

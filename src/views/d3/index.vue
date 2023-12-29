@@ -5,6 +5,7 @@ const references = [
   { label: "D3's repository", link: 'https://github.com/d3/d3' },
   { label: "D3's docs", link: 'https://d3js.org/' },
   { label: 'Tutorials & Examples', link: 'https://observablehq.com/@d3/gallery' },
+  { label: 'venn.js', link: 'https://github.com/benfred/venn.js' }
 ]
 </script>
 <template>
@@ -16,7 +17,7 @@ const references = [
         <a :href="r.link" target="_blank">Go</a>
       </div>
     </div>
-    <h3>Demos:</h3>
+    <h3>Demo list:</h3>
     <ul class="no-marker">
       <li
         v-for="p in $router.options.routes

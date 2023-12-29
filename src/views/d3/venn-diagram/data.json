@@ -1,0 +1,12 @@
+{
+  "update_at": "2023/12/28 06:12:15(PDT)",
+  "chart": {
+    "RNA-seq": 13,
+    "qPCR": 10,
+    "Minigene": 4172,
+    "RNA-seq_qPCR": 11,
+    "RNA-seq_Minigene": 618,
+    "qPCR_Minigene": 26,
+    "all": 103
+  }
+}

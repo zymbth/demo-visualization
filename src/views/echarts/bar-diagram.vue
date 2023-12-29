@@ -43,7 +43,7 @@ onMounted(() => {
         },
         magicType: {
           show: true,
-          type: ['line', 'bar'],
+          type: ['line', 'bar', 'stack'],
           title: { line: 'Switch to line chart', bar: 'Switch to bar chart' },
         },
         saveAsImage: { show: true, title: 'Save as image' },

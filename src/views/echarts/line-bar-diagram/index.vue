@@ -27,7 +27,7 @@ onMounted(() => {
   }))
 
   const hasLine = series.some(p => p.type === 'line')
-  const grid = { top: 30, right: 36, bottom: 56, left: '6%' }
+  const grid = { top: 30, right: 66, bottom: 56, left: '6%' }
   echartInstance.setOption({
     title: { show: false, text: '项目数量统计（按产品分组）（遗传）' },
     color: [
