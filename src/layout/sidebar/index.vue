@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from 'vue'
 import { routes } from '@/router'
-import { resolveRoutePath } from '@/utils/common-methods'
+import RoutePageUl from '@/components/route-page-ul.vue'
 
 const collapsed = ref(true)
 </script>
@@ -11,15 +11,7 @@ const collapsed = ref(true)
     <div class="sidebar-cont" v-if="!collapsed">
       <div v-for="route in routes.filter(r => r.meta?.isMenu)" :key="route.path">
         <label>{{ route.meta?.title }}</label>
-        <ul class="no-marker" v-if="route.children.length > 0">
-          <li
-            v-for="subRoute in route.children.filter(r => r.path !== 'index')"
-            :key="subRoute.path">
-            <router-link :to="resolveRoutePath(route.path, subRoute.path)">{{
-              subRoute.meta?.title || subRoute.path
-            }}</router-link>
-          </li>
-        </ul>
+        <RoutePageUl :routes="route.children" :basePath="route.path" />
       </div>
       <div class="sidebar-close-icon" @click="collapsed = true">+</div>
     </div>

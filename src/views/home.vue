@@ -84,10 +84,3 @@ const tools = [
     <p>对于定制化程度很高的需求，推荐使用 d3.js</p>
   </div>
 </template>
-<style scoped>
-.svg-link {
-  vertical-align: middle;
-  height: 1em;
-  margin-left: 4px;
-}
-</style>
