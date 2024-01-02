@@ -4,7 +4,7 @@ const d3Router = {
   path: '/d3',
   component: Layout,
   // redirect: '/d3/index',
-  meta: { isMenu: true, title: 'D3 demos' },
+  meta: { isMenu: true, title: 'D3 demo' },
   children: [
     { path: '', component: () => import('@/views/d3/index.vue') },
     {

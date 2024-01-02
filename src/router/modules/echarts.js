@@ -4,7 +4,7 @@ const echartsRouter = {
   path: '/echarts',
   component: Layout,
   // redirect: '/echarts/index',
-  meta: { isMenu: true, title: 'Echarts demos' },
+  meta: { isMenu: true, title: 'Echarts demo' },
   children: [
     { path: '', component: () => import('@/views/echarts/index.vue') },
     {
