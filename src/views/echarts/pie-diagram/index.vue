@@ -93,7 +93,7 @@ function handleClickPie(params, refEl) {
     <h3>Notes:</h3>
     <ul class="no-marker">
       <li>监听 series.pie 点击事件，控制提示框(vue组件，非echarts官方组件)的定位与显隐</li>
-      <li>系列 label 格式化</li>
+      <li>系列 label 格式化，引导线延长至边缘</li>
     </ul>
   </div>
 </template>
