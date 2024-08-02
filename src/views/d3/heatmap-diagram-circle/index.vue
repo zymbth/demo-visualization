@@ -247,8 +247,8 @@ function generateD3() {
   min-height: 280px;
   overflow: auto;
   position: relative;
-  &:deep svg {
-    overflow: visible;
-  }
+}
+:deep(svg) {
+  overflow: visible;
 }
 </style>

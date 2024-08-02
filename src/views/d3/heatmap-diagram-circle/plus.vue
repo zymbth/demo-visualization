@@ -388,8 +388,8 @@ function handleRandomHighlight() {
   width: 100%;
   min-height: 280px;
   overflow: auto;
-  &:deep svg {
-    overflow: visible;
-  }
+}
+:deep(svg) {
+  overflow: visible;
 }
 </style>

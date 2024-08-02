@@ -131,7 +131,7 @@ function generateTooltipTxt() {
   transform: translateY(-50%);
   transition: opacity 0.4s;
 }
-#venn:deep svg {
+:deep(svg) {
   overflow: visible;
 }
 </style>

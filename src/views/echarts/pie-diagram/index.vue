@@ -103,7 +103,7 @@ function handleClickPie(params, refEl) {
   position: relative;
   background-color: #fff;
 }
-.adjust-width:deep [class*='info-'] {
+:deep([class*='info-']) {
   --theme-color: #387fe5;
   position: absolute;
   font-size: 12px;

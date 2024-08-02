@@ -47,13 +47,13 @@ defineExpose({ positionMenu })
   box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.2);
   transition: display 0.3s ease;
   z-index: 3000;
-  &:deep .menu-item {
-    font-size: 14px;
-    padding: 4px 10px;
-    cursor: pointer;
-    &:hover {
-      background-color: #dedede;
-    }
+}
+:deep(.menu-item) {
+  font-size: 14px;
+  padding: 4px 10px;
+  cursor: pointer;
+  &:hover {
+    background-color: #dedede;
   }
 }
 .hideContextMenu {

@@ -226,10 +226,12 @@ const handleContextMenu = event => {
   position: relative;
   min-height: 280px;
   overflow: auto;
-  &:deep svg {
+}
+:deep(.svg-container) {
+  svg {
     overflow: visible;
   }
-  &:deep .grid-line {
+  .grid-line {
     fill: none;
     shape-rendering: crispEdges;
     vector-effect: non-scaling-stroke;

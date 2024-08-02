@@ -214,7 +214,7 @@ function onMouseLeave(datum, index) {
     overflow: hidden;
   }
 }
-#svg-container:deep svg {
+:deep(#svg-container svg) {
   border: 1px solid #ccc;
   border-radius: 4px;
 }
