@@ -1,5 +1,5 @@
 <script setup>
-import useHandleListenPageSizeChange from '@/use/use-handle-listen-page-size-change'
+import useListenPageResize from '@/use/useListenPageResize'
 import { mergeObjects, simpleDeepCopy, isArrElementsEqual } from '@/utils/common-methods'
 // import { scaleLinear } from 'd3-scale'
 import data from './data.json'
@@ -27,7 +27,7 @@ onMounted(() => {
 function resizeEcharts() {
   echartInstance?.resize()
 }
-useHandleListenPageSizeChange(resizeEcharts)
+useListenPageResize(resizeEcharts)
 
 /**
  * 散点图 brush 事件

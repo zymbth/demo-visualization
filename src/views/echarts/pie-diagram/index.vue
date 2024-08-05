@@ -1,5 +1,5 @@
 <script setup>
-import useHandleListenPageSizeChange from '@/use/use-handle-listen-page-size-change'
+import useListenPageResize from '@/use/useListenPageResize'
 import useMovableBlock from './use-movable-block'
 import data from './data.json'
 
@@ -11,7 +11,7 @@ const resizeEcharts = () => {
   echartInstance?.resize()
   ;({ offsetHeight, offsetWidth } = chartRef.value)
 } // 图表重绘
-useHandleListenPageSizeChange(resizeEcharts)
+useListenPageResize(resizeEcharts)
 
 onMounted(() => {
   ;({ offsetHeight, offsetWidth } = chartRef.value)

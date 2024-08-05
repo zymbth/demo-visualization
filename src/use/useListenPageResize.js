@@ -1,4 +1,3 @@
-// import { onMounted, onBeforeUnmount } from 'vue'
 import { debounce } from '@/utils/common-methods'
 
 /**
@@ -7,10 +6,10 @@ import { debounce } from '@/utils/common-methods'
  * @returns
  * @example
  * 仅在vue3 setup中使用
- * import useHandleListenPageSizeChange from '@/use/use-handle-listen-page-size-change'
+ * import useListenPageResize from '@/use/useListenPageResize'
  *
  * const resizeHandler = () => console.log('do something')
- * useHandleListenPageSizeChange(resizeHandler)
+ * useListenPageResize(resizeHandler)
  */
 export default function (cb) {
   if (!cb) return

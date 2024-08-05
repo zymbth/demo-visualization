@@ -1,5 +1,5 @@
 <script setup>
-import useHandleListenPageSizeChange from '@/use/use-handle-listen-page-size-change'
+import useListenPageResize from '@/use/useListenPageResize'
 
 const chartRef = ref()
 let echartInstance
@@ -8,7 +8,7 @@ let echartInstance
 const resizeEcharts = () => {
   echartInstance?.resize()
 } // 图表重绘
-useHandleListenPageSizeChange(resizeEcharts)
+useListenPageResize(resizeEcharts)
 
 onMounted(() => {
   echartInstance = echarts.init(chartRef.value)

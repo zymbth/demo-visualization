@@ -1,5 +1,5 @@
 <script setup>
-import useHandleListenPageSizeChange from '@/use/use-handle-listen-page-size-change'
+import useListenPageResize from '@/use/useListenPageResize'
 import data from './data.json'
 
 const heatmap = ref(data)
@@ -30,7 +30,7 @@ function resizeEcharts() {
   heatmapChart?.setOption({ dataZoom: getDataZoom('delta psi') })
   heatmapChart?.resize()
 }
-useHandleListenPageSizeChange(resizeEcharts)
+useListenPageResize(resizeEcharts)
 
 // 获取热力图 dataZoom
 function getDataZoom() {
