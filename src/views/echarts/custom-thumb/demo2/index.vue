@@ -1,6 +1,7 @@
 <script setup>
-import useListenPageResize from '@/use/useListenPageResize'
-import originData from './data.json'
+import { myIsNumber } from '@/utils/common-methods'
+import originData from '@/views/d3/heatmap-diagram-rect/data.json'
+import ChartThumb from './thumb.vue'
 
 const chartRef = ref()
 
@@ -10,54 +11,18 @@ onMounted(() => {
   // 初始化热力图
   echartInstance = echarts.init(chartRef.value)
   drawHeatMap()
+  echartInstance.on('datazoom', params => {
+    const { start, end, dataZoomId } = params ?? {}
+    chartThumbRef.value?.setRectStart(start)
+  })
 })
 
 onBeforeMount(() => {
   echartInstance?.dispose()
 })
 
-// 最大水平类目数
-let maxHorizontalSpan = 30
-// 更新最大水平类目数
-function flushMaxHoriSpan() {
-  // 获取 heatmap-wrap 宽度
-  const wrapWidth = chartRef.value.clientWidth ?? 0
-  maxHorizontalSpan = Math.ceil((wrapWidth - 170 - 50) / 20)
-}
-// 图表重绘
-function resizeEcharts() {
-  flushMaxHoriSpan()
-  // 重绘热力图
-  echartInstance?.setOption({ dataZoom: getDataZoom('delta psi') })
-  echartInstance?.resize()
-}
-useListenPageResize(resizeEcharts)
-
-// 获取热力图 dataZoom
-function getDataZoom() {
-  const compoundsLen = originData[0]?.compounds?.length ?? 0
-  const regionsLen = originData.reduce((prev, curr) => {
-    prev += curr.compounds?.length ?? 0
-    return prev
-  }, 0)
-  return [
-    {
-      id: 'dataZoomX',
-      show: compoundsLen > maxHorizontalSpan,
-      minValueSpan: maxHorizontalSpan,
-      maxValueSpan: maxHorizontalSpan,
-    },
-    {
-      id: 'dataZoomY',
-      show: regionsLen > 20,
-    },
-  ]
-}
-
 // 绘制热力图
 function drawHeatMap() {
-  flushMaxHoriSpan()
-
   const compoundList = originData[0]?.compounds?.map(c => c.compound) ?? []
   const seriesData = originData.reduce((prev, curr, idx) => {
     curr.compounds?.forEach((c, idx1) => {
@@ -102,10 +67,10 @@ function drawHeatMap() {
       {
         id: 'dataZoomX',
         type: 'slider',
-        show: compoundList.length > maxHorizontalSpan,
+        show: compoundList.length > 30,
         orient: 'horizontal',
-        minValueSpan: maxHorizontalSpan,
-        maxValueSpan: maxHorizontalSpan,
+        minValueSpan: 30,
+        maxValueSpan: 30,
         height: 16,
         bottom: 0,
         brushSelect: false,
@@ -186,29 +151,49 @@ function drawHeatMap() {
   // console.log(JSON.stringify(option))
   echartInstance.setOption(option)
 }
+
+const chartThumbRef = ref()
+function handleTrumbSelect(start) {
+  if (!myIsNumber(start)) return
+  echartInstance.dispatchAction({ type: 'dataZoom', start })
+}
 </script>
 <template>
   <div>
-    <div ref="chartRef" class="target-heat-map" />
-    <div>
-      <label>D3 version:</label>
-      <router-link to="/d3/heatmap-diagram-rect">Go</router-link>
+    <div class="container">
+      <div class="chart-wrap" ref="chartRef" />
+      <ChartThumb
+        ref="chartThumbRef"
+        :data="originData"
+        @select="handleTrumbSelect"
+        :width="200"
+        :height="100"
+        :rect="30" />
     </div>
     <h3>Notes:</h3>
     <ul class="no-marker">
-      <li>自定义数据视图</li>
-      <li>根据视口尺寸及图表总类目数，调整网格内横纵坐标显示的类目数，激活滑动条型数据区域缩放</li>
+      <li>自定义一个svg缩略图，缩略图可鼠标滚动缩放、拖拽、区域选择以及区域双向联动</li>
     </ul>
   </div>
 </template>
 <style lang="scss" scoped>
-.target-heat-map {
+.container {
+  position: relative;
+  width: 800px;
+  overflow: visible;
+}
+.chart-wrap {
+  width: 100%;
   height: 460px;
-  min-width: 500px;
+}
+:deep(.trumb-container) {
+  position: absolute;
+  right: -120px;
+  bottom: 30px;
 }
 </style>
 <style lang="scss">
-#heatmap-tooltip-tb {
+#echarts-tooltip-tb {
   thead {
     font-weight: bold;
   }
