@@ -236,7 +236,7 @@ function generateD3() {
 <template>
   <div>
     <div ref="chartRef" class="heatmap-chart"></div>
-    <h3>Notes:</h3>
+    <h3>Tips:</h3>
     <ul class="no-marker">
       <li>添加二维坐标系，绘制热力图及图例</li>
     </ul>

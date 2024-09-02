@@ -46,7 +46,7 @@ function cbBrushEnd(value) {
         </tr>
       </tbody>
     </table>
-    <h3>Notes:</h3>
+    <h3>Tips:</h3>
     <ul class="no-marker">
       <li>散点图，添加了移动、缩放、区域选择、hover功能</li>
     </ul>

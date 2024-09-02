@@ -374,7 +374,7 @@ function handleRandomHighlight() {
     </div>
     <hr />
     <button @click="handleRandomHighlight">Highlight Random Columns</button>
-    <h3>Notes:</h3>
+    <h3>Tips:</h3>
     <ul class="no-marker">
       <li>添加二维坐标系，绘制热力图及图例</li>
       <li>添加右键菜单，可保存为图片</li>

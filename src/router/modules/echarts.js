@@ -32,6 +32,11 @@ const echartsRouter = {
       meta: { title: 'Multi-Grid Scatter Diagram' },
       component: () => import('@/views/echarts/multi-grid-scatter-diagram/index.vue'),
     },
+    {
+      path: 'synchronize-grids-zoom',
+      meta: { title: 'Synchronize Grids(Zoom)' },
+      component: () => import('@/views/echarts/synchronize-grids-zoom/index.vue'),
+    },
   ],
 }
 

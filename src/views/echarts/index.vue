@@ -12,7 +12,7 @@ const references = [{ label: "Echarts' official website", link: 'https://echarts
     <RoutePageUl
       :routes="$router.options.routes.find(r => r.path === '/echarts')?.children"
       basePath="/echarts" />
-    <h3>Notes:</h3>
+    <h3>Tips:</h3>
     <ul class="no-marker">
       <li>
         通过免费CDN引入存在风险。完整引入省事但依赖包较大，可选择按需引入，或<a

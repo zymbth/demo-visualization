@@ -201,7 +201,7 @@ function onMouseLeave(datum, index) {
         <span>{{ currNodeInfo.group }}</span>
       </div>
     </div>
-    <h3>Notes:</h3>
+    <h3>Tips:</h3>
     <ul class="no-marker">
       <li>自定义 hover 弹框</li>
     </ul>

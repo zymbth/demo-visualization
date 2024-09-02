@@ -177,12 +177,15 @@ onMounted(() => {
     series,
   })
 })
+onBeforeMount(() => {
+  echartInstance?.dispose()
+})
 </script>
 
 <template>
   <div>
     <div class="chart-wrap" ref="chartRef"></div>
-    <h3>Notes:</h3>
+    <h3>Tips:</h3>
     <ul class="no-marker">
       <li>自定义数据视图</li>
       <li>折柱图，结合两种可视化方式，在同一坐标系内展现多个系列</li>

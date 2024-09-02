@@ -74,12 +74,16 @@ onMounted(() => {
     },
   })
 })
+
+onBeforeMount(() => {
+  echartInstance?.dispose()
+})
 </script>
 
 <template>
   <div>
     <div class="chart-wrap" ref="chartRef"></div>
-    <h3>Notes:</h3>
+    <h3>Tips:</h3>
     <ul class="no-marker">
       <li>自定义数据视图</li>
     </ul>

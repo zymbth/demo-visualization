@@ -22,6 +22,9 @@ onMounted(() => {
   echartInstance.on('brush', handleBrush)
   drawHeatMap()
 })
+onBeforeMount(() => {
+  echartInstance?.dispose()
+})
 
 // 图表重绘
 function resizeEcharts() {
@@ -288,7 +291,7 @@ function generateEchartInitialOpts() {
 <template>
   <div class="chart-outer-wrap">
     <div class="chart-wrap" ref="chartRef"></div>
-    <h3>Notes:</h3>
+    <h3>Tips:</h3>
     <ul class="no-marker">
       <li>多网格，可进行区域选择，并在网格间联动</li>
       <li>监听区域选择事件，获取选中的散点列表</li>
