@@ -140,3 +140,8 @@ export function isArrElementsEqual(arr1, arr2) {
     return false
   return arr1.every(p1 => arr2.find(p2 => p1 === p2))
 }
+
+export function randomShiftingNum(num, precision = 3) {
+  if(!myIsNumber(num)) return num
+  return +(num * (0.9 + Math.random() * 0.2)).toFixed(precision)
+}

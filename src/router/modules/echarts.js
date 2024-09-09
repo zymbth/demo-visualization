@@ -28,6 +28,11 @@ const echartsRouter = {
       component: () => import('@/views/d3/heatmap-diagram-rect/echarts-version.vue'),
     },
     {
+      path: 'heatmap-diagram-circle',
+      meta: { title: 'Heatmap Diagram(circle)' },
+      component: () => import('@/views/d3/heatmap-diagram-circle/echarts-version.vue'),
+    },
+    {
       path: 'multi-grid-scatter-diagram',
       meta: { title: 'Multi-Grid Scatter Diagram' },
       component: () => import('@/views/echarts/multi-grid-scatter-diagram/index.vue'),
