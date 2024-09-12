@@ -23,6 +23,11 @@ const d3Router = {
       component: () => import('@/views/d3/heatmap-diagram-circle/index.vue'),
     },
     {
+      path: 'heatmap-diagram-circle-draggable',
+      meta: { title: 'Heatmap Diagram(circle) Draggable' },
+      component: () => import('@/views/d3/heatmap-diagram-circle/draggable.vue'),
+    },
+    {
       path: 'heatmap-diagram-circle-plus',
       meta: { title: 'Heatmap Diagram(circle) Plus' },
       component: () => import('@/views/d3/heatmap-diagram-circle/plus.vue'),

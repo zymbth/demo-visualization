@@ -1,4 +1,4 @@
-import { createRouter, createWebHashHistory } from 'vue-router'
+import { createRouter, createWebHistory, createWebHashHistory } from 'vue-router'
 import Layout from '@/layout/index.vue'
 import d3Router from './modules/d3'
 import echartsRouter from './modules/echarts'
@@ -15,7 +15,8 @@ export const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHashHistory(),
+  // history: createWebHashHistory(),
+  history: createWebHistory(),
   routes,
 })
 
