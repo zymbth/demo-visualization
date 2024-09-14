@@ -177,7 +177,7 @@ onMounted(() => {
     series,
   })
 })
-onBeforeMount(() => {
+onBeforeUnmount(() => {
   echartInstance?.dispose()
 })
 </script>

@@ -22,7 +22,7 @@ onMounted(() => {
   echartInstance.on('brush', handleBrush)
   drawHeatMap()
 })
-onBeforeMount(() => {
+onBeforeUnmount(() => {
   echartInstance?.dispose()
 })
 

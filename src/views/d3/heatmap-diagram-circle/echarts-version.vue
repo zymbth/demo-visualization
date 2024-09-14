@@ -20,7 +20,7 @@ onMounted(() => {
   watch(highlightCompounds, newVal => highlightCompoundCol(newVal))
 })
 
-onBeforeMount(() => {
+onBeforeUnmount(() => {
   echartInstance?.dispose()
 })
 

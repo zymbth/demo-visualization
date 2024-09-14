@@ -28,7 +28,7 @@ onMounted(() => {
   drawChart()
 })
 
-onBeforeMount(() => {
+onBeforeUnmount(() => {
   echartInstance?.dispose()
 })
 

@@ -21,7 +21,7 @@ onMounted(() => {
     handleClickPie(params, chartRef)
   })
 })
-onBeforeMount(() => {
+onBeforeUnmount(() => {
   echartInstance?.dispose()
 })
 
