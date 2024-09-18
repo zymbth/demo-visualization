@@ -15,18 +15,18 @@ onMounted(() => {
   watch(highlightCompounds, newVal => highlightCompoundCol(newVal))
 })
 
-const circleRadius = 8
+const radius = 8
 
-// [0, 4] => [1, circleRadius]
-const calcLog2fcRadio = val => {
+// [0, 4] => [1, radius]
+const calcSpotRadius = val => {
   // 非数字返回透明色
   if (!myIsNumber(val)) return 0
-  return d3.scaleLinear().domain([0, 4]).range([3, circleRadius]).clamp(true)(Math.abs(val))
+  return d3.scaleLinear().domain([0, 4]).range([3, radius]).clamp(true)(Math.abs(val))
 }
-// 根据log2fc绝对值大小获取对应的半径 [0, 4] => [1, circleRadius]
-const getRadioByABSLog2fc = (x, y) => {
+// 根据log2fc绝对值大小获取对应的半径 [0, 4] => [1, radius]
+const getSpotRadius = (x, y) => {
   const val = heatmap.value[y].compounds[x].value?.log2_fc
-  return calcLog2fcRadio(val)
+  return calcSpotRadius(val)
 }
 
 const getLog2FCValue = (x, y) => {
@@ -34,7 +34,7 @@ const getLog2FCValue = (x, y) => {
 }
 // 根据值区间[-4,4]从颜色区间['#663d71', '#ddd3e1']中获取对应的颜色
 const log2FCColorRange = ['#c33726', '#e2e2e2', '#2d85c5'] // ['#663d71', '#ddd3e1']
-const getColorByLog2FC = (x, y) => {
+const getSpotColor = (x, y) => {
   const val = heatmap.value[y].compounds[x].value?.log2_fc
   // 非数字返回透明色
   if (!myIsNumber(val)) return 'transparent'
@@ -54,7 +54,7 @@ const getGeneName = y => {
 }
 
 // 散点尺寸
-const cellRect = { width: 19, height: 19 }
+const cellSize = { width: 19, height: 19 }
 // 图表边距
 const charPd = { top: 70, right: 20, bottom: 170, left: 110 }
 // 分别声明：geneActy 图例，svg主表格group，横纵轴group
@@ -73,8 +73,8 @@ function generateD3() {
   const rows = heatmap.value.length
   const cols = heatmap.value[0]?.compounds?.length ?? 0
   // svg 表格宽高
-  const svgChartWidth = cellRect.width * cols + charPd.left + charPd.right
-  const svgChartHeight = cellRect.height * rows + charPd.top + charPd.bottom
+  const svgChartWidth = cellSize.width * cols + charPd.left + charPd.right
+  const svgChartHeight = cellSize.height * rows + charPd.top + charPd.bottom
   // svg
   svg.selectAll('*').remove()
   svg
@@ -89,11 +89,11 @@ function generateD3() {
   const xScale = d3
     .scaleLinear()
     .domain([0, cols])
-    .range([0, cellRect.width * cols])
+    .range([0, cellSize.width * cols])
   const yScale = d3
     .scaleLinear()
     .domain([0, rows])
-    .range([cellRect.width * rows, 0])
+    .range([cellSize.width * rows, 0])
   const xAxis = d3
     .axisBottom(xScale)
     .tickValues(d3.range(0, cols + 1))
@@ -104,7 +104,7 @@ function generateD3() {
     .tickValues(d3.range(0, rows + 1))
     .tickFormat(getGeneName)
     .tickSizeOuter(0)
-  xAxisGroup = g.append('g').attr('transform', `translate(0, ${cellRect.width * rows})`)
+  xAxisGroup = g.append('g').attr('transform', `translate(0, ${cellSize.width * rows})`)
   xAxisGroup
     .call(xAxis)
     .selectAll('text')
@@ -127,9 +127,9 @@ function generateD3() {
     .append('circle')
     .attr('cx', (d, i) => xScale((i % cols) + 1))
     .attr('cy', (d, i) => yScale(Math.floor(i / cols) + 1))
-    .attr('r', (d, i) => getRadioByABSLog2fc(i % cols, Math.floor(i / cols)))
+    .attr('r', (d, i) => getSpotRadius(i % cols, Math.floor(i / cols)))
     .attr('data-log2fc', (d, i) => getLog2FCValue(i % cols, Math.floor(i / cols)))
-    .attr('fill', (d, i) => getColorByLog2FC(i % cols, Math.floor(i / cols)))
+    .attr('fill', (d, i) => getSpotColor(i % cols, Math.floor(i / cols)))
 
   // 预先定义linearGradient
   const defs1 = svg.append('defs')
@@ -174,31 +174,31 @@ function generateD3() {
     .append('circle')
     .attr('cx', (xPosi += 10))
     .attr('cy', yPosi + 10)
-    .attr('r', calcLog2fcRadio(0))
+    .attr('r', calcSpotRadius(0))
     .attr('fill', '#030000')
   legendLog2FC
     .append('circle')
     .attr('cx', (xPosi += 20))
     .attr('cy', yPosi + 10)
-    .attr('r', calcLog2fcRadio(1))
+    .attr('r', calcSpotRadius(1))
     .attr('fill', '#030000')
   legendLog2FC
     .append('circle')
     .attr('cx', (xPosi += 20))
     .attr('cy', yPosi + 10)
-    .attr('r', calcLog2fcRadio(2))
+    .attr('r', calcSpotRadius(2))
     .attr('fill', '#030000')
   legendLog2FC
     .append('circle')
     .attr('cx', (xPosi += 20))
     .attr('cy', yPosi + 10)
-    .attr('r', calcLog2fcRadio(3))
+    .attr('r', calcSpotRadius(3))
     .attr('fill', '#030000')
   legendLog2FC
     .append('circle')
     .attr('cx', (xPosi += 20))
     .attr('cy', yPosi + 10)
-    .attr('r', calcLog2fcRadio(4))
+    .attr('r', calcSpotRadius(4))
     .attr('fill', '#030000')
   xPosi = 20
   legendLog2FC
@@ -246,7 +246,7 @@ function generateD3() {
     .append('circle')
     .attr('cx', (xPosi += 120))
     .attr('cy', yPosi + 10)
-    .attr('r', circleRadius)
+    .attr('r', radius)
     .attr('fill', log2FCColorRange[2])
   // 图例： Up regulated
   const legendUR = svg.append('g')
@@ -261,7 +261,7 @@ function generateD3() {
     .append('circle')
     .attr('cx', (xPosi += 100))
     .attr('cy', yPosi + 10)
-    .attr('r', circleRadius)
+    .attr('r', radius)
     .attr('fill', log2FCColorRange[0])
   // 图例: HTT activity
   legendGeneActy = svg.append('g')
@@ -318,7 +318,7 @@ function highlightCompoundCol(arr = highlightCompounds.value) {
   const xScale = d3
     .scaleLinear()
     .domain([0, cols])
-    .range([0, cellRect.width * cols])
+    .range([0, cellSize.width * cols])
   // 根据类标识，移除老的高亮“列”
   svgMainGroup.selectAll('.third-column').remove()
   // 添加新的高亮“列”
@@ -328,10 +328,10 @@ function highlightCompoundCol(arr = highlightCompounds.value) {
     .enter()
     .append('rect') // 在指定列上添加 rect 元素
     .attr('class', 'third-column') // 类标识
-    .attr('x', (d, i) => xScale(d.idx) + cellRect.height / 2)
-    .attr('y', 0 - cellRect.height / 2)
-    .attr('width', cellRect.width)
-    .attr('height', cellRect.width * (rows + 0.5))
+    .attr('x', (d, i) => xScale(d.idx) + cellSize.height / 2)
+    .attr('y', 0 - cellSize.height / 2)
+    .attr('width', cellSize.width)
+    .attr('height', cellSize.width * (rows + 0.5))
     .attr('fill', 'rgba(255, 197, 34, 0.5)') // 填充 rect 颜色
     .lower() // 移动到其同级元素的最前面，避免覆盖坐标系内的 circles
 

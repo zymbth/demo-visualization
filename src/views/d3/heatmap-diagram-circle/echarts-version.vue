@@ -24,19 +24,19 @@ onBeforeUnmount(() => {
   echartInstance?.dispose()
 })
 
-const circleRadius = 8
-const calcLog2fcRadio = val => {
+const radius = 8
+const calcSpotRadius = val => {
   // 非数字返回透明色
   if (!myIsNumber(val)) return 0
-  // return d3.scaleLinear().domain([0, 4]).range([3, circleRadius]).clamp(true)(Math.abs(val)) * 2
+  // return d3.scaleLinear().domain([0, 4]).range([3, radius]).clamp(true)(Math.abs(val)) * 2
   val = Math.abs(val)
   if (val < 0) val = 0
   else if (val > 4) val = 4
-  return (circleRadius * 2 - 6) * (val / 4) + 6
+  return (radius * 2 - 6) * (val / 4) + 6
 }
 
 const log2FCColorRange = ['#c33726', '#e2e2e2', '#2d85c5']
-const getColorByLog2FC = val => {
+const getSpotColor = val => {
   // 非数字返回透明色
   if (!myIsNumber(val)) return 'transparent'
   if (val == 0) return log2FCColorRange[1]
@@ -108,9 +108,9 @@ function drawChart() {
         data: list,
         type: 'scatter',
         name: 'test',
-        symbolSize: value => calcLog2fcRadio(value[2]),
+        symbolSize: value => calcSpotRadius(value[2]),
         itemStyle: {
-          color: ({ data }) => getColorByLog2FC(data[2]),
+          color: ({ data }) => getSpotColor(data[2]),
         },
         markArea: {
           data: [[{ xAxis: 2, yAxis: 0 }, { xAxis: 2 }]],

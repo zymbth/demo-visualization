@@ -20,7 +20,7 @@ onBeforeUnmount(() => {
 })
 
 // 散点尺寸
-const cellRect = { width: 20, height: 14 }
+const cellSize = { width: 20, height: 14 }
 // 图表边距
 const charPd = { top: 60, right: 20, bottom: 170, left: 200 }
 
@@ -30,8 +30,8 @@ function generateD3() {
   const rows = heatmap.value.length
   const cols = heatmap.value[0]?.compounds?.length ?? 0
   // svg 表格宽高
-  const svgChartWidth = cellRect.width * cols + charPd.left + charPd.right
-  const svgChartHeight = cellRect.height * rows + charPd.top + charPd.bottom
+  const svgChartWidth = cellSize.width * cols + charPd.left + charPd.right
+  const svgChartHeight = cellSize.height * rows + charPd.top + charPd.bottom
   // svg
   const svg = d3.select(svgChartRef.value).append('svg')
   svg
@@ -90,15 +90,15 @@ function generateD3() {
   const gridLines = [
     ...Array.from({ length: rows }).map((_, idx) => ({
       sX: 0,
-      sY: cellRect.height * idx,
-      eX: cellRect.width * cols,
-      eY: cellRect.height * idx,
+      sY: cellSize.height * idx,
+      eX: cellSize.width * cols,
+      eY: cellSize.height * idx,
     })),
     ...Array.from({ length: cols }).map((_, idx) => ({
-      sX: cellRect.width * (idx + 1),
+      sX: cellSize.width * (idx + 1),
       sY: 0,
-      eX: cellRect.width * (idx + 1),
-      eY: cellRect.height * rows,
+      eX: cellSize.width * (idx + 1),
+      eY: cellSize.height * rows,
     })),
   ]
   g.selectAll('path')
@@ -121,18 +121,18 @@ function generateD3() {
     .append('rect')
     .attr('x', (d, i) => d.x)
     .attr('y', (d, i) => d.y)
-    .attr('width', cellRect.width)
-    .attr('height', cellRect.height)
+    .attr('width', cellSize.width)
+    .attr('height', cellSize.height)
     .attr('fill', (d, i) => d.color)
   // 4. 画坐标轴
   const xScale = d3
     .scaleLinear()
     .domain([0, cols])
-    .range([0, cellRect.width * cols])
+    .range([0, cellSize.width * cols])
   const yScale = d3
     .scaleLinear()
     .domain([0, rows])
-    .range([0, cellRect.height * rows])
+    .range([0, cellSize.height * rows])
   const xAxis = d3
     .axisBottom(xScale)
     .tickValues(d3.range(0, cols))
@@ -146,7 +146,7 @@ function generateD3() {
   const xAxisGroup = g
     .append('g')
     .attr('color', '#333')
-    .attr('transform', `translate(0, ${cellRect.height * rows})`)
+    .attr('transform', `translate(0, ${cellSize.height * rows})`)
   xAxisGroup
     .call(xAxis)
     .selectAll('text')
@@ -166,8 +166,8 @@ function getRectData() {
     return curr.compounds.reduce((prev1, curr1, colIdx) => {
       if (myIsNumber(curr1.value))
         prev1.push({
-          x: colIdx * cellRect.width,
-          y: rowIdx * cellRect.height,
+          x: colIdx * cellSize.width,
+          y: rowIdx * cellSize.height,
           color: getColorByVal(curr1.value),
         })
       return prev1
