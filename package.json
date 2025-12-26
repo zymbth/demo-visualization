@@ -20,5 +20,9 @@
     "unplugin-auto-import": "^0.16.7",
     "vite": "^4.4.5",
     "vite-plugin-compression": "^0.5.1"
+  },
+  "volta": {
+    "node": "20.19.4",
+    "pnpm": "9.15.9"
   }
 }

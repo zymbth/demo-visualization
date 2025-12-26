@@ -35,8 +35,8 @@ import SidebarComp from './sidebar/index.vue'
   right: 0;
   height: var(--nav-height);
   margin: 0 1em;
-  color: #fff;
-  background-color: #f1f1f1;
+  // color: #fff;
+  background-color: var(--bg-color);
   border-radius: 0 0 12px 12px;
   z-index: 1000;
   .github-link {

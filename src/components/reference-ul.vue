@@ -30,7 +30,7 @@ const props = defineProps({
 <style lang="scss" scoped>
 .reference-list {
   position: relative;
-  background-color: #fcfcfc;
+  background-color: var(--bg-color-1);
   padding: 8px 12px;
   border-radius: 3px;
   overflow: hidden;

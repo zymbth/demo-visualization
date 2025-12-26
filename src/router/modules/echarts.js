@@ -42,6 +42,11 @@ const echartsRouter = {
       meta: { title: 'Synchronize Grids(Zoom)' },
       component: () => import('@/views/echarts/synchronize-grids-zoom/index.vue'),
     },
+    {
+      path: 'treemap-diagram',
+      meta: { title: 'Treemap Diagram' },
+      component: () => import('@/views/echarts/treemap-diagram/index.vue'),
+    },
   ],
 }
 

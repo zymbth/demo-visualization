@@ -145,3 +145,49 @@ export function randomShiftingNum(num, precision = 3) {
   if(!myIsNumber(num)) return num
   return +(num * (0.9 + Math.random() * 0.2)).toFixed(precision)
 }
+
+/**
+ * 用于对象数组内数值型排序对比的方法，返回升/降序排序对比结果
+ *
+ * @param {object} a 对象元素a
+ * @param {object} b 对象元素b
+ * @param {string} prop 排序属性名
+ * @param {string} order [asc|desc] 排序顺序，仅用于处理空值，不更改对比结果
+ * @returns {number} [-1|0|1]，升/降序排序对比结果
+ */
+export function sortByNumAndOrder(a, b, prop, order = 'asc') {
+  const isAsc = order === 'asc'
+  const nullVal = isAsc ? Infinity : -Infinity
+  try {
+    const a1 = myIsNumber(a[prop]) ? Number(a[prop]) : nullVal
+    const b1 = myIsNumber(b[prop]) ? Number(b[prop]) : nullVal
+    let res = fnSortCompare(a1, b1)
+    if (!isAsc) res = 0 - res
+    return res
+  } catch {
+    return 0
+  }
+}
+
+function fnSortCompare(a, b) {
+  return a === b ? 0 : a > b ? 1 : -1
+}
+
+/**
+ * 数字添加千位分隔符
+ * @param {number|string} val
+ * @returns
+ */
+export function addThousandSeparator(val) {
+  if (!myIsNumber(val)) return val
+  val = String(val).trim()
+  const matches = String(val).match(/\.\d+/),
+    arr = matches ? val.split('.')[0].split('') : val.split('')
+  let res = ''
+  for (let len = arr.length, i = len - 1; i >= 0; i--) {
+    res = arr[i] + res
+    if (i !== 0 && (len - i) % 3 === 0) res = `,${res}`
+  }
+  if (matches) res += matches[0]
+  return res
+}
